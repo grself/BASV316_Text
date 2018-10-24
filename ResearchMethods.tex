@@ -1,0 +1,121 @@
+%*********************************************************************
+% Title: Business Research Methods
+% Description: An Open Educational Resource for my BASV 316 class
+% Author: George Self
+% History: 
+%   170101: Started This Puppy
+%	  170715: Re-started my work on this
+%   180601: Re-started (again)
+%*********************************************************************
+
+\RequirePackage{fix-cm} % fix some latex issues see: http://texdoc.net/texmf-dist/doc/latex/base/fixltx2e.pdf
+\documentclass[ twoside, openright, titlepage, numbers=noenddot, headinclude,
+  %1headlines, % letterpaper a4paper, 
+  footinclude=true, cleardoublepage=empty, abstractoff, 
+  % <--- obsolete, remove (todo)
+  BCOR=5mm, 
+  %paper=a4,
+  paper=letter, fontsize=11pt,
+  % ngerman (New German) formats German umlauts (among other things)
+  ngerman, american, 
+  %
+]{scrreprt}
+
+%*********************************************************************
+% Note: Make all your adjustments in here
+%*********************************************************************
+\input{ResearchMethods-config}
+
+%*********************************************************************
+% Bibliographies
+%*********************************************************************
+%\addbibresource{Bibliography.bib}
+%\addbibresource[label=ownpubs]{AMiede_Publications.bib}
+
+%*********************************************************************
+% Hyphenation
+%*********************************************************************
+%\hyphenation{put special hyphenation here}
+
+%*********************************************************************
+% The document
+%*********************************************************************
+\begin{document}
+\frenchspacing
+\raggedbottom
+\selectlanguage{american} % american ngerman
+%\renewcommand*{\bibname}{new name}
+%\setbibpreamble{}
+\pagenumbering{roman}
+\pagestyle{plain}
+%*********************************************************************
+% Frontmatter
+%*********************************************************************
+%\include{FrontBackmatter/DirtyTitlepage}
+\include{FrontBackmatter/Titlepage}
+\include{FrontBackmatter/Titleback}
+%\cleardoublepage\include{FrontBackmatter/Dedication}
+\cleardoublepage\include{FrontBackmatter/Foreword}
+%\cleardoublepage\include{FrontBackmatter/Abstract}
+%\cleardoublepage\include{FrontBackmatter/Publications}
+%\cleardoublepage\include{FrontBackmatter/Acknowledgments}
+\pagestyle{scrheadings}
+\cleardoublepage\include{FrontBackmatter/Contents}
+%*********************************************************************
+% Mainmatter
+%*********************************************************************
+\cleardoublepage\pagenumbering{arabic}
+\ctparttext{Research methods are grounded in philosophy, statistics, sociology, and many other disciplines. The chapters in this section introduce these background concepts.}
+\part{Background}
+%\cleardoublepage
+%\include{Chapters/01Intro}
+%\include{Chapters/02Foundations}
+%\include{Chapters/03Ethics}
+%\include{Chapters/04Design}
+
+\ctparttext{Quantitative methods are based in the measurement of concepts and the statistical analysis of those measures. Quantitative methods include activities like sampling, surveys, and experimental research.}
+\part{Quantitative Methods}
+\cleardoublepage
+%\include{Chapters/05Measuring}
+%\include{Chapters/06Data} 
+%\include{Chapters/07Sampling}
+\include{Chapters/08Surveys}
+%\include{Chapters/09Interviews}
+%\include{Chapters/10Experimental}
+
+\ctparttext{Qualitative methods are based in the evaluation of non-numeric data, like photographs and text documents. These methods include activities like field work, unobtrusive, and interpretive research methods.}
+\part{Qualitative Methods}
+%\cleardoublepage
+%\include{Chapters/11Field}
+%\include{Chapters/12Unobtrusive}
+%\include{Chapters/13Interpretive}
+
+\ctparttext{All quantitative and qualitative research methods have certain strengths and weaknesses. Mixed methods are an attempt to use more than one research method on a given project to utilize the strengths of each method while mitigating their weaknesses.}
+\part{Mixed Methods}
+%\cleardoublepage
+%\include{Chapters/14mixed}
+
+\ctparttext{After a research project is completed, the investigator must report the results of the project, often in both written and oral forms. This chapter concerns the reporting process. }
+\part{Reporting}
+%\cleardoublepage
+%\include{Chapters/15Presenting}
+
+
+%*********************************************************************
+% Backmatter
+%*********************************************************************
+%\appendix
+%\renewcommand{\thechapter}{\alph{chapter}}
+\cleardoublepage
+\part{Appendix}
+\include{Chapters/00Appendix}
+%*********************************************************************
+% Other Stuff in the Back
+%*********************************************************************
+%\cleardoublepage\include{FrontBackmatter/Bibliography}
+%\cleardoublepage\include{FrontBackmatter/Declaration}
+\cleardoublepage\include{FrontBackmatter/Colophon}
+%*********************************************************************
+% Game Over: Restore, Restart, or Quit?
+%*********************************************************************
+\end{document}

@@ -1,0 +1,161 @@
+%*****************************************
+\chapter{Data}\label{06:data}
+%*****************************************
+%TODO Status: pre-draft
+
+
+\section{Data}\label{intro:TypesOfData}
+
+Data are\footnote{The word ``data'' is plural and is treated that way in this text even though modern usage seems to be trending toward a singular form.} a collection of facts about some topic. As examples, a ``customer loyalty'' program gathers data from customers on how often they shop, what they purchase on each trip, what time of day they typically shop, and all sorts of other data. When data are interpreted in some way they become information. The types of analyses that can be done with data are limited by the types of data involved. The purpose of this chapter is to introduce various concepts about data and show how they can be analyzed.
+
+\subsection{Types of Data}
+
+There are four types of data, divided into two main groups, and it is important to understand the difference between them since that determines appropriate statistical tests to be used in data analysis.
+
+\begin{itemize}
+	
+	\item \textbf{Qualitative}. Qualitative data groups observations into a limited number of categories; for example, type of pet (cat, dog, bird, etc.) or place of residence (Arizona, California, etc.). Because qualitative data do not have characteristics like means or standard deviations, they are analyzed using non-parametric tests, like Kruskal-Wallis H and Mann-Whitney U. Qualitative data can be further divided into two sub-types, nominal and ordinal.
+	
+	\begin{itemize}
+		\item \textbf{Nominal}. Nominal data are categories that do not overlap and have no meaningful order, they are merely labels for attributes. Examples of nominal data include occupations (custodial, accounting, sales, etc.) and blood type (A, B, AB, O). A special subcategory of nominal data is binary, or dichotomous, where there are only two possible responses, like ``yes'' and ``no''. Nominal data are sometimes stored in a database using numbers but they cannot be treated like numeric data. For example, binary data, like ``Do you rent or own your home?'' can be stored as ``1 = rent, 2 = own'' but the numbers in this case have no numeric significance and could be replaced by words like ``Rent'' and ``Own.''
+		
+		\item \textbf{Ordinal}. Ordinal data, like nominal, are categorical data but, unlike nominal, the categories imply some sort of order (which is why it is called ``ordinal'' data). One example of ordinal data is the ``star'' rating system for movies. It is clear that a five-star movie is somehow better than a four-star movie but there is no way to quantify the difference between those two categories. As another example, it is common for hospital staff members to ask patients to rate their pain level on a scale of one to ten. If a patient reports a pain level of ``seven'' but after some sort of treatment later reports a pain level of ``five'' then the pain has clearly decreased but it would be impossible to somehow quantify the exact difference in those two levels. Ordinal scales are most commonly used with Likert-type survey questions where the responses are selections like ``Strongly Agree'', ``Agree'', ``Neutral'', ``Disagree'', ``Strongly Disagree''. Ordinal data are also used when numeric data are grouped. For example, if a dataset included respondents' ages then those numbers could be grouped into categories like ``$ 20-29 $'' and ``$ 30-39 $.'' Those groups would typically be stored in the dataset as a single number so maybe ``$ 2 $'' would represent the ages ``$ 20-29 $,'' which would be ordinal data.
+	\end{itemize}
+	
+	\item \textbf{Quantitative}. Quantitative data are numbers, typically counts or measures, like a person's age, a tree's height, or a truck's weight. Quantitative data are measured with scales that have equal divisions so the difference between any two values can be calculated. Quantitative data are discrete if they are represented by integers, like the count of words in a document, or continuous if they are represented by fractional numbers, like a person's height. Because quantitative data includes characteristics like means and standard deviations, they are analyzed using parametric tests, like T-tests and Analysis of Variance (ANOVA). Quantitative data can be further divided into two sub-types, interval and ratio.
+	
+	\begin{itemize}
+		\item \textbf{Interval}. Interval data use numbers to represent quantities where the distance between any two quantities can be calculated but there is no true zero point on the scale. One example is a temperature scale where the difference between $ 80 $\textdegree and $ 90 $\textdegree is the same as the difference between $ 60 $\textdegree and $ 70 $\textdegree. It is important to note that interval data do not include any sort of true zero point, thus zero degrees Celsius does not mean ``no temperature,'' and without a zero point it is not reasonable to make a statement like $ 20 $\textdegree is twice as hot as $ 10 $\textdegree.
+		
+		\item \textbf{Ratio}. Ratio data, like interval data, use numbers to describe a specific measurable distance between two quantities; however, unlike interval data, ratio data have a true zero point. A good example of ratio data is the sales report for an automobile dealership. Because the data are a simple count of the number of automobiles sold it is possible to compare on month with another. Also, since the scale has a true zero point (it is possible to have zero sales) it is possible to state that one month had twice the sales of another.
+	\end{itemize}
+\end{itemize}
+
+\subsection{Shape of Data}
+
+\subsubsection{About The Normal Distribution (Bell Curve)}\label{ch05.01}
+
+When the quantitative data gathered from some statistical project are plotted on a graph they often form a ``normal distribution'' (sometimes called a ``bell curve'' due to its shape). As an example, consider the Scholastic Aptitude Test (SAT) which is administered to more than $ 1.5 $ million high school students every year. Figure \ref{fig05-01} was created with fake data but illustrates the results expected of a typical SAT administration.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/05-01}
+	\caption{Normal Distribution}
+	\label{fig05-01}
+\end{figure}
+
+SAT scores lie between $ 400 $ and $ 1600 $ as listed across the X-Axis and the number of students who earn each score is plotted. Since the most common score is $ 1000 $ that score is at the peak of the curve. Very few students scored above $ 1300 $ or below $ 650 $ and the curve is near the lower bound beyond those points. This illustrates a normal distribution where most scores are bunched near the center of the graph with only a few at either extreme.
+
+The normal distribution is important because it permits researchers to use specific techniques to test a hypothesis about the sample. For example, perhaps a researcher hypothesized that the graduation rate at university ``A'' was higher than at university ``B'' because students' SAT scores were higher. Since SAT scores have a normal distribution, the researcher could use specific tests, like a t-test, to support or refute the hypothesis. However, if the data were not normally distributed then the researcher would need to use a different group of tests.
+
+\subsubsection{Excess Kurtosis}
+One way to mathematically describe a normal distribution is to calculate the length of the tails of a bell curve, and that is called its \textit{excess kurtosis}. For a normal distribution the excess kurtosis is $ 0.00 $, a positive excess kurtosis would indicate longer tails while a negative excess kurtosis would indicate shorter tails. Intuitively, many people believe the excess kurtosis represents the ``peaked-ness'' of the curve since longer tails would tend to lead to a more peaked graph; however, excess kurtosis is a measure of the data outliers, which would be only present in the tails of the graph; so excess kurtosis is not directly indicative of the the ``sharpness'' of the peak. It is difficult to categorically state that some level of excess kurtosis is good or bad. In some cases, data that form a graph with longer tails are desired but in other cases they would be a problem.
+
+Following are three examples of excess kurtosis. Notice that as the excess kurtosis increases the tails become longer. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/05-02}
+	\caption{Kurtosis in a Normal Distribution}
+	\label{fig05-02}
+\end{figure}
+
+\subsubsection{Skew}
+The second numerical measure of a normal distribution that is frequently reported is its \textit{skew}, which is a measure of the symmetry of the curve about the mean of the data. The normal distribution in Figure \ref{fig05-03} has a skew of $ 0.00 $. A positive skew indicates that the tail on the right side is longer, which means that there are several data points on the far right side of the graph ``pulling'' the tail out that direction. A negative skew indicates that the tail on the left side of the graph is longer. Following are three examples of skew:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/05-03}
+	\caption{Skew in a Normal Distribution}
+	\label{fig05-03}
+\end{figure}
+
+\section{Database}
+
+When a lot of data are gathered into a single location they are referred to as a database. This is not a new concept. Fifty years ago a library would have a series of 3X5 cards that contained information about all of the books in the library (title, author, subject, etc.). Those cards were stored in a wooden cabinet called the ``card catalog'' and customers could find information about and the location of whatever book they wanted. Today, databases are often contained in electronic form on the internet where they can be accessed from customers' home computers, tablets, or even phones.
+
+Data in a database is typically stored in tables that resemble spreadsheets, that is, rows and columns where each row is one record (or observation) about some phenomenon and each column is one descriptor of that record. For example, a database that contains information about the people who work at a company would be organized such that each row contained data about just one person and each column would contain a single aspect of that person's employment, like name, employee number, date of birth, etc.\footnote{Of course, databases are much more complex than described in this paragraph but this is not a database text so the simple explanation offered is adequate for this context.} A database is designed to deliver answers to questions through a lookup process so, for example, if the CEO of a company wanted to know the birth date for someone in the accounting department that data could be easily found. 
+
+One common problem with any database is ``dirty data.'' These are data that contain errors or are missing. For example, it is easy for a data entry clerk to enter something like ``1000000'' instead of ``100000'' (count the zeros) for a person's salary and create an ``outlier'' in the data. Another common problem are missing data. For example, if employees are asked to update their personal information but someone could not remember their ZIP code then they would simply leave that field blank.
+
+Dirty data makes it difficult to analyze the database. For example, if a researcher wanted to report the median salary for the workers in a factory but ten percent of the salaries were missing from the database then the median would not be accurate. There are several methods statisticians use to mitigate the problems caused by dirty data but those are beyond the scope of this text. 
+
+\subsection{Public Databases}
+
+There are hundreds of publicly available databases that can be used for research. As one example, the United States Census Bureau maintains a huge database that contains information about the people of the United States.\footnote{The US Census Bureau's website is at \url{https://www.census.gov/}.} The data at that site is freely available to anyone who wants to use it, and the site is organized so information is fairly quick and easy to find. As an example, it is not difficult to discover that among adults in the United States, 29\% have a high school diploma, 20\% have a Bachelor's degree, 8\% have a Master's degree, 1.7\% have a Doctoral degree, and the rest fall elsewhere on the education spectrum. The US Census Bureau has more advanced tools available that permit researchers to focus on a single county or even smaller region.
+
+When using a public database, a researcher must be concerned with bias. Since the researcher did not gather the data first-hand it is possible that the data are biased. For example, if the database includes people's attitude towards work how is the researcher going to know if the data gathered was from a well-designed, neutral survey or if it was just gathered using some sort of convenience sample? In general, databases found at governmental websites (with urls that end with .gov) or education websites (with urls that end with .edu) would more likely be bias-free while databases from .com sites would need to have extra attention paid to bias.
+
+Sometimes, students will find a website with a list of links to journal articles or chapters from books. While these are valuable resources for a researcher, they are not the same as a database that contains raw data from a survey, experiment, or other activity. Journal articles provide good information for a literature review but would not be appropriate for an online database source.
+
+\subsection{Using Public Databases}
+
+As an example of using a public database, imagine that the CEO of ``BASVFOODS'' is interested in opening a neighborhood market in a small town they have never serviced before. In order to gather information about that location it is possible to use US Census Bureau data to find out things like the median household size, income, and education level. The CEO could then compare that data with similar data from a town that has a successful store to help inform a decision to open a new store.
+
+% Note: nice table follows that shows relationship between scale, central measure, statistics used, and transformation.
+
+\subsection{Levels of Measure}
+
+Researchers must decide on the level of measurement when operationalizing a construct. Levels of measurement, also called rating scales, refer to the \textit{values} that an indicator can take, but says nothing about the indicator itself. For example, male, female, and other (or M, F, and O, or $ 1 $, $ 2 $, and $ 3 $) are three levels of the indicator ``gender.'' Psychologist Stanley Smith Stevens defined four generic types of rating scales: nominal, ordinal, interval, and ratio\footnote{Stevens, Stanley Smith. "On the theory of scales of measurement." (1946): 677-680.}. The statistical properties of these scales are shown in Table xx.
+
+% Note: nice table follows that shows relationship between scale, central measure, statistics used, and transformation.
+
+\begin{description}
+	\item[Nominal] Nominal scales, also called categorical scales, measure categorical data. These scales are used for variables or indicators that have mutually exclusive attributes. Examples include gender (three or more values: male, female, other), industry type (manufacturing, financial, agriculture, etc.), and religious affiliation (Christian, Muslim, Jew, etc.). Even if unique numbers are assigned to each value, for instance $ 1 $ for male, $ 2 $ for female, and $ 3 $ for other, the numbers do not really mean anything (i.e., $ 1 $ is not less half of $ 2 $) and could have been easily been represented non-numerically, such as M for male and F for female. Nominal scales merely offer names or labels for different attribute values. The appropriate measure of central tendency of a nominal scale is mode, and neither the mean nor the median can be defined. Permissible statistics are chi-square and frequency distribution, and only a one-to-one (equality) transformation is allowed (e.g., $ 1 $=Male, $ 2 $=Female, $ 3 $=Other).
+	
+	\item[Ordinal] Ordinal scales are those that measure rank-ordered data, such as the ranking of students in a class as first, second, third, and so forth, based on their grade point average or test scores. However, the actual or relative values of attributes or difference in attribute values cannot be assessed. For instance, ranking of students in class says nothing about the actual GPA or test scores of the students, or how they well performed relative to one another. A classic example in the natural sciences is Moh's scale of mineral hardness, which characterizes the hardness of various minerals by their ability to scratch other minerals. For instance, diamonds can scratch all other naturally occurring minerals on earth, and hence diamond is the ``hardest'' mineral. However, the scale does not indicate the actual hardness of these minerals or even provides a relative assessment of their hardness. Ordinal scales can also use attribute labels (anchors) such as ``bad,'' ``medium,'' and ``good,'' or ``strongly dissatisfied,'' ``somewhat dissatisfied,'' ``neutral,'' ``somewhat satisfied,'' and ``strongly satisfied.'' In the latter case, we can say that respondents who are ``somewhat satisfied'' are less satisfied than those who are ``strongly satisfied,'' but we cannot quantify their satisfaction levels. The central tendency measure of an ordinal scale can be its median or mode, and means are uninterpretable. Hence, statistical analyses may involve percentiles and non-parametric analysis, but more sophisticated techniques such as correlation, regression, and analysis of variance, are not appropriate. Monotonically increasing transformation (which retains the ranking) is allowed. 
+	
+	\item[Interval] Interval scales are those where the values measured are not only rank-ordered, but are also equidistant from adjacent attributes. For example, the temperature scale (in Fahrenheit or Celsius), where the difference between $ 30 $ and $ 40 $ degrees Fahrenheit is the same as that between $ 80 $ and $ 90 $ degrees Fahrenheit. Likewise, if you have a scale that asks respondents' annual income using the following attributes (ranges): $ \$0 - 10,000 $, $ \$10,000 - 20,000 $, $ \$20,000 - 30,000 $, and so forth, this is also an interval scale, because the mid-point of each range (i.e., $ \$5,000 $, $ \$15,000 $, $ \$25,000 $, etc.) are equidistant from each other. The intelligence quotient (IQ) scale is also an interval scale, because the scale is designed such that the difference between IQ scores $ 100 $ and $ 110 $ is supposed to be the same as between $ 110 $ and $ 120 $ (although that may not actually be the case). Interval scale allows us to examine ``how much more'' is one attribute when compared to another, which is not possible with nominal or ordinal scales. Allowed central tendency measures include mean, median, or mode, as are measures of dispersion, such as range and standard deviation. Permissible statistical analyses include all of those allowed for nominal and ordinal scales, plus correlation, regression, analysis of variance, and so on. Allowed scale transformation are positive linear. Note that the satisfaction scale discussed earlier is not strictly an interval scale, because we cannot say whether the difference between ``strongly satisfied'' and ``somewhat satisfied'' is the same as that between ``neutral'' and ``somewhat satisfied'' or between ``somewhat dissatisfied'' and ``strongly dissatisfied.'' However, business researchers often ``pretend'' (incorrectly) that these differences are equal so that statistical techniques can be used for analyzing ordinal scaled data.
+	
+	\item[Ratio] Ratio scales are those that have all the qualities of nominal, ordinal, and interval scales, and in addition, also have a ``true zero'' point (where the value zero implies lack or nonavailability of the underlying construct). Most measurement in the natural sciences and engineering, such as mass, incline of a plane, and electric charge, employ ratio scales, as are some social science variables such as age, tenure in an organization, and firm size (measured as employee count or gross revenues). For example, a firm of size zero means that it has no employees or revenues. The Kelvin temperature scale is also a ratio scale, in contrast to the Fahrenheit or Celsius scales, because the zero point on this scale (equaling $ -273.15 $ degree Celsius) is not an arbitrary value but represents a state where the particles of matter at this temperature have zero kinetic energy. These scales are called ``ratio'' scales because the ratios of two points on these measures are meaningful and interpretable. For example, a firm of size $ 10 $ employees is double that of a firm of size $ 5 $, and the same can be said for a firm of $ 10,000 $ employees relative to a different firm of $ 5,000 $ employees. All measures of central tendencies, including geometric and harmonic means, are allowed for ratio scales, as are ratio measures, such as range or coefficient of variation. All statistical methods are allowed. Sophisticated transformation such as positive similar (e.g., multiplicative or logarithmic) are also allowed.
+	
+\end{description}
+
+Based on the four generic types of scales discussed above, specific rating scales can be devised and the common ones are binary, Likert, semantic differential, and Guttman scales. 
+
+\begin{description}
+	\item[Binary] Binary scales are nominal scales consisting of binary items that assume one of only two possible values, such as yes or no, true or false, and so on. For example, a typical binary scale for the ``political activism'' construct may consist of the six binary items shown in Table \ref{ch05:table01}. Each item in this scale is a binary item, and the total number of ``yes'' indicated by a respondent (a value from $ 0 $ to $ 6 $) can be used as an overall measure of that person's political activism. Binary scales can also employ other values, such as male or female for gender, full-time or part-time for employment status, and so forth. If an employment status item is modified to allow for more than two possible values (e.g., unemployed, full-time, part-time, and retired), it is no longer binary, but still remains a nominal scaled item.
+	
+	\begin{table}[H]
+		\begin{tabularx}{\linewidth}{Xcc}	
+			\hline 
+			Have you ever written a letter to a public official? & Yes & No \\ 
+			\hline 
+			Have you ever signed a political petition? & Yes & No \\ 
+			\hline 
+			Have you ever donated money to a political cause? & Yes & No   \\ 
+			\hline 
+			Have you ever donated money to a candidate running for public office? & Yes & No   \\ 
+			\hline 
+			Have your ever written a political letter to the editor of a newspaper?& Yes & No   \\ 
+			\hline 
+			Have you ever persuaded someone to change his/her voting plans? & Yes & No   \\ 
+			\hline 
+		\end{tabularx}
+		\caption{Political Activism Binary Scales}
+		\label{ch05:table01}
+	\end{table}
+	
+	\item[Likert] Designed by Rensis Likert, this is a very popular rating scale for measuring ordinal data in business research. This scale includes Likert items that are simply-worded statements to which respondents can indicate their extent of agreement or disagreement on a five or seven-point scale ranging from ``strongly disagree'' to ``strongly agree.'' A typical example of a six-item Likert scale for the ``employment self-esteem'' construct is shown in Table 6.3. Likert scales are summated scales, that is, the overall scale score may be a summation of the attribute values of each item as selected by a respondent.
+	
+	%Anol p 57
+	
+	Likert items allow for more granularity (more finely tuned response) than binary items, including whether respondents are neutral to the statement. Three or nine values (often called ``anchors'') may also be used, but it is important to use an odd number of values to allow for a ``neutral'' (or ``neither agree nor disagree'') anchor. Some studies have used a ``forced choice approach'' to force respondents to agree or disagree with the Likert statement by dropping the neutral mid-point and using even number of values, but this is not a good strategy because some people may indeed be neutral to a given statement and the forced choice approach does not provide them the opportunity to record their neutral stance. A key characteristic of a Likert scale is that even though the statements vary in different items or indicators, the anchors (``strongly disagree'' to ``strongly agree'') remain the same. Likert scales are ordinal scales because the anchors are not necessarily equidistant, even though sometimes we treat them like interval scales.
+	
+	\item[Semantic Differential] This is a composite (multi-item) scale where respondents are asked to indicate their opinions or feelings toward a single statement using different pairs of adjectives framed as polar opposites. For instance, the construct ``attitude toward national health insurance'' can be measured using four items shown in Table xx. As in the Likert scale, the overall scale score may be a summation of individual item scores. Notice that in Likert scales, the statement changes but the anchors remain the same across items. However, in semantic differential scales, the statement remains constant, while the anchors (adjective pairs) change across items. Semantic differential is believed to be an excellent technique for measuring people's attitude or feelings toward objects, events, or behaviors. 
+	
+	\item[Guttman] Designed by Louis Guttman, this composite scale uses a series of items arranged in increasing order of intensity of the construct of interest, from least intense to most intense. As an example, the construct ``attitude toward immigrants'' can be measured using five items shown in Table xx. Each item in the Guttman scale has a weight (not indicated above) which varies with the intensity of that item, and the weighted combination of each response is used as aggregate measure of an observation.
+	
+\end{description}
+
+
+
+
+
+
+
+
+
+\section{Summary}\label{ch05:summary}
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et

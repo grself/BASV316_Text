@@ -1,0 +1,194 @@
+\section{Miscellaneous Notes}
+% the text width in a normal line is 11.80737cm
+% To make a TODO note, start a comment with two or more consecutive capital letters.
+
+% Potential arrangement (for 2nd ed???): 
+%		3 Background chapters
+%		8 Chapters about ``Traditional'' procedures
+%		4 Chapters about Business Analytics, datamining, etc.
+
+% TODO
+% add photo to start of each chapter 
+
+% TODO: Status
+% FIXME
+
+%Background
+% 01 Intro: 1st Draft 
+% 02 Foundations: 1st Draft
+% 03 Ethics: 1st Draft
+% 04 Design: 1st Draft
+
+% Quantitative
+% 05 Measuring: 1st Draft
+% 06 Data: 1st Draft
+% 07 Sampling: 1st Draft (illustrations done)
+% 08 Surveys: Pre-draft
+% 09 Interviews: Pre-draft
+% 10 Experimental: Pre-draft
+
+% Qualitative
+% 11 Field: Pre-draft
+% 12 Unobtrusive: Pre-draft
+% 13 Interpretive: Pre-draft
+
+% Mixed Methods
+% 14 Mixed: Empty
+
+% Reporting
+% 15 Presenting: Pre-draft
+
+%************************************************************
+\section{acronyms}
+% Define a new acronym in "Contents.tex"
+% The definition takes the form: \acro{POS}{Product of Sums}
+% Enter them in alphabetic order since they will be printed in the Table of Acronymns 
+% 	in the same order that they are listed on the Contents page
+%***************************************************************
+\ac{ACR}   % prints the acronym text and then the acronym in brackets 
+\acl{ACR}  % prints the long version (the definition without acronym)
+\acf{ACR}  % prints the full name of the acronym plus the acronym
+\acs{ACR}  % prints the short version (no definition)
+\acp{ACR}  % prints the plural version
+\acfp{ACR} % prints the full version in plural
+\aclp{ACR} % prints the long version in plural
+
+%******************************************************
+\section{3-Line Equation}
+%******************************************************
+\begin{align}
+	\label{03:eq:identity_example}
+	1101_2 &= 123 \\
+	\nonumber
+	&= 123 \\
+	\nonumber
+	&= 123
+\end{align}
+
+
+\section{Solving an Equation Step-by-step}
+\begin{align}
+	\label{04:soln:solving_equation_one}
+	AB+BC(B+C) && \text{Original Expression} \\
+	\nonumber
+	AB+BBC+BCC && \text{Distribute BC} \\
+	\nonumber
+	AB+BC+BC && \text{Idempotence: BB=B and CC=C} \\
+	\nonumber
+	AB+BC && \text{Idempotence: BC+BC=BC} \\
+	\nonumber
+	B(A+C) && \text{Factor} \\
+\end{align}
+
+%**************************************************************************
+\section{Margin Paragraph} 
+%**************************************************************************
+% Use to create a sidebar paragraph out in the margin
+\marginpar{Whatever.}
+
+%**************************************************************************
+\section{Footnote Without Marker} 
+%**************************************************************************
+% Use to create a footnote without a numbering marker
+\blfootnote{Whatever.}
+
+%***************************************************************************
+\section{Text Box}
+%***************************************************************************
+% Creates a nice boxed text with a title and main section
+\begin{tcolorbox}[colback=blue!5!white,colframe=blue!75!black]
+	% Upper half of box: my "title" area
+	\textcolor{blue}{\textbf{Interesing Note}}
+	% Lower half of the box: the content
+	\tcblower
+	Whatever.
+\end{tcolorbox}
+
+%***************************************************************************
+\section{Objectives Box}
+% Relies on ``objbox'' in config file
+%***************************************************************************
+\begin{center}
+	\begin{objbox}{Objectives}
+		\begin{itemize}
+			\setlength{\itemsep}{0pt}
+			\setlength{\parskip}{0pt}
+			\setlength{\parsep}{0pt}
+		
+			\item x1.
+			\item x2.
+			\item x3.
+		\end{itemize}
+	\end{objbox}
+\end{center}
+
+
+%***************************************************************************
+\section{Text Table}
+%***************************************************************************
+\vspace{.15in}
+% the p values set column width and force word wrap, left align text
+% the .95 value makes the table hlines remain inside the text area
+\begin{tabularx}{.95\linewidth}{p{0.50in}p{3.50in}}
+	\hline
+	\textbf{Type} & \textbf{Description} \\
+	\hline
+	
+	x & y \\
+	x & y \\
+	x & y\\
+	
+	\hline
+\end{tabularx}
+\vspace{.15in}
+
+%***************************************************************************
+\section{ToDo}
+%***************************************************************************
+% Create a ToDo note in the text. This also creates a new clickable TODO
+% section in the ``structure'' box on the left side of the page.
+%TODO This is a todo note.
+
+%***************************************************************************
+\section{Code Snip}
+%***************************************************************************
+\lstset{ %
+  caption={caption},
+  label=SL:lst:listing01,
+  numbers=left,
+  language=Verilog
+}
+\begin{lstlisting}
+  Code here
+\end{lstlisting}
+
+%***************************************************************************
+\section{Wrap Figure}
+%**************************************************************************
+\begin{wrapfigure}{O}{0.2\textwidth}
+	\caption{} % No text, wraps badly in very narrow space (does print fig number)
+	\label{03:fig01} 
+	\centering
+	\includegraphics[width=0.2\textwidth]{gfx/99-placeholder} 
+\end{wrapfigure}
+
+%***************************************************************************
+\section{Regular Figure}
+%**************************************************************************
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/99-placeholder}
+	\caption{Caption}
+	\label{03:fig01}
+\end{figure}
+
+%***************************************************************************
+\section{Style Guide}
+%**************************************************************************
+
+For menu selections:
+Click \textsc{\fbox{Analyze $ \rightarrow $ Descriptive Statistics $ \rightarrow $ Frequencies}}
+
+Labels should be a chapter, colon, verbal desc (all lc with underscores): \label{03:title}
+For figures, label should be chapter, colon, ``fig'' and number: \label{03:fig01}
+

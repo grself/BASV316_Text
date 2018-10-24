@@ -1,0 +1,362 @@
+% *************************************************
+% classicthesis-config.tex 
+% Use it at the beginning of your ClassicThesis.tex, or as a LaTeX Preamble 
+% in your ClassicThesis.{tex,lyx} with \input{classicthesis-config}
+% *************************************************
+
+% *************************************************
+% 0. Set the encoding of your files. UTF-8 is the only sensible encoding nowadays. If you can't read
+% äöüßáéçèê∂åëæƒÏ€ then change the encoding setting in your editor, not the line below. If your editor
+% does not support utf8 use another editor!
+% *************************************************
+\PassOptionsToPackage{utf8}{inputenc}
+  \usepackage{inputenc}
+
+% *************************************************
+% 1. Configure classicthesis for your needs here, e.g., remove "drafting" below 
+% in order to deactivate the time-stamp on the pages
+% *************************************************
+\PassOptionsToPackage{eulerchapternumbers,listings,drafting,%
+  pdfspacing,%floatperchapter,%linedheaders,%
+  subfig,beramono,eulermath,parts}{classicthesis}
+
+% *************************************************
+% Available options for classicthesis.sty 
+% (see ClassicThesis.pdf for more information):
+% drafting
+% parts nochapters linedheaders
+% eulerchapternumbers beramono eulermath pdfspacing minionprospacing
+% tocaligned dottedtoc manychapters
+% listings floatperchapter subfig
+% *************************************************
+
+% *************************************************
+% 2. Personal data and user ad-hoc commands
+% *************************************************
+\newcommand{\myTitle}{Research Methods\xspace}
+\newcommand{\mySubtitle}{For Business and Marketing\xspace}
+\newcommand{\myDegree}{Masters of Science\xspace}
+\newcommand{\myName}{George Self\xspace}
+\newcommand{\myProf}{Put name here\xspace}
+\newcommand{\myOtherProf}{Put name here\xspace}
+\newcommand{\mySupervisor}{Put name here\xspace}
+\newcommand{\myFaculty}{Put data here\xspace}
+\newcommand{\myDepartment}{Put data here\xspace}
+\newcommand{\myUni}{University of South Arizona\xspace}
+\newcommand{\myLocation}{Sierra Vista, AZ\xspace}
+\newcommand{\myTime}{January, 2019\xspace}
+\newcommand{\myVersion}{Edition 1\xspace}
+
+% *************************************************
+% Setup, finetuning, and useful commands
+% *************************************************
+\newcounter{dummy} % necessary for correct hyperlinks (to index, bib, etc.)
+\newlength{\abcd} % for ab..z string length calculation
+\providecommand{\mLyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+\newcommand{\ie}{i.\,e.}
+\newcommand{\Ie}{I.\,e.}
+\newcommand{\eg}{e.\,g.}
+\newcommand{\Eg}{E.\,g.}
+
+% Create a blank page at the end of the document
+\newcommand{\blankpage}{ 
+	\newpage
+	\thispagestyle{empty}
+	\mbox{}
+	\newpage
+}
+
+% The following creates a function named maxwidth that permits
+% me to set a maximum width for images. If the natural width of
+% the image is less than maxwidth then the image is rendered at
+% its natural size, else scaled to maxwidth.
+\makeatletter
+\def\maxwidth#1{\ifdim\Gin@nat@width>#1 #1\else\Gin@nat@width\fi}
+\makeatother
+
+% *************************************************
+
+% *************************************************
+% My Packages
+% *************************************************
+\usepackage[
+	type={CC},
+	modifier={by-nc-sa},
+	version={4.0}
+]{doclicense} % Prints the Creative Commons license
+
+\usepackage[obeyspaces,hyphens]{url}
+\expandafter\def\expandafter\UrlBreaks\expandafter{\UrlBreaks%  save the current one
+	\do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j%
+	\do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t%
+	\do\u\do\v\do\w\do\x\do\y\do\z\do\A\do\B\do\C\do\D%
+	\do\E\do\F\do\G\do\H\do\I\do\J\do\K\do\L\do\M\do\N%
+	\do\O\do\P\do\Q\do\R\do\S\do\T\do\U\do\V\do\W\do\X%
+	\do\Y\do\Z}
+
+
+% *************************************************
+
+% *************************************************
+% 3. Loading some handy packages
+% *************************************************
+
+% *************************************************
+% Packages with options that might require adjustments
+% *************************************************
+%\PassOptionsToPackage{ngerman,american}{babel}   % change this to your language(s)
+% Spanish languages need extra options in order to work with this template
+%\PassOptionsToPackage{spanish,es-lcroman}{babel}
+\usepackage{babel}
+
+\usepackage{csquotes}
+
+%\PassOptionsToPackage{%
+%  backend=biber, %instead of bibtex
+%  backend=bibtex8,bibencoding=ascii,%
+%  language=auto,%
+%  style=numeric-comp,%
+%    %style=authoryear-comp, % Author 1999, 2010
+%    %bibstyle=authoryear,dashed=false, % dashed: substitute rep. author with ---
+%  sorting=nyt, % name, year, title
+%  maxbibnames=10, % default: 3, et al.
+%    %backref=true,%
+%  natbib=true % natbib compatibility mode (\citep and \citet still work)
+%  }{biblatex}
+%  \usepackage{biblatex}
+%\addbibresource{ResearchMethods}
+
+% math environments and more by the AMS 
+\PassOptionsToPackage{fleqn}{amsmath}  
+  \usepackage{amsmath}
+
+% *************************************************
+% General useful packages
+% *************************************************
+\PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
+  \usepackage{fontenc}     
+\usepackage{textcomp} % fix warning with missing font shapes
+\usepackage{scrhack} % fix warnings when using KOMA with listings package          
+\usepackage{xspace} % to get the spacing after macros right  
+\usepackage{mparhack} % get marginpar right
+\usepackage{fixltx2e} % fixes some LaTeX stuff 
+
+\PassOptionsToPackage{printonlyused,smaller}{acronym} 
+  \usepackage{acronym} % nice macros for handling all acronyms in the thesis
+\renewcommand*{\aclabelfont}[1]{\acsfont{#1}}
+
+\usepackage{shorttoc} % For the short TOC at the top of the document
+
+% ***********************************************
+% Used for wrapping figures
+% ***********************************************
+\usepackage{float}
+\usepackage{wrapfig}
+\restylefloat{figure}
+
+% *************************************************
+% 4. Setup tables, (sub)figures, and captions
+% *************************************************
+\usepackage[svgnames,table]{xcolor} % control row/cell color in a table
+\usepackage{tabularx} % better tables
+\setlength{\extrarowheight}{3pt} % increase table row height
+\newcommand{\tableheadline}[1]{\multicolumn{1}{c}{\spacedlowsmallcaps{#1}}}
+\newcommand{\myfloatalign}{\centering} % to be used with each float for alignment
+\usepackage{tikz} % for drawing
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows}
+
+\usepackage{caption}
+\captionsetup{font=small} % format=hang,
+\usepackage{subfig}  
+% *************************************************
+
+% *************************************************
+% Objectives boxes
+% *************************************************
+\usepackage{tcolorbox} % create nice color boxes
+\definecolor{objgold}{RGB}{255,178,102}
+\definecolor{tkawyblue}{RGB}{102,255,255}
+\newtcolorbox{objbox}[1]{
+	colback=objgold!5!white,
+	colframe=objgold!85!black,
+	fonttitle=\bfseries,
+	width=.75\linewidth,
+	title=#1}
+
+\newtcolorbox{tkawybox}[1]{
+	colback=tkawyblue!5!white,
+	colframe=tkawyblue!70!black,
+	fonttitle=\bfseries,
+	width=.75\linewidth,
+	title=#1}
+
+% *************************************************
+% 5. Setup code listings
+% *************************************************
+\usepackage{listings} 
+\lstset{language=[LaTeX]Tex,%C++,
+    morekeywords={PassOptionsToPackage,selectlanguage},
+    keywordstyle=\color{RoyalBlue},%\bfseries,
+    basicstyle=\small\ttfamily,
+    %identifierstyle=\color{NavyBlue},
+    commentstyle=\color{Green}\ttfamily,
+    stringstyle=\rmfamily,
+    numbers=none,%left,%
+    numberstyle=\scriptsize,%\tiny
+    stepnumber=5,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    %frameround=ftff,
+    %frame=single,
+    belowcaptionskip=.75\baselineskip
+    %frame=L
+}
+% *************************************************
+
+
+% *************************************************
+% Create a new command, blfootnote, that does not use 
+% a footnote marker
+% *************************************************
+\newcommand\blfootnote[1]{%
+	\begingroup
+	\renewcommand\thefootnote{}\footnote{#1}%
+	\addtocounter{footnote}{-1}%
+	\endgroup
+}
+
+% *************************************************
+% 6. PDFLaTeX, hyperreferences and citation backreferences
+% *************************************************
+
+% *************************************************
+% Using PDFLaTeX
+% *************************************************
+\PassOptionsToPackage{pdftex,hyperfootnotes=false,pdfpagelabels}{hyperref}
+  \usepackage{hyperref}  % backref linktocpage pagebackref
+\pdfcompresslevel=9
+\pdfadjustspacing=1 
+\PassOptionsToPackage{pdftex}{graphicx}
+  \usepackage{graphicx} 
+
+% *************************************************
+% Hyperreferences
+% *************************************************
+\hypersetup{%
+  %draft, % = no hyperlinking at all (useful in b/w printouts)
+  colorlinks=true, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,%
+  % uncomment the following line if you want to have black links (e.g., for printing)
+  %colorlinks=false, linktocpage=false, pdfstartpage=3, pdfstartview=FitV, pdfborder={0 0 0},%
+  breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseOutlines,%
+  plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,%
+  hypertexnames=true, pdfhighlight=/O,%nesting=true,%frenchlinks,%
+  urlcolor=webbrown, linkcolor=RoyalBlue, citecolor=webgreen, %pagecolor=RoyalBlue,%
+  %urlcolor=Black, linkcolor=Black, citecolor=Black, %pagecolor=Black,%
+  pdftitle={\myTitle},%
+  pdfauthor={\textcopyright\ \myName, \myUni, \myFaculty},%
+  pdfsubject={},%
+  pdfkeywords={},%
+  pdfcreator={pdfLaTeX},%
+  pdfproducer={LaTeX with hyperref and classicthesis}%
+}
+
+% *************************************************
+% Glossaries and Acronyms
+% Note: I could never get glossaries to compile in this 
+% document (but I could in another document). There doesn't
+% seem to be a problem with MikTex or TexStudio, but
+% some package I have installed for this document is not
+% compatible with glossaries. I decided to just manually
+% create a glossary in the ``Contents'' document.
+% *************************************************
+%\usepackage[acronym,nomain,xindy]{glossaries}
+%\makeglossaries
+%
+%\newglossaryentry{LW}{name={Long Word},description={This is just a long word.}}
+%
+%\newacronym{wtf}{WTF}{What the Flying Freakin' Flip???}
+
+% *************************************************
+% Setup autoreferences
+% *************************************************
+% There are some issues regarding autorefnames
+% http://www.ureader.de/msg/136221647.aspx
+% http://www.tex.ac.uk/cgi-bin/texfaq2html?label=latexwords
+% you have to redefine the makros for the 
+% language you use, e.g., american, ngerman
+% (as chosen when loading babel/AtBeginDocument)
+% *************************************************
+\makeatletter
+\@ifpackageloaded{babel}%
+  {%
+    \addto\extrasamerican{%
+    \renewcommand*{\figureautorefname}{Figure}%
+    \renewcommand*{\tableautorefname}{Table}%
+    \renewcommand*{\partautorefname}{Part}%
+    \renewcommand*{\chapterautorefname}{Chapter}%
+    \renewcommand*{\sectionautorefname}{Section}%
+    \renewcommand*{\subsectionautorefname}{Section}%
+    \renewcommand*{\subsubsectionautorefname}{Section}%     
+  }%
+\addto\extrasngerman
+  {% 
+    \renewcommand*{\paragraphautorefname}{Absatz}%
+    \renewcommand*{\subparagraphautorefname}{Unterabsatz}%
+    \renewcommand*{\footnoteautorefname}{Fu\"snote}%
+    \renewcommand*{\FancyVerbLineautorefname}{Zeile}%
+    \renewcommand*{\theoremautorefname}{Theorem}%
+    \renewcommand*{\appendixautorefname}{Anhang}%
+    \renewcommand*{\equationautorefname}{Gleichung}%        
+    \renewcommand*{\itemautorefname}{Punkt}%
+  }%  
+% Fix to getting autorefs for subfigures right (thanks to Belinda Vogt for changing the definition)
+\providecommand{\subfigureautorefname}{\figureautorefname}%             
+  }{\relax}
+\makeatother
+
+
+% *************************************************
+% 7. Last calls before the bar closes
+% *************************************************
+% *************************************************
+% Development Stuff
+% *************************************************
+\listfiles
+%\PassOptionsToPackage{l2tabu,orthodox,abort}{nag}
+%   \usepackage{nag}
+%\PassOptionsToPackage{warning, all}{onlyamsmath}
+%   \usepackage{onlyamsmath}
+
+% *************************************************
+% Last, but not least...
+% *************************************************
+\usepackage{classicthesis} 
+% *************************************************
+
+% *************************************************
+% 8. Further adjustments (experimental)
+% *************************************************
+
+% *************************************************
+% Changing the text area
+% *************************************************
+%\linespread{1.05} % a bit more for Palatino
+%\areaset[current]{312pt}{761pt} % 686 (factor 2.2) + 33 head + 42 head \the\footskip
+%\setlength{\marginparwidth}{7em}%
+%\setlength{\marginparsep}{2em}%
+
+% *************************************************
+% Using different fonts
+% *************************************************
+%\usepackage[oldstylenums]{kpfonts} % oldstyle notextcomp
+%\usepackage[osf]{libertine}
+%\usepackage[light,condensed,math]{iwona}
+%\renewcommand{\sfdefault}{iwona}
+%\usepackage{lmodern} % <-- no osf support :-(
+%\usepackage{cfr-lm} % 
+%\usepackage[urw-garamond]{mathdesign} <-- no osf support :-(
+%\usepackage[default,osfigures]{opensans} % scale=0.95 
+%\usepackage[sfdefault]{FiraSans}
+% *************************************************
