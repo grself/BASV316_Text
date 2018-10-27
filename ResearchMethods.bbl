@@ -1,0 +1,106 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{bobbitt2013number}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BZD}{%
+         family={Bobbitt-Zeher},
+         familyi={B\bibinitperiod-Z\bibinitperiod},
+         given={Donna},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DDB}{%
+         family={Downey},
+         familyi={D\bibinitperiod},
+         given={Douglas\bibnamedelima B},
+         giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Sage Publications Sage CA: Los Angeles, CA}%
+    }
+    \strng{namehash}{BZDDDB1}
+    \strng{fullhash}{BZDDDB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{9}
+    \field{pages}{1175\bibrangedash 1193}
+    \field{title}{Number of siblings and friendship nominations among
+  adolescents}
+    \field{volume}{34}
+    \field{journaltitle}{Journal of Family Issues}
+    \field{year}{2013}
+  \endentry
+
+  \entry{ellwood2000getting}{article}{}
+    \true{moreauthor}
+    \name{author}{2}{}{%
+      {{hash=ED}{%
+         family={Ellwood},
+         familyi={E\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KTJ}{%
+         family={Kane},
+         familyi={K\bibinitperiod},
+         given={Thomas\bibnamedelima J},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EDKTJ+1}
+    \strng{fullhash}{EDKTJ+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{pages}{283\bibrangedash 324}
+    \field{title}{Who is getting a college education? Family background and the
+  growing gaps in enrollment}
+    \field{journaltitle}{Securing the future: Investing in children from birth
+  to college}
+    \field{year}{2000}
+  \endentry
+
+  \entry{twain2014following}{book}{}
+    \name{author}{1}{}{%
+      {{hash=TM}{%
+         family={Twain},
+         familyi={T\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Simon}%
+      {Schuster}%
+    }
+    \strng{namehash}{TM1}
+    \strng{fullhash}{TM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Following the Equator:(With Original Illustrations)}
+    \field{year}{2014}
+  \endentry
+\enddatalist
+\endinput
