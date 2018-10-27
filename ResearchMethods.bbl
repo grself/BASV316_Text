@@ -17,6 +17,109 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global}
+  \entry{bacharach1989organizational}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BSB}{%
+         family={Bacharach},
+         familyi={B\bibinitperiod},
+         given={Samuel\bibnamedelima B},
+         giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Academy of Management Briarcliff Manor, NY 10510}%
+    }
+    \strng{namehash}{BSB1}
+    \strng{fullhash}{BSB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{4}
+    \field{pages}{496\bibrangedash 515}
+    \field{title}{Organizational theories: Some criteria for evaluation}
+    \field{volume}{14}
+    \field{journaltitle}{Academy of management review}
+    \field{year}{1989}
+  \endentry
+
+  \entry{bansal2000companies}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BP}{%
+         family={Bansal},
+         familyi={B\bibinitperiod},
+         given={Pratima},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Roth},
+         familyi={R\bibinitperiod},
+         given={Kendall},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Academy of Management Briarcliff Manor, NY 10510}%
+    }
+    \strng{namehash}{BPRK1}
+    \strng{fullhash}{BPRK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{4}
+    \field{pages}{717\bibrangedash 736}
+    \field{title}{Why companies go green: A model of ecological responsiveness}
+    \field{volume}{43}
+    \field{journaltitle}{Academy of management journal}
+    \field{year}{2000}
+  \endentry
+
+  \entry{bhattacherjee2012social}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BA}{%
+         family={Bhattacherjee},
+         familyi={B\bibinitperiod},
+         given={Anol},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Global text project}%
+    }
+    \strng{namehash}{BA1}
+    \strng{fullhash}{BA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Social science research: Principles, methods, and practices}
+    \field{year}{2012}
+  \endentry
+
+  \entry{blackstone2012principles}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BA}{%
+         family={Blackstone},
+         familyi={B\bibinitperiod},
+         given={Amy},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The Saylor Foundation}%
+    }
+    \strng{namehash}{BA2}
+    \strng{fullhash}{BA2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Principles of sociological inquiry--qualitative and
+  quantitative methods}
+    \field{year}{2012}
+  \endentry
+
   \entry{bobbitt2013number}{article}{}
     \name{author}{2}{}{%
       {{hash=BZD}{%
@@ -50,6 +153,71 @@
     \field{year}{2013}
   \endentry
 
+  \entry{delaney1996impact}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DJT}{%
+         family={Delaney},
+         familyi={D\bibinitperiod},
+         given={John\bibnamedelima T},
+         giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=HMA}{%
+         family={Huselid},
+         familyi={H\bibinitperiod},
+         given={Mark\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Academy of Management Briarcliff Manor, NY 10510}%
+    }
+    \strng{namehash}{DJTHMA1}
+    \strng{fullhash}{DJTHMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{4}
+    \field{pages}{949\bibrangedash 969}
+    \field{title}{The impact of human resource management practices on
+  perceptions of organizational performance}
+    \field{volume}{39}
+    \field{journaltitle}{Academy of Management journal}
+    \field{year}{1996}
+  \endentry
+
+  \entry{eisenhardt2007theory}{article}{}
+    \name{author}{2}{}{%
+      {{hash=EKM}{%
+         family={Eisenhardt},
+         familyi={E\bibinitperiod},
+         given={Kathleen\bibnamedelima M},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=GME}{%
+         family={Graebner},
+         familyi={G\bibinitperiod},
+         given={Melissa\bibnamedelima E},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {JSTOR}%
+    }
+    \strng{namehash}{EKMGME1}
+    \strng{fullhash}{EKMGME1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{number}{1}
+    \field{pages}{25\bibrangedash 32}
+    \field{title}{Theory building from cases: Opportunities and challenges}
+    \field{volume}{50}
+    \field{journaltitle}{The Academy of Management Journal}
+    \field{year}{2007}
+  \endentry
+
   \entry{ellwood2000getting}{article}{}
     \true{moreauthor}
     \name{author}{2}{}{%
@@ -80,6 +248,284 @@
     \field{year}{2000}
   \endentry
 
+  \entry{hackman1976motivation}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HJR}{%
+         family={Hackman},
+         familyi={H\bibinitperiod},
+         given={J\bibnamedelima Richard},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=OGR}{%
+         family={Oldham},
+         familyi={O\bibinitperiod},
+         given={Greg\bibnamedelima R},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{HJROGR1}
+    \strng{fullhash}{HJROGR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{2}
+    \field{pages}{250\bibrangedash 279}
+    \field{title}{Motivation through the design of work: Test of a theory}
+    \field{volume}{16}
+    \field{journaltitle}{Organizational behavior and human performance}
+    \field{year}{1976}
+  \endentry
+
+  \entry{markus1987toward}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MML}{%
+         family={Markus},
+         familyi={M\bibinitperiod},
+         given={M\bibnamedelima Lynne},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Sage Newbury Park}%
+    }
+    \strng{namehash}{MML1}
+    \strng{fullhash}{MML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{5}
+    \field{pages}{491\bibrangedash 511}
+    \field{title}{Toward a “critical mass” theory of interactive media:
+  Universal access, interdependence and diffusion}
+    \field{volume}{14}
+    \field{journaltitle}{Communication research}
+    \field{year}{1987}
+  \endentry
+
+  \entry{parboteeah2009religious}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PKP}{%
+         family={Parboteeah},
+         familyi={P\bibinitperiod},
+         given={K\bibnamedelima Praveen},
+         giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=PY}{%
+         family={Paik},
+         familyi={P\bibinitperiod},
+         given={Yongsun},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CJB}{%
+         family={Cullen},
+         familyi={C\bibinitperiod},
+         given={John\bibnamedelima B},
+         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SAGE Publications Sage UK: London, England}%
+    }
+    \strng{namehash}{PKPPYCJB1}
+    \strng{fullhash}{PKPPYCJB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{number}{1}
+    \field{pages}{51\bibrangedash 67}
+    \field{title}{Religious groups and work values: A focus on Buddhism,
+  Christianity, Hinduism, and Islam}
+    \field{volume}{9}
+    \field{journaltitle}{International Journal of Cross Cultural Management}
+    \field{year}{2009}
+  \endentry
+
+  \entry{price2015research}{book}{}
+    \name{author}{3}{}{%
+      {{hash=PPC}{%
+         family={Price},
+         familyi={P\bibinitperiod},
+         given={Paul\bibnamedelima Christopher},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CICA}{%
+         family={Chiang},
+         familyi={C\bibinitperiod},
+         given={I-Chant\bibnamedelima A},
+         giveni={I\bibinitperiod-C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Jhangiani},
+         familyi={J\bibinitperiod},
+         given={Rajiv},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {BCcampus, BC Open Textbook Project}%
+    }
+    \strng{namehash}{PPCCICAJR1}
+    \strng{fullhash}{PPCCICAJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{Research methods in psychology}
+    \field{year}{2015}
+  \endentry
+
+  \entry{sharma2000managerial}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SS}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={Sanjay},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Academy of Management Briarcliff Manor, NY 10510}%
+    }
+    \strng{namehash}{SS1}
+    \strng{fullhash}{SS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{4}
+    \field{pages}{681\bibrangedash 697}
+    \field{title}{Managerial interpretations and organizational context as
+  predictors of corporate choice of environmental strategy}
+    \field{volume}{43}
+    \field{journaltitle}{Academy of Management journal}
+    \field{year}{2000}
+  \endentry
+
+  \entry{sherman1984specific}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SLW}{%
+         family={Sherman},
+         familyi={S\bibinitperiod},
+         given={Lawrence\bibnamedelima W},
+         giveni={L\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=BRA}{%
+         family={Berk},
+         familyi={B\bibinitperiod},
+         given={Richard\bibnamedelima A},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {JSTOR}%
+    }
+    \strng{namehash}{SLWBRA1}
+    \strng{fullhash}{SLWBRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{pages}{261\bibrangedash 272}
+    \field{title}{The specific deterrent effects of arrest for domestic
+  assault}
+    \field{journaltitle}{American sociological review}
+    \field{year}{1984}
+  \endentry
+
+  \entry{sia2009employees}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SSK}{%
+         family={Sia},
+         familyi={S\bibinitperiod},
+         given={Surendra\bibnamedelima Kumar},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Bhardwaj},
+         familyi={B\bibinitperiod},
+         given={Gopa},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SSKBG1}
+    \strng{fullhash}{SSKBG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{2}
+    \field{pages}{305\bibrangedash 312}
+    \field{title}{Employees’ perception of diversity climate: role of
+  psychological contract}
+    \field{volume}{35}
+    \field{journaltitle}{Journal of the Indian Academy of Applied Psychology}
+    \field{year}{2009}
+  \endentry
+
+  \entry{steinfield1990theory}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SCW}{%
+         family={Steinfield},
+         familyi={S\bibinitperiod},
+         given={Charles\bibnamedelima W},
+         giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Fulk},
+         familyi={F\bibinitperiod},
+         given={Janet},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Sage Newbury Park, CA}%
+    }
+    \strng{namehash}{SCWFJ1}
+    \strng{fullhash}{SCWFJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{pages}{13\bibrangedash 25}
+    \field{title}{The theory imperative}
+    \field{journaltitle}{Organizations and communication technology}
+    \field{year}{1990}
+  \endentry
+
+  \entry{strauss1994grounded}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SA}{%
+         family={Strauss},
+         familyi={S\bibinitperiod},
+         given={Anselm},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Corbin},
+         familyi={C\bibinitperiod},
+         given={Juliet},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SACJ1}
+    \strng{fullhash}{SACJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{pages}{273\bibrangedash 85}
+    \field{title}{Grounded theory methodology}
+    \field{volume}{17}
+    \field{journaltitle}{Handbook of qualitative research}
+    \field{year}{1994}
+  \endentry
+
   \entry{twain2014following}{book}{}
     \name{author}{1}{}{%
       {{hash=TM}{%
@@ -101,6 +547,32 @@
     \field{sortinithash}{T}
     \field{title}{Following the Equator:(With Original Illustrations)}
     \field{year}{2014}
+  \endentry
+
+  \entry{whetten1989constitutes}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WDA}{%
+         family={Whetten},
+         familyi={W\bibinitperiod},
+         given={David\bibnamedelima A},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Academy of Management Briarcliff Manor, NY 10510}%
+    }
+    \strng{namehash}{WDA1}
+    \strng{fullhash}{WDA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{number}{4}
+    \field{pages}{490\bibrangedash 495}
+    \field{title}{What constitutes a theoretical contribution?}
+    \field{volume}{14}
+    \field{journaltitle}{Academy of management review}
+    \field{year}{1989}
   \endentry
 \enddatalist
 \endinput
