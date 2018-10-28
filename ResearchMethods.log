@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.10)  27 OCT 2018 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.10)  27 OCT 2018 17:56
 entering extended mode
 **./ResearchMethods.tex
 (ResearchMethods.tex
@@ -2456,8 +2456,8 @@ a.pdf>]
 
  (FrontBackmatter/Foreword.tex
 Overfull \hbox (9.56418pt too wide) in paragraph at lines 10--11
-[]\T1/pplj/m/n/10.95 Bhattacherjee[[][]3[][]], Black-stone[[][]4[][]], and Pric
-e[[][]12[][]] all re-leased books about
+[]\T1/pplj/m/n/10.95 Bhattacherjee[[][]3[][]], Black-stone[[][]5[][]], and Pric
+e[[][]30[][]] all re-leased books about
  []
 
 LaTeX Font Info:    Try loading font information for TS1+pplj on input line 15.
@@ -2708,13 +2708,13 @@ chapter 3.
 
 
 
-] [34] [35]
+] [34]
 Overfull \hbox (0.3185pt too wide) in paragraph at lines 36--37
 \T1/pplj/m/n/10.95 To pro-tect sub-jects' in-ter-ests and fu-ture well-being, t
 heir iden-tity must
  []
 
-
+[35]
 Overfull \hbox (1.2712pt too wide) in paragraph at lines 38--39
 []\T1/pplj/m/n/10.95 In some re-search de-signs such as face-to-face in-ter-vie
 ws, anonymity
@@ -2733,10 +2733,10 @@ Overfull \hbox (2.3443pt too wide) in paragraph at lines 57--58
 ed much more
  []
 
-[38] [39]
+[38]
 Package acronym Info: Label `acro:IRB' newly defined as it shall be overridden
 although it is yet undefined on input line 67.
- [40]
+ [39] [40]
 Overfull \hbox (10.75458pt too wide) in paragraph at lines 84--85
 \T1/fvm/m/n/10.95 tp : / / w w w . a o m o n l i n e . o r g / g o v e r n a n 
 c e a n d e t h i c s / a o m r e v i s e d c o d e
@@ -2826,58 +2826,58 @@ Overfull \hbox (0.52579pt too wide) in paragraph at lines 53--54
 sumers' pref-
  []
 
-[48] [49] [50] [51] [52] <gfx/04-01.png, id=921, 294.1389pt x 208.8603pt>
+[48] [49] [50] [51] [52] <gfx/04-01.png, id=962, 294.1389pt x 208.8603pt>
 File: gfx/04-01.png Graphic file (type png)
 
 <use gfx/04-01.png>
 Package pdftex.def Info: gfx/04-01.png used on input line 143.
 (pdftex.def)             Requested size: 336.0pt x 238.594pt.
- [53]
+
 Overfull \hbox (0.29596pt too wide) in paragraph at lines 149--150
 \T1/pplj/m/n/10.95 steps of-ten run con-cur-rently and re-searchers typ-i-cally
  shift back-
  []
 
-[54 <./gfx/04-01.png>] [55]
+[53 <./gfx/04-01.png>] [54] [55]
 Overfull \hbox (6.3083pt too wide) in paragraph at lines 165--166
 []\T1/pplj/m/n/10.95 Simultaneously with op-er-a-tional-iza-tion, the re-search
 er must
  []
 
-[56] [57]
+[56]
 Overfull \hbox (0.26544pt too wide) in paragraph at lines 184--185
 \T1/pplj/m/n/10.95 con-structs se-lected, mea-sures used, re-search meth-ods, s
 am-pling,
  []
 
-[58]
+[57]
 Overfull \hbox (12.23679pt too wide) in paragraph at lines 199--200
 []\T1/pplj/m/n/10.95 Insufficiently mo-ti-vated ques-tions. Of-ten times, re-se
 archers choose
  []
 
-[59] [60] [61] [62]
+[58] [59] [60] [61]
 Overfull \hbox (2.95035pt too wide) in paragraph at lines 249--250
 \T1/pplj/m/n/10.95 nom-ena and then ob-serv-ing the ef-fects of those ac-tions.
  In this method,
  []
 
-[63]
+[62]
 Overfull \hbox (1.58015pt too wide) in paragraph at lines 257--258
 \T1/pplj/m/n/10.95 with and feel most com-pe-tent to han-dle; but, ide-ally, th
 e choice should
  []
 
-[64]) [65] [66
+[63]) [64] [65
 
 
 
-] [67] [68]
+] [66]
 \openout2 = `Chapters/08Surveys.aux'.
 
  (Chapters/08Surveys.tex
 chapter 5.
-<gfx/08-01.jpg, id=997, 6012.4625pt x 4007.97375pt>
+<gfx/08-01.jpg, id=1034, 6012.4625pt x 4007.97375pt>
 File: gfx/08-01.jpg Graphic file (type jpg)
  <use gfx/08-01.jpg>
 Package pdftex.def Info: gfx/08-01.jpg used on input line 10.
@@ -2887,19 +2887,19 @@ Underfull \hbox (badness 1609) in paragraph at lines 13--21
 \T1/pplj/m/n/10.95 key, an on-line sur-vey tool, posted
  []
 
-[69
+[67
 
 
 
 
 
- <./gfx/08-01.jpg>] [70] [71]
+ <./gfx/08-01.jpg>] [68] [69]
 Overfull \hbox (6.01703pt too wide) in paragraph at lines 67--68
 \T1/pplj/m/n/10.95 things re-mained that way af-ter-wards. For ex-am-ple, imag-
 ine how Amer-
  []
 
-[72] [73]
+[70] [71]
 Underfull \hbox (badness 10000) in alignment at lines 102--102
 [][] 
  []
@@ -2914,8 +2914,8 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 103.
 See the caption package documentation for explanation.
 
-[74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88]
-[89] [90] [91]
+[72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86]
+[87] [88] [89]
 Underfull \hbox (badness 1005) in paragraph at lines 311--312
 \T1/pplj/m/n/10.95 sort of data quan-ti-ta-tive sur-vey re-searchers col-lect. 
 It can per-
@@ -2932,10 +2932,10 @@ Underfull \hbox (badness 6493) in paragraph at lines 311--312
 istical-
  []
 
-[92] [93] [94] [95] [96] [97]) [98] [99
+[90] [91] [92] [93] [94] [95]) [96] [97
 
 
-] [100]
+] [98] [99] [100]
 Underfull \hbox (badness 1325) in paragraph at lines 87--87
 \T1/pplj/m/n/10.95 numeric data, like pho-tographs and text doc-u-ments.
  []
@@ -2964,46 +2964,17 @@ chapter 6.
 
 
 
-] [110]
-
-LaTeX Warning: Reference `ch02:foundations' on page 111 undefined on input line
- 76.
-
-
-LaTeX Warning: Reference `ch02:foundations' on page 111 undefined on input line
- 76.
-
-[111
-
-
-]
-
-LaTeX Warning: Reference `ch03:research_ethics' on page 112 undefined on input 
-line 108.
-
-
-LaTeX Warning: Reference `ch03:research_ethics' on page 112 undefined on input 
-line 108.
-
-
-LaTeX Warning: Reference `ch04:research_design' on page 112 undefined on input 
-line 122.
-
-
-LaTeX Warning: Reference `ch04:research_design' on page 112 undefined on input 
-line 122.
-
-) [112]
+]) [110]
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
- (FrontBackmatter/Bibliography.tex) [113
+ (FrontBackmatter/Bibliography.tex) [111
 
 
 
 
 
 
-] [114]
+] [112] [113] [114]
 \openout2 = `FrontBackmatter/Colophon.aux'.
 
 
@@ -3262,11 +3233,11 @@ Package logreq Info: Writing requests to 'ResearchMethods.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46262 strings out of 493323
- 909092 string characters out of 3139065
- 1470654 words of memory out of 3000000
- 48592 multiletter control sequences out of 15000+200000
- 621569 words of font info for 149 fonts, out of 3000000 for 9000
+ 46328 strings out of 493323
+ 912077 string characters out of 3139065
+ 1469654 words of memory out of 3000000
+ 48635 multiletter control sequences out of 15000+200000
+ 620434 words of font info for 148 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
  76i,23n,102p,10522b,3819s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
@@ -3275,14 +3246,13 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
 s/type1/public/amsfonts/euler/eurb10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/euler/eurm10.pfb><C:/Users/gself/AppData/Roaming/MiKTeX/2.9/
 fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/gself/AppData/Roaming/MiKTeX/2.9/f
-onts/type1/public/fpl/fplrij8a.pfb><C:/Users/gself/AppData/Roaming/MiKTeX/2.9/f
 onts/type1/bera/fvmb8a.pfb><C:/Users/gself/AppData/Roaming/MiKTeX/2.9/fonts/typ
 e1/bera/fvmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ResearchMethods.pdf (125 pages, 3576856 bytes).
+Output written on ResearchMethods.pdf (125 pages, 3581538 bytes).
 PDF statistics:
- 1355 PDF objects out of 1440 (max. 8388607)
- 335 named destinations out of 1000 (max. 500000)
- 27932 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1398 PDF objects out of 1440 (max. 8388607)
+ 359 named destinations out of 1000 (max. 500000)
+ 27420 words of extra memory for PDF output out of 29859 (max. 10000000)
 

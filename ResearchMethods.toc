@@ -74,17 +74,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Introduction}{33}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Ethical Principles}{34}{section.3.2}
+\contentsline {section}{\numberline {3.2}Ethical Principles}{33}{section.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Voluntary Participation}{34}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Informed Consent}{35}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}Informed Consent}{34}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}Confidentiality}{36}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.4}Disclosure}{37}{subsection.3.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.5}Reporting}{38}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.5}Reporting}{37}{subsection.3.2.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Research on Humans}{38}{section.3.3}
 \defcounter {refsection}{0}\relax 
@@ -94,9 +94,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Professional Code of Ethics}{41}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}An Ethical Controversy}{43}{section.3.5}
+\contentsline {section}{\numberline {3.5}An Ethical Controversy}{42}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Summary}{44}{section.3.6}
+\contentsline {section}{\numberline {3.6}Summary}{43}{section.3.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Research Design}}{45}{chapter.4}
 \defcounter {refsection}{0}\relax 
@@ -112,97 +112,97 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.4}Hypotheses}{48}{subsection.4.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.5}Feasibility}{49}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.5}Feasibility}{48}{subsection.4.2.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.6}Idiographic or Nomothetic?}{50}{subsection.4.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.7}Applied or Basic?}{51}{subsection.4.2.7}
+\contentsline {subsection}{\numberline {4.2.7}Applied or Basic?}{50}{subsection.4.2.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.8}Units of Analysis}{51}{subsection.4.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}The Research Process}{53}{section.4.3}
+\contentsline {section}{\numberline {4.3}The Research Process}{52}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Positivism}{53}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Positivism}{52}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Interpretivism}{53}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Interpretivism}{52}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.3}Iterative Design}{53}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Mixed Methods}{58}{section.4.4}
+\contentsline {section}{\numberline {4.4}Mixed Methods}{57}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Common Research Mistakes}{59}{section.4.5}
+\contentsline {section}{\numberline {4.5}Common Research Mistakes}{58}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Research Designs}{60}{section.4.6}
+\contentsline {section}{\numberline {4.6}Research Designs}{59}{section.4.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.6.1}Experimental}{60}{subsection.4.6.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.6.2}Surveys}{61}{subsection.4.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.3}Secondary Data Analysis}{62}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.3}Secondary Data Analysis}{61}{subsection.4.6.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.6.4}Case Research}{62}{subsection.4.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.5}Focus Groups}{63}{subsection.4.6.5}
+\contentsline {subsection}{\numberline {4.6.5}Focus Groups}{62}{subsection.4.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.6}Action Research}{63}{subsection.4.6.6}
+\contentsline {subsection}{\numberline {4.6.6}Action Research}{62}{subsection.4.6.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.7}Ethnography}{64}{subsection.4.6.7}
+\contentsline {subsection}{\numberline {4.6.7}Ethnography}{63}{subsection.4.6.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Selecting the Research Design}{64}{section.4.7}
+\contentsline {section}{\numberline {4.7}Selecting the Research Design}{63}{section.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.8}Summary}{65}{section.4.8}
+\contentsline {section}{\numberline {4.8}Summary}{64}{section.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Quantitative Methods}}{67}{part.2}
+\contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Quantitative Methods}}{65}{part.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Survey Research}}{69}{chapter.5}
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Survey Research}}{67}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Introduction}{69}{section.5.1}
+\contentsline {section}{\numberline {5.1}Introduction}{67}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Types of Surveys}{71}{section.5.2}
+\contentsline {section}{\numberline {5.2}Types of Surveys}{69}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Time}{71}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.1}Time}{69}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1.1}Cross-Sectional}{71}{subsubsection.5.2.1.1}
+\contentsline {subsubsection}{\numberline {5.2.1.1}Cross-Sectional}{69}{subsubsection.5.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1.2}Longitudinal}{72}{subsubsection.5.2.1.2}
+\contentsline {subsubsection}{\numberline {5.2.1.2}Longitudinal}{70}{subsubsection.5.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Trend Survey}{72}{subsubsection.5.2.1.2}
+\contentsline {paragraph}{Trend Survey}{70}{subsubsection.5.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Panel Surveys}{73}{subsubsection.5.2.1.2}
+\contentsline {paragraph}{Panel Surveys}{71}{subsubsection.5.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Cohort Surveys}{73}{subsubsection.5.2.1.2}
+\contentsline {paragraph}{Cohort Surveys}{71}{subsubsection.5.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Retrospective Surveys}{74}{table.5.1}
+\contentsline {paragraph}{Retrospective Surveys}{72}{table.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Administration}{74}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.2}Administration}{72}{subsection.5.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Designing Effective Questionnaires}{76}{section.5.3}
+\contentsline {section}{\numberline {5.3}Designing Effective Questionnaires}{74}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Asking Effective Questions}{77}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.1}Asking Effective Questions}{75}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Anol: Question Wording}{81}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.2}Anol: Question Wording}{79}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Response Options}{84}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.3}Response Options}{82}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.4}Anol: Response Formats}{86}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.4}Anol: Response Formats}{84}{subsection.5.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.5}Designing Questionnaires}{86}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {5.3.5}Designing Questionnaires}{84}{subsection.5.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.6}Anol: Question Sequencing}{89}{subsection.5.3.6}
+\contentsline {subsection}{\numberline {5.3.6}Anol: Question Sequencing}{87}{subsection.5.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.7}Anol: Other Golden Rules}{89}{subsection.5.3.7}
+\contentsline {subsection}{\numberline {5.3.7}Anol: Other Golden Rules}{87}{subsection.5.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Key Takeaways}{90}{subsection.5.3.7}
+\contentsline {paragraph}{Key Takeaways}{88}{subsection.5.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Analysis of Survey Data}{90}{section.5.4}
+\contentsline {section}{\numberline {5.4}Analysis of Survey Data}{88}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}From Completed Questionnaires to Data}{91}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.1}From Completed Questionnaires to Data}{89}{subsection.5.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Identifying Patterns}{93}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.2}Identifying Patterns}{91}{subsection.5.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Anol: Biases in Survey Research}{95}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.3}Anol: Biases in Survey Research}{93}{subsection.5.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Summary}{98}{section.5.5}
+\contentsline {section}{\numberline {5.5}Summary}{96}{section.5.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Qualitative Methods}}{101}{part.3}
 \defcounter {refsection}{0}\relax 
@@ -216,4 +216,4 @@
 \defcounter {refsection}{0}\relax 
 \vspace {\beforebibskip }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{113}{dummy.6}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{111}{dummy.6}

@@ -97,6 +97,41 @@
     \field{year}{2012}
   \endentry
 
+  \entry{national1978belmont}{book}{}
+    \name{author}{2}{}{%
+      {{hash=ftPoHSoBNC}{%
+         prefix={for the Proptection of Human Subjects\bibnamedelima of},
+         prefixi={f\bibinitperiod\bibinitdelim t\bibinitperiod P\bibinitperiod
+  o\bibinitperiod H\bibinitperiod S\bibinitperiod\bibinitdelim
+  o\bibinitperiod},
+         family={Biomedical},
+         familyi={B\bibinitperiod},
+         given={National\bibnamedelima Commission},
+         giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BRMB}{%
+         family={Behavioral\bibnamedelima Research},
+         familyi={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+         suffix={Bethesda},
+         suffixi={B\bibinitperiod},
+         given={Md},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Superintendent of Documents}%
+    }
+    \strng{namehash}{BNCftPoHSoBRBM1}
+    \strng{fullhash}{BNCftPoHSoBRBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{The Belmont report: Ethical principles and guidelines for the
+  protection of human subjects of research}
+    \field{year}{1978}
+  \endentry
+
   \entry{blackstone2012principles}{book}{}
     \name{author}{1}{}{%
       {{hash=BA}{%
@@ -118,6 +153,32 @@
     \field{title}{Principles of sociological inquiry--qualitative and
   quantitative methods}
     \field{year}{2012}
+  \endentry
+
+  \entry{blee2005racial}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BKM}{%
+         family={Blee},
+         familyi={B\bibinitperiod},
+         given={Kathleen\bibnamedelima M},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{BKM1}
+    \strng{fullhash}{BKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{4}
+    \field{pages}{599\bibrangedash 619}
+    \field{title}{Racial violence in the United States}
+    \field{volume}{28}
+    \field{journaltitle}{Ethnic and Racial Studies}
+    \field{year}{2005}
   \endentry
 
   \entry{bobbitt2013number}{article}{}
@@ -151,6 +212,119 @@
     \field{volume}{34}
     \field{journaltitle}{Journal of Family Issues}
     \field{year}{2013}
+  \endentry
+
+  \entry{brewer1989multimethod}{book}{}
+    \name{author}{2}{}{%
+      {{hash=BJ}{%
+         family={Brewer},
+         familyi={B\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hunter},
+         familyi={H\bibinitperiod},
+         given={Albert},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Sage Publications, Inc}%
+    }
+    \strng{namehash}{BJHA1}
+    \strng{fullhash}{BJHA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Multimethod research: a synthesis of styles.}
+    \field{year}{1989}
+  \endentry
+
+  \entry{bridge2001microgeographies}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BG}{%
+         family={Bridge},
+         familyi={B\bibinitperiod},
+         given={Gary},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Dowling},
+         familyi={D\bibinitperiod},
+         given={Robyn},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{BGDR1}
+    \strng{fullhash}{BGDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{1}
+    \field{pages}{93\bibrangedash 107}
+    \field{title}{Microgeographies of retailing and gentrification}
+    \field{volume}{32}
+    \field{journaltitle}{Australian Geographer}
+    \field{year}{2001}
+  \endentry
+
+  \entry{bright2000role}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BAD}{%
+         family={Bright},
+         familyi={B\bibinitperiod},
+         given={Alan\bibnamedelima D},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{BAD1}
+    \strng{fullhash}{BAD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{1}
+    \field{pages}{12\bibrangedash 17}
+    \field{title}{The role of social marketing in leisure and recreation
+  management}
+    \field{volume}{32}
+    \field{journaltitle}{Journal of leisure research}
+    \field{year}{2000}
+  \endentry
+
+  \entry{cummings1992exxon}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CAD}{%
+         family={Cummings},
+         familyi={C\bibinitperiod},
+         given={Ann\bibnamedelima D},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {HeinOnline}%
+    }
+    \strng{namehash}{CAD1}
+    \strng{fullhash}{CAD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{pages}{363}
+    \field{title}{The Exxon Valdez Oil Spill and the Confidentiality of Natural
+  Resource Damage Assessment Data}
+    \field{volume}{19}
+    \field{journaltitle}{Ecology LQ}
+    \field{year}{1992}
   \endentry
 
   \entry{delaney1996impact}{article}{}
@@ -248,6 +422,82 @@
     \field{year}{2000}
   \endentry
 
+  \entry{esterberg2002qualitative}{article}{}
+    \name{author}{1}{}{%
+      {{hash=EKG}{%
+         family={Esterberg},
+         familyi={E\bibinitperiod},
+         given={Kristin\bibnamedelima G},
+         giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {McGraw-Hill Boston, MA}%
+    }
+    \strng{namehash}{EKG1}
+    \strng{fullhash}{EKG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{Qualitative methods in social research}
+    \field{year}{2002}
+  \endentry
+
+  \entry{faden1986history}{book}{}
+    \name{author}{2}{}{%
+      {{hash=FRR}{%
+         family={Faden},
+         familyi={F\bibinitperiod},
+         given={Ruth\bibnamedelima R},
+         giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BTL}{%
+         family={Beauchamp},
+         familyi={B\bibinitperiod},
+         given={Tom\bibnamedelima L},
+         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{FRRBTL1}
+    \strng{fullhash}{FRRBTL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{A history and theory of informed consent}
+    \field{year}{1986}
+  \endentry
+
+  \entry{green2006direct}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GRM}{%
+         family={Green},
+         familyi={G\bibinitperiod},
+         given={Ronald\bibnamedelima M},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {HeinOnline}%
+    }
+    \strng{namehash}{GRM1}
+    \strng{fullhash}{GRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{pages}{749}
+    \field{title}{Direct-to-consumer advertising and pharmaceutical ethics: The
+  case of Vioxx}
+    \field{volume}{35}
+    \field{journaltitle}{Hofstra L. Rev.}
+    \field{year}{2006}
+  \endentry
+
   \entry{hackman1976motivation}{article}{}
     \name{author}{2}{}{%
       {{hash=HJR}{%
@@ -280,6 +530,218 @@
     \field{year}{1976}
   \endentry
 
+  \entry{hechavarria2009cultural}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HDM}{%
+         family={Hechavarria},
+         familyi={H\bibinitperiod},
+         given={Diana\bibnamedelima M},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RPD}{%
+         family={Reynolds},
+         familyi={R\bibinitperiod},
+         given={Paul\bibnamedelima D},
+         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{HDMRPD1}
+    \strng{fullhash}{HDMRPD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{4}
+    \field{pages}{417}
+    \field{title}{Cultural norms \& business start-ups: the impact of national
+  values on opportunity and necessity entrepreneurs}
+    \field{volume}{5}
+    \field{journaltitle}{International Entrepreneurship and Management Journal}
+    \field{year}{2009}
+  \endentry
+
+  \entry{huck1991competencies}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HJF}{%
+         family={Huck},
+         familyi={H\bibinitperiod},
+         given={John\bibnamedelima F},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=MT}{%
+         family={McEwen},
+         familyi={M\bibinitperiod},
+         given={Thaddeus},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {International Council for Small Business}%
+    }
+    \strng{namehash}{HJFMT1}
+    \strng{fullhash}{HJFMT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{4}
+    \field{pages}{90}
+    \field{title}{Competencies needed for small business success: perceptions}
+    \field{volume}{29}
+    \field{journaltitle}{Journal of Small Business Management}
+    \field{year}{1991}
+  \endentry
+
+  \entry{humphreys1970tearoom}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HL}{%
+         family={Humphreys},
+         familyi={H\bibinitperiod},
+         given={Laud},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{HL1}
+    \strng{fullhash}{HL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{3}
+    \field{pages}{10\bibrangedash 25}
+    \field{title}{Tearoom trade}
+    \field{volume}{7}
+    \field{journaltitle}{Trans-action}
+    \field{year}{1970}
+  \endentry
+
+  \entry{kirkpatrick2005conservatives}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KDD}{%
+         family={Kirkpatrick},
+         familyi={K\bibinitperiod},
+         given={David\bibnamedelima D},
+         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KDD1}
+    \strng{fullhash}{KDD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{Conservatives pick soft target: A cartoon sponge}
+    \field{volume}{20}
+    \field{journaltitle}{The New York Times}
+    \field{year}{2005}
+  \endentry
+
+  \entry{kotler1989social}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KP}{%
+         family={Kotler},
+         familyi={K\bibinitperiod},
+         given={Philip},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=REL}{%
+         family={Roberto},
+         familyi={R\bibinitperiod},
+         given={Eduardo\bibnamedelima L},
+         giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {New York New York Free Press 1989.}%
+    }
+    \strng{namehash}{KPREL1}
+    \strng{fullhash}{KPREL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{Social marketing. Strategies for changing public behavior.}
+    \field{year}{1989}
+  \endentry
+
+  \entry{kuruvilla2008economic}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KS}{%
+         family={Kuruvilla},
+         familyi={K\bibinitperiod},
+         given={Sarosh},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Ranganathan},
+         familyi={R\bibinitperiod},
+         given={Aruna},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SAGE Publications Sage CA: Los Angeles, CA}%
+    }
+    \strng{namehash}{KSRA1}
+    \strng{fullhash}{KSRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{1}
+    \field{pages}{39\bibrangedash 72}
+    \field{title}{Economic development strategies and macro-and micro-level
+  human resource policies: The case of India's “outsourcing” industry}
+    \field{volume}{62}
+    \field{journaltitle}{ILR Review}
+    \field{year}{2008}
+  \endentry
+
+  \entry{lambe2001social}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LCJ}{%
+         family={Lambe},
+         familyi={L\bibinitperiod},
+         given={C\bibnamedelima Jay},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=WCM}{%
+         family={Wittmann},
+         familyi={W\bibinitperiod},
+         given={C\bibnamedelima Michael},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SRE}{%
+         family={Spekman},
+         familyi={S\bibinitperiod},
+         given={Robert\bibnamedelima E},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{LCJWCMSRE1}
+    \strng{fullhash}{LCJWCMSRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{3}
+    \field{pages}{1\bibrangedash 36}
+    \field{title}{Social exchange theory and research on business-to-business
+  relational exchange}
+    \field{volume}{8}
+    \field{journaltitle}{Journal of Business-to-Business Marketing}
+    \field{year}{2001}
+  \endentry
+
   \entry{markus1987toward}{article}{}
     \name{author}{1}{}{%
       {{hash=MML}{%
@@ -305,6 +767,45 @@
     \field{volume}{14}
     \field{journaltitle}{Communication research}
     \field{year}{1987}
+  \endentry
+
+  \entry{marshall2007families}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MD}{%
+         family={Marshall},
+         familyi={M\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=OS}{%
+         family={O'Donohoe},
+         familyi={O\bibinitperiod},
+         given={Stephanie},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kline},
+         familyi={K\bibinitperiod},
+         given={Stephen},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Online Library}%
+    }
+    \strng{namehash}{MDOSKS1}
+    \strng{fullhash}{MDOSKS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{4}
+    \field{pages}{164\bibrangedash 181}
+    \field{title}{Families, food, and pester power: beyond the blame game?}
+    \field{volume}{6}
+    \field{journaltitle}{Journal of Consumer Behaviour: An International
+  Research Review}
+    \field{year}{2007}
   \endentry
 
   \entry{parboteeah2009religious}{article}{}
@@ -346,6 +847,33 @@
     \field{year}{2009}
   \endentry
 
+  \entry{ponterotto2005qualitative}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PJG}{%
+         family={Ponterotto},
+         familyi={P\bibinitperiod},
+         given={Joseph\bibnamedelima G},
+         giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Psychological Association}%
+    }
+    \strng{namehash}{PJG1}
+    \strng{fullhash}{PJG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{number}{2}
+    \field{pages}{126}
+    \field{title}{Qualitative research in counseling psychology: A primer on
+  research paradigms and philosophy of science.}
+    \field{volume}{52}
+    \field{journaltitle}{Journal of counseling psychology}
+    \field{year}{2005}
+  \endentry
+
   \entry{price2015research}{book}{}
     \name{author}{3}{}{%
       {{hash=PPC}{%
@@ -378,6 +906,88 @@
     \field{sortinithash}{P}
     \field{title}{Research methods in psychology}
     \field{year}{2015}
+  \endentry
+
+  \entry{reverby2009examining}{book}{}
+    \name{author}{1}{}{%
+      {{hash=RSM}{%
+         family={Reverby},
+         familyi={R\bibinitperiod},
+         given={Susan\bibnamedelima M},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Univ of North Carolina Press}%
+    }
+    \strng{namehash}{RSM1}
+    \strng{fullhash}{RSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{Examining Tuskegee: The infamous syphilis study and its
+  legacy}
+    \field{year}{2009}
+  \endentry
+
+  \entry{riedel2005edward}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=RS}{%
+         family={Riedel},
+         familyi={R\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{RS1}
+    \strng{fullhash}{RS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{booktitle}{Baylor University Medical Center Proceedings}
+    \field{number}{1}
+    \field{pages}{21\bibrangedash 25}
+    \field{title}{Edward Jenner and the history of smallpox and vaccination}
+    \field{volume}{18}
+    \field{year}{2005}
+  \endentry
+
+  \entry{schuler1998understanding}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SRS}{%
+         family={Schuler},
+         familyi={S\bibinitperiod},
+         given={Randall\bibnamedelima S},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Rogovsky},
+         familyi={R\bibinitperiod},
+         given={Nikolai},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{SRSRN1}
+    \strng{fullhash}{SRSRN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{1}
+    \field{pages}{159\bibrangedash 177}
+    \field{title}{Understanding compensation practice variations across firms:
+  The impact of national culture}
+    \field{volume}{29}
+    \field{journaltitle}{Journal of International Business Studies}
+    \field{year}{1998}
   \endentry
 
   \entry{sharma2000managerial}{article}{}
@@ -526,6 +1136,57 @@
     \field{year}{1994}
   \endentry
 
+  \entry{sullivan2014food}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SDM}{%
+         family={Sullivan},
+         familyi={S\bibinitperiod},
+         given={Daniel\bibnamedelima Monroe},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SDM1}
+    \strng{fullhash}{SDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{From food desert to food mirage: Race, social class, and food
+  shopping in a gentrifying neighborhood}
+    \field{journaltitle}{Advances in Applied Sociology}
+    \field{year}{2014}
+  \endentry
+
+  \entry{teddlie2006general}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TC}{%
+         family={Teddlie},
+         familyi={T\bibinitperiod},
+         given={Charles},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Tashakkori},
+         familyi={T\bibinitperiod},
+         given={Abbas},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TCTA1}
+    \strng{fullhash}{TCTA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{number}{1}
+    \field{pages}{12\bibrangedash 28}
+    \field{title}{A general typology of research designs featuring mixed
+  methods}
+    \field{volume}{13}
+    \field{journaltitle}{Research in the Schools}
+    \field{year}{2006}
+  \endentry
+
   \entry{twain2014following}{book}{}
     \name{author}{1}{}{%
       {{hash=TM}{%
@@ -573,6 +1234,33 @@
     \field{volume}{14}
     \field{journaltitle}{Academy of management review}
     \field{year}{1989}
+  \endentry
+
+  \entry{yusuf1995critical}{article}{}
+    \name{author}{1}{}{%
+      {{hash=YA}{%
+         family={Yusuf},
+         familyi={Y\bibinitperiod},
+         given={Attahir},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {International Council for Small Business}%
+    }
+    \strng{namehash}{YA1}
+    \strng{fullhash}{YA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{number}{2}
+    \field{pages}{68}
+    \field{title}{Critical success factors for small business: Perceptions of
+  South Pacific entrepreneurs}
+    \field{volume}{33}
+    \field{journaltitle}{Journal of small business management}
+    \field{year}{1995}
   \endentry
 \enddatalist
 \endinput
