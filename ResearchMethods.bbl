@@ -17,62 +17,56 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global}
-  \entry{bacharach1989organizational}{article}{}
+  \entry{akerlof1978market}{incollection}{}
     \name{author}{1}{}{%
-      {{hash=BSB}{%
-         family={Bacharach},
-         familyi={B\bibinitperiod},
-         given={Samuel\bibnamedelima B},
-         giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+      {{hash=AGA}{%
+         family={Akerlof},
+         familyi={A\bibinitperiod},
+         given={George\bibnamedelima A},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {Academy of Management Briarcliff Manor, NY 10510}%
+      {Elsevier}%
     }
-    \strng{namehash}{BSB1}
-    \strng{fullhash}{BSB1}
+    \strng{namehash}{AGA1}
+    \strng{fullhash}{AGA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{number}{4}
-    \field{pages}{496\bibrangedash 515}
-    \field{title}{Organizational theories: Some criteria for evaluation}
-    \field{volume}{14}
-    \field{journaltitle}{Academy of management review}
-    \field{year}{1989}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{booktitle}{Uncertainty in Economics}
+    \field{pages}{235\bibrangedash 251}
+    \field{title}{The market for “lemons”: Quality uncertainty and the
+  market mechanism}
+    \field{year}{1978}
   \endentry
 
-  \entry{bansal2000companies}{article}{}
-    \name{author}{2}{}{%
-      {{hash=BP}{%
-         family={Bansal},
-         familyi={B\bibinitperiod},
-         given={Pratima},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=RK}{%
-         family={Roth},
-         familyi={R\bibinitperiod},
-         given={Kendall},
-         giveni={K\bibinitperiod},
+  \entry{arnett2008neglected}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AJJ}{%
+         family={Arnett},
+         familyi={A\bibinitperiod},
+         given={Jeffrey\bibnamedelima J},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {Academy of Management Briarcliff Manor, NY 10510}%
+      {American Psychological Association}%
     }
-    \strng{namehash}{BPRK1}
-    \strng{fullhash}{BPRK1}
+    \strng{namehash}{AJJ1}
+    \strng{fullhash}{AJJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{number}{4}
-    \field{pages}{717\bibrangedash 736}
-    \field{title}{Why companies go green: A model of ecological responsiveness}
-    \field{volume}{43}
-    \field{journaltitle}{Academy of management journal}
-    \field{year}{2000}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{7}
+    \field{pages}{602}
+    \field{title}{The neglected 95\%: why American psychology needs to become
+  less American.}
+    \field{volume}{63}
+    \field{journaltitle}{American Psychologist}
+    \field{year}{2008}
   \endentry
 
   \entry{bhattacherjee2012social}{article}{}
@@ -95,41 +89,6 @@
     \field{sortinithash}{B}
     \field{title}{Social science research: Principles, methods, and practices}
     \field{year}{2012}
-  \endentry
-
-  \entry{national1978belmont}{book}{}
-    \name{author}{2}{}{%
-      {{hash=ftPoHSoBNC}{%
-         prefix={for the Proptection of Human Subjects\bibnamedelima of},
-         prefixi={f\bibinitperiod\bibinitdelim t\bibinitperiod P\bibinitperiod
-  o\bibinitperiod H\bibinitperiod S\bibinitperiod\bibinitdelim
-  o\bibinitperiod},
-         family={Biomedical},
-         familyi={B\bibinitperiod},
-         given={National\bibnamedelima Commission},
-         giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=BRMB}{%
-         family={Behavioral\bibnamedelima Research},
-         familyi={B\bibinitperiod\bibinitdelim R\bibinitperiod},
-         suffix={Bethesda},
-         suffixi={B\bibinitperiod},
-         given={Md},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Superintendent of Documents}%
-    }
-    \strng{namehash}{BNCftPoHSoBRBM1}
-    \strng{fullhash}{BNCftPoHSoBRBM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{title}{The Belmont report: Ethical principles and guidelines for the
-  protection of human subjects of research}
-    \field{year}{1978}
   \endentry
 
   \entry{blackstone2012principles}{book}{}
@@ -155,723 +114,280 @@
     \field{year}{2012}
   \endentry
 
-  \entry{blee2005racial}{article}{}
+  \entry{denison1990corporate}{book}{}
     \name{author}{1}{}{%
-      {{hash=BKM}{%
-         family={Blee},
-         familyi={B\bibinitperiod},
-         given={Kathleen\bibnamedelima M},
-         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Taylor \& Francis}%
-    }
-    \strng{namehash}{BKM1}
-    \strng{fullhash}{BKM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{number}{4}
-    \field{pages}{599\bibrangedash 619}
-    \field{title}{Racial violence in the United States}
-    \field{volume}{28}
-    \field{journaltitle}{Ethnic and Racial Studies}
-    \field{year}{2005}
-  \endentry
-
-  \entry{bobbitt2013number}{article}{}
-    \name{author}{2}{}{%
-      {{hash=BZD}{%
-         family={Bobbitt-Zeher},
-         familyi={B\bibinitperiod-Z\bibinitperiod},
-         given={Donna},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=DDB}{%
-         family={Downey},
+      {{hash=DDR}{%
+         family={Denison},
          familyi={D\bibinitperiod},
-         given={Douglas\bibnamedelima B},
-         giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Daniel\bibnamedelima R},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {Sage Publications Sage CA: Los Angeles, CA}%
+      {John Wiley \& Sons}%
     }
-    \strng{namehash}{BZDDDB1}
-    \strng{fullhash}{BZDDDB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{number}{9}
-    \field{pages}{1175\bibrangedash 1193}
-    \field{title}{Number of siblings and friendship nominations among
-  adolescents}
-    \field{volume}{34}
-    \field{journaltitle}{Journal of Family Issues}
-    \field{year}{2013}
-  \endentry
-
-  \entry{brewer1989multimethod}{book}{}
-    \name{author}{2}{}{%
-      {{hash=BJ}{%
-         family={Brewer},
-         familyi={B\bibinitperiod},
-         given={John},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=HA}{%
-         family={Hunter},
-         familyi={H\bibinitperiod},
-         given={Albert},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Sage Publications, Inc}%
-    }
-    \strng{namehash}{BJHA1}
-    \strng{fullhash}{BJHA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{title}{Multimethod research: a synthesis of styles.}
-    \field{year}{1989}
-  \endentry
-
-  \entry{bridge2001microgeographies}{article}{}
-    \name{author}{2}{}{%
-      {{hash=BG}{%
-         family={Bridge},
-         familyi={B\bibinitperiod},
-         given={Gary},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=DR}{%
-         family={Dowling},
-         familyi={D\bibinitperiod},
-         given={Robyn},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Taylor \& Francis}%
-    }
-    \strng{namehash}{BGDR1}
-    \strng{fullhash}{BGDR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{number}{1}
-    \field{pages}{93\bibrangedash 107}
-    \field{title}{Microgeographies of retailing and gentrification}
-    \field{volume}{32}
-    \field{journaltitle}{Australian Geographer}
-    \field{year}{2001}
-  \endentry
-
-  \entry{bright2000role}{article}{}
-    \name{author}{1}{}{%
-      {{hash=BAD}{%
-         family={Bright},
-         familyi={B\bibinitperiod},
-         given={Alan\bibnamedelima D},
-         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Taylor \& Francis}%
-    }
-    \strng{namehash}{BAD1}
-    \strng{fullhash}{BAD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{number}{1}
-    \field{pages}{12\bibrangedash 17}
-    \field{title}{The role of social marketing in leisure and recreation
-  management}
-    \field{volume}{32}
-    \field{journaltitle}{Journal of leisure research}
-    \field{year}{2000}
-  \endentry
-
-  \entry{cummings1992exxon}{article}{}
-    \name{author}{1}{}{%
-      {{hash=CAD}{%
-         family={Cummings},
-         familyi={C\bibinitperiod},
-         given={Ann\bibnamedelima D},
-         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {HeinOnline}%
-    }
-    \strng{namehash}{CAD1}
-    \strng{fullhash}{CAD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{pages}{363}
-    \field{title}{The Exxon Valdez Oil Spill and the Confidentiality of Natural
-  Resource Damage Assessment Data}
-    \field{volume}{19}
-    \field{journaltitle}{Ecology LQ}
-    \field{year}{1992}
-  \endentry
-
-  \entry{delaney1996impact}{article}{}
-    \name{author}{2}{}{%
-      {{hash=DJT}{%
-         family={Delaney},
-         familyi={D\bibinitperiod},
-         given={John\bibnamedelima T},
-         giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=HMA}{%
-         family={Huselid},
-         familyi={H\bibinitperiod},
-         given={Mark\bibnamedelima A},
-         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Academy of Management Briarcliff Manor, NY 10510}%
-    }
-    \strng{namehash}{DJTHMA1}
-    \strng{fullhash}{DJTHMA1}
+    \strng{namehash}{DDR1}
+    \strng{fullhash}{DDR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{D}
     \field{sortinithash}{D}
-    \field{number}{4}
-    \field{pages}{949\bibrangedash 969}
-    \field{title}{The impact of human resource management practices on
-  perceptions of organizational performance}
-    \field{volume}{39}
-    \field{journaltitle}{Academy of Management journal}
-    \field{year}{1996}
+    \field{title}{Corporate culture and organizational effectiveness.}
+    \field{year}{1990}
   \endentry
 
-  \entry{eisenhardt2007theory}{article}{}
-    \name{author}{2}{}{%
-      {{hash=EKM}{%
-         family={Eisenhardt},
-         familyi={E\bibinitperiod},
-         given={Kathleen\bibnamedelima M},
-         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=GME}{%
-         family={Graebner},
-         familyi={G\bibinitperiod},
-         given={Melissa\bibnamedelima E},
-         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+  \entry{dillman2011mail}{book}{}
+    \name{author}{1}{}{%
+      {{hash=DDA}{%
+         family={Dillman},
+         familyi={D\bibinitperiod},
+         given={Don\bibnamedelima A},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {JSTOR}%
+      {John Wiley \& Sons}%
     }
-    \strng{namehash}{EKMGME1}
-    \strng{fullhash}{EKMGME1}
+    \strng{namehash}{DDA1}
+    \strng{fullhash}{DDA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{E}
-    \field{sortinithash}{E}
-    \field{number}{1}
-    \field{pages}{25\bibrangedash 32}
-    \field{title}{Theory building from cases: Opportunities and challenges}
-    \field{volume}{50}
-    \field{journaltitle}{The Academy of Management Journal}
-    \field{year}{2007}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Mail and Internet surveys: The tailored design method--2007
+  Update with new Internet, visual, and mixed-mode guide}
+    \field{year}{2011}
   \endentry
 
-  \entry{ellwood2000getting}{article}{}
+  \entry{drost2011validity}{article}{}
     \true{moreauthor}
-    \name{author}{2}{}{%
-      {{hash=ED}{%
-         family={Ellwood},
-         familyi={E\bibinitperiod},
-         given={David},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=KTJ}{%
-         family={Kane},
-         familyi={K\bibinitperiod},
-         given={Thomas\bibnamedelima J},
-         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{EDKTJ+1}
-    \strng{fullhash}{EDKTJ+1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{E}
-    \field{sortinithash}{E}
-    \field{pages}{283\bibrangedash 324}
-    \field{title}{Who is getting a college education? Family background and the
-  growing gaps in enrollment}
-    \field{journaltitle}{Securing the future: Investing in children from birth
-  to college}
-    \field{year}{2000}
-  \endentry
-
-  \entry{esterberg2002qualitative}{article}{}
     \name{author}{1}{}{%
-      {{hash=EKG}{%
-         family={Esterberg},
-         familyi={E\bibinitperiod},
-         given={Kristin\bibnamedelima G},
-         giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod},
+      {{hash=DEA}{%
+         family={Drost},
+         familyi={D\bibinitperiod},
+         given={Ellen\bibnamedelima A},
+         giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {McGraw-Hill Boston, MA}%
+      {University of Western Australia, Department of Education}%
     }
-    \strng{namehash}{EKG1}
-    \strng{fullhash}{EKG1}
+    \strng{namehash}{DEA+1}
+    \strng{fullhash}{DEA+1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{E}
-    \field{sortinithash}{E}
-    \field{title}{Qualitative methods in social research}
-    \field{year}{2002}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{1}
+    \field{pages}{105}
+    \field{title}{Validity and reliability in social science research}
+    \field{volume}{38}
+    \field{journaltitle}{Education Research and perspectives}
+    \field{year}{2011}
   \endentry
 
-  \entry{faden1986history}{book}{}
-    \name{author}{2}{}{%
-      {{hash=FRR}{%
-         family={Faden},
-         familyi={F\bibinitperiod},
-         given={Ruth\bibnamedelima R},
-         giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=BTL}{%
-         family={Beauchamp},
-         familyi={B\bibinitperiod},
-         given={Tom\bibnamedelima L},
-         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Oxford University Press}%
-    }
-    \strng{namehash}{FRRBTL1}
-    \strng{fullhash}{FRRBTL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{F}
-    \field{sortinithash}{F}
-    \field{title}{A history and theory of informed consent}
-    \field{year}{1986}
-  \endentry
-
-  \entry{green2006direct}{article}{}
+  \entry{george1996image}{misc}{}
     \name{author}{1}{}{%
-      {{hash=GRM}{%
-         family={Green},
+      {{hash=GM}{%
+         family={George},
          familyi={G\bibinitperiod},
-         given={Ronald\bibnamedelima M},
-         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={Moose},
+         giveni={M\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {HeinOnline}%
+      {New York/Oxford}%
     }
-    \strng{namehash}{GRM1}
-    \strng{fullhash}{GRM1}
+    \strng{namehash}{GM1}
+    \strng{fullhash}{GM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{G}
     \field{sortinithash}{G}
-    \field{pages}{749}
-    \field{title}{Direct-to-consumer advertising and pharmaceutical ethics: The
-  case of Vioxx}
-    \field{volume}{35}
-    \field{journaltitle}{Hofstra L. Rev.}
-    \field{year}{2006}
+    \field{title}{The image of man}
+    \field{year}{1996}
   \endentry
 
-  \entry{hackman1976motivation}{article}{}
-    \name{author}{2}{}{%
-      {{hash=HJR}{%
-         family={Hackman},
+  \entry{henrich2010most}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HJ}{%
+         family={Henrich},
          familyi={H\bibinitperiod},
-         given={J\bibnamedelima Richard},
-         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
       }}%
-      {{hash=OGR}{%
-         family={Oldham},
-         familyi={O\bibinitperiod},
-         given={Greg\bibnamedelima R},
-         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{HJROGR1}
-    \strng{fullhash}{HJROGR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{number}{2}
-    \field{pages}{250\bibrangedash 279}
-    \field{title}{Motivation through the design of work: Test of a theory}
-    \field{volume}{16}
-    \field{journaltitle}{Organizational behavior and human performance}
-    \field{year}{1976}
-  \endentry
-
-  \entry{hechavarria2009cultural}{article}{}
-    \name{author}{2}{}{%
-      {{hash=HDM}{%
-         family={Hechavarria},
+      {{hash=HSJ}{%
+         family={Heine},
          familyi={H\bibinitperiod},
-         given={Diana\bibnamedelima M},
-         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={Steven\bibnamedelima J},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
-      {{hash=RPD}{%
-         family={Reynolds},
-         familyi={R\bibinitperiod},
-         given={Paul\bibnamedelima D},
-         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer}%
-    }
-    \strng{namehash}{HDMRPD1}
-    \strng{fullhash}{HDMRPD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{number}{4}
-    \field{pages}{417}
-    \field{title}{Cultural norms \& business start-ups: the impact of national
-  values on opportunity and necessity entrepreneurs}
-    \field{volume}{5}
-    \field{journaltitle}{International Entrepreneurship and Management Journal}
-    \field{year}{2009}
-  \endentry
-
-  \entry{huck1991competencies}{article}{}
-    \name{author}{2}{}{%
-      {{hash=HJF}{%
-         family={Huck},
-         familyi={H\bibinitperiod},
-         given={John\bibnamedelima F},
-         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-      {{hash=MT}{%
-         family={McEwen},
-         familyi={M\bibinitperiod},
-         given={Thaddeus},
-         giveni={T\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {International Council for Small Business}%
-    }
-    \strng{namehash}{HJFMT1}
-    \strng{fullhash}{HJFMT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{number}{4}
-    \field{pages}{90}
-    \field{title}{Competencies needed for small business success: perceptions}
-    \field{volume}{29}
-    \field{journaltitle}{Journal of Small Business Management}
-    \field{year}{1991}
-  \endentry
-
-  \entry{humphreys1970tearoom}{article}{}
-    \name{author}{1}{}{%
-      {{hash=HL}{%
-         family={Humphreys},
-         familyi={H\bibinitperiod},
-         given={Laud},
-         giveni={L\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer}%
-    }
-    \strng{namehash}{HL1}
-    \strng{fullhash}{HL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{number}{3}
-    \field{pages}{10\bibrangedash 25}
-    \field{title}{Tearoom trade}
-    \field{volume}{7}
-    \field{journaltitle}{Trans-action}
-    \field{year}{1970}
-  \endentry
-
-  \entry{kirkpatrick2005conservatives}{article}{}
-    \name{author}{1}{}{%
-      {{hash=KDD}{%
-         family={Kirkpatrick},
-         familyi={K\bibinitperiod},
-         given={David\bibnamedelima D},
-         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KDD1}
-    \strng{fullhash}{KDD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{title}{Conservatives pick soft target: A cartoon sponge}
-    \field{volume}{20}
-    \field{journaltitle}{The New York Times}
-    \field{year}{2005}
-  \endentry
-
-  \entry{kotler1989social}{article}{}
-    \name{author}{2}{}{%
-      {{hash=KP}{%
-         family={Kotler},
-         familyi={K\bibinitperiod},
-         given={Philip},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=REL}{%
-         family={Roberto},
-         familyi={R\bibinitperiod},
-         given={Eduardo\bibnamedelima L},
-         giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {New York New York Free Press 1989.}%
-    }
-    \strng{namehash}{KPREL1}
-    \strng{fullhash}{KPREL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{title}{Social marketing. Strategies for changing public behavior.}
-    \field{year}{1989}
-  \endentry
-
-  \entry{kuruvilla2008economic}{article}{}
-    \name{author}{2}{}{%
-      {{hash=KS}{%
-         family={Kuruvilla},
-         familyi={K\bibinitperiod},
-         given={Sarosh},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=RA}{%
-         family={Ranganathan},
-         familyi={R\bibinitperiod},
-         given={Aruna},
+      {{hash=NA}{%
+         family={Norenzayan},
+         familyi={N\bibinitperiod},
+         given={Ara},
          giveni={A\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {SAGE Publications Sage CA: Los Angeles, CA}%
+      {Nature Publishing Group}%
     }
-    \strng{namehash}{KSRA1}
-    \strng{fullhash}{KSRA1}
+    \strng{namehash}{HJHSJNA1}
+    \strng{fullhash}{HJHSJNA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{7302}
+    \field{pages}{29}
+    \field{title}{Most people are not WEIRD}
+    \field{volume}{466}
+    \field{journaltitle}{Nature}
+    \field{year}{2010}
+  \endentry
+
+  \entry{hom1995employee}{book}{}
+    \name{author}{2}{}{%
+      {{hash=HPW}{%
+         family={Hom},
+         familyi={H\bibinitperiod},
+         given={Peter\bibnamedelima W},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=GRW}{%
+         family={Griffeth},
+         familyi={G\bibinitperiod},
+         given={Rodger\bibnamedelima W},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {South-Western Pub}%
+    }
+    \strng{namehash}{HPWGRW1}
+    \strng{fullhash}{HPWGRW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Employee turnover}
+    \field{year}{1995}
+  \endentry
+
+  \entry{hughes2006evidence}{report}{}
+    \name{author}{3}{}{%
+      {{hash=HJE}{%
+         family={Hughes},
+         familyi={H\bibinitperiod},
+         given={Jonathan\bibnamedelima E},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=KCR}{%
+         family={Knittel},
+         familyi={K\bibinitperiod},
+         given={Christopher\bibnamedelima R},
+         giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Sperling},
+         familyi={S\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HJEKCRSD1}
+    \strng{fullhash}{HJEKCRSD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Evidence of a shift in the short-run price elasticity of
+  gasoline demand}
+    \list{institution}{1}{%
+      {National Bureau of Economic Research}%
+    }
+    \field{type}{techreport}
+    \field{year}{2006}
+  \endentry
+
+  \entry{israel1992determining}{article}{}
+    \name{author}{1}{}{%
+      {{hash=IGD}{%
+         family={Israel},
+         familyi={I\bibinitperiod},
+         given={Glenn\bibnamedelima D},
+         giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {University of Florida Cooperative Extension Service, Institute of Food}%
+      {Agriculture Sciences, EDIS Gainesville}%
+    }
+    \strng{namehash}{IGD1}
+    \strng{fullhash}{IGD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{Determining sample size}
+    \field{year}{1992}
+  \endentry
+
+  \entry{kaplan2017conduct}{book}{}
+    \name{author}{1}{}{%
+      {{hash=KA}{%
+         family={Kaplan},
+         familyi={K\bibinitperiod},
+         given={Abraham},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Routledge}%
+    }
+    \strng{namehash}{KA1}
+    \strng{fullhash}{KA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{K}
     \field{sortinithash}{K}
-    \field{number}{1}
-    \field{pages}{39\bibrangedash 72}
-    \field{title}{Economic development strategies and macro-and micro-level
-  human resource policies: The case of India's “outsourcing” industry}
-    \field{volume}{62}
-    \field{journaltitle}{ILR Review}
-    \field{year}{2008}
+    \field{title}{The conduct of inquiry: Methodology for behavioural science}
+    \field{year}{2017}
   \endentry
 
-  \entry{lambe2001social}{article}{}
+  \entry{keeter2008calling}{article}{}
     \name{author}{3}{}{%
-      {{hash=LCJ}{%
-         family={Lambe},
-         familyi={L\bibinitperiod},
-         given={C\bibnamedelima Jay},
-         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=WCM}{%
-         family={Wittmann},
-         familyi={W\bibinitperiod},
-         given={C\bibnamedelima Michael},
-         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=SRE}{%
-         family={Spekman},
-         familyi={S\bibinitperiod},
-         given={Robert\bibnamedelima E},
-         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Taylor \& Francis}%
-    }
-    \strng{namehash}{LCJWCMSRE1}
-    \strng{fullhash}{LCJWCMSRE1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{L}
-    \field{sortinithash}{L}
-    \field{number}{3}
-    \field{pages}{1\bibrangedash 36}
-    \field{title}{Social exchange theory and research on business-to-business
-  relational exchange}
-    \field{volume}{8}
-    \field{journaltitle}{Journal of Business-to-Business Marketing}
-    \field{year}{2001}
-  \endentry
-
-  \entry{markus1987toward}{article}{}
-    \name{author}{1}{}{%
-      {{hash=MML}{%
-         family={Markus},
-         familyi={M\bibinitperiod},
-         given={M\bibnamedelima Lynne},
-         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Sage Newbury Park}%
-    }
-    \strng{namehash}{MML1}
-    \strng{fullhash}{MML1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{number}{5}
-    \field{pages}{491\bibrangedash 511}
-    \field{title}{Toward a “critical mass” theory of interactive media:
-  Universal access, interdependence and diffusion}
-    \field{volume}{14}
-    \field{journaltitle}{Communication research}
-    \field{year}{1987}
-  \endentry
-
-  \entry{marshall2007families}{article}{}
-    \name{author}{3}{}{%
-      {{hash=MD}{%
-         family={Marshall},
-         familyi={M\bibinitperiod},
-         given={David},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=OS}{%
-         family={O'Donohoe},
-         familyi={O\bibinitperiod},
-         given={Stephanie},
-         giveni={S\bibinitperiod},
-      }}%
       {{hash=KS}{%
-         family={Kline},
+         family={Keeter},
          familyi={K\bibinitperiod},
-         given={Stephen},
+         given={Scott},
          giveni={S\bibinitperiod},
       }}%
-    }
-    \list{publisher}{1}{%
-      {Wiley Online Library}%
-    }
-    \strng{namehash}{MDOSKS1}
-    \strng{fullhash}{MDOSKS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{number}{4}
-    \field{pages}{164\bibrangedash 181}
-    \field{title}{Families, food, and pester power: beyond the blame game?}
-    \field{volume}{6}
-    \field{journaltitle}{Journal of Consumer Behaviour: An International
-  Research Review}
-    \field{year}{2007}
-  \endentry
-
-  \entry{parboteeah2009religious}{article}{}
-    \name{author}{3}{}{%
-      {{hash=PKP}{%
-         family={Parboteeah},
-         familyi={P\bibinitperiod},
-         given={K\bibnamedelima Praveen},
-         giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod},
+      {{hash=DM}{%
+         family={Dimock},
+         familyi={D\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
       }}%
-      {{hash=PY}{%
-         family={Paik},
-         familyi={P\bibinitperiod},
-         given={Yongsun},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=CJB}{%
-         family={Cullen},
+      {{hash=CL}{%
+         family={Christian},
          familyi={C\bibinitperiod},
-         given={John\bibnamedelima B},
-         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+         given={Leah},
+         giveni={L\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {SAGE Publications Sage UK: London, England}%
-    }
-    \strng{namehash}{PKPPYCJB1}
-    \strng{fullhash}{PKPPYCJB1}
+    \strng{namehash}{KSDMCL1}
+    \strng{fullhash}{KSDMCL1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{number}{1}
-    \field{pages}{51\bibrangedash 67}
-    \field{title}{Religious groups and work values: A focus on Buddhism,
-  Christianity, Hinduism, and Islam}
-    \field{volume}{9}
-    \field{journaltitle}{International Journal of Cross Cultural Management}
-    \field{year}{2009}
-  \endentry
-
-  \entry{ponterotto2005qualitative}{article}{}
-    \name{author}{1}{}{%
-      {{hash=PJG}{%
-         family={Ponterotto},
-         familyi={P\bibinitperiod},
-         given={Joseph\bibnamedelima G},
-         giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {American Psychological Association}%
-    }
-    \strng{namehash}{PJG1}
-    \strng{fullhash}{PJG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{number}{2}
-    \field{pages}{126}
-    \field{title}{Qualitative research in counseling psychology: A primer on
-  research paradigms and philosophy of science.}
-    \field{volume}{52}
-    \field{journaltitle}{Journal of counseling psychology}
-    \field{year}{2005}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{pages}{2008}
+    \field{title}{Calling cell phones in’08 pre-election polls}
+    \field{volume}{18}
+    \field{journaltitle}{The Pew Research Center for the People \& the Press.
+  Retrieved December}
+    \field{year}{2008}
   \endentry
 
   \entry{price2015research}{book}{}
@@ -908,359 +424,75 @@
     \field{year}{2015}
   \endentry
 
-  \entry{reverby2009examining}{book}{}
+  \entry{reich2016saving}{book}{}
     \name{author}{1}{}{%
-      {{hash=RSM}{%
-         family={Reverby},
+      {{hash=RRB}{%
+         family={Reich},
          familyi={R\bibinitperiod},
-         given={Susan\bibnamedelima M},
-         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={Robert\bibnamedelima B},
+         giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {Univ of North Carolina Press}%
+      {Vintage}%
     }
-    \strng{namehash}{RSM1}
-    \strng{fullhash}{RSM1}
+    \strng{namehash}{RRB1}
+    \strng{fullhash}{RRB1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{R}
     \field{sortinithash}{R}
-    \field{title}{Examining Tuskegee: The infamous syphilis study and its
-  legacy}
+    \field{title}{Saving capitalism: For the many, not the few}
+    \field{year}{2016}
+  \endentry
+
+  \entry{shinebourne2009using}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SP}{%
+         family={Shinebourne},
+         familyi={S\bibinitperiod},
+         given={Pnina},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SAGE Publications Sage CA: Los Angeles, CA}%
+    }
+    \strng{namehash}{SP1}
+    \strng{fullhash}{SP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{1}
+    \field{pages}{93\bibrangedash 97}
+    \field{title}{Using Q method in qualitative research}
+    \field{volume}{8}
+    \field{journaltitle}{International Journal of Qualitative Methods}
     \field{year}{2009}
   \endentry
 
-  \entry{riedel2005edward}{inproceedings}{}
+  \entry{stevens1946theory}{article}{}
+    \true{moreauthor}
     \name{author}{1}{}{%
-      {{hash=RS}{%
-         family={Riedel},
-         familyi={R\bibinitperiod},
-         given={Stefan},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \list{organization}{1}{%
-      {Taylor \& Francis}%
-    }
-    \strng{namehash}{RS1}
-    \strng{fullhash}{RS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{booktitle}{Baylor University Medical Center Proceedings}
-    \field{number}{1}
-    \field{pages}{21\bibrangedash 25}
-    \field{title}{Edward Jenner and the history of smallpox and vaccination}
-    \field{volume}{18}
-    \field{year}{2005}
-  \endentry
-
-  \entry{schuler1998understanding}{article}{}
-    \name{author}{2}{}{%
-      {{hash=SRS}{%
-         family={Schuler},
+      {{hash=SSS}{%
+         family={Stevens},
          familyi={S\bibinitperiod},
-         given={Randall\bibnamedelima S},
-         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=RN}{%
-         family={Rogovsky},
-         familyi={R\bibinitperiod},
-         given={Nikolai},
-         giveni={N\bibinitperiod},
+         given={Stanley\bibnamedelima Smith},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {Springer}%
+      {Bobbs-Merrill, College Division}%
     }
-    \strng{namehash}{SRSRN1}
-    \strng{fullhash}{SRSRN1}
+    \strng{namehash}{SSS+1}
+    \strng{fullhash}{SSS+1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{sortinit}{S}
     \field{sortinithash}{S}
-    \field{number}{1}
-    \field{pages}{159\bibrangedash 177}
-    \field{title}{Understanding compensation practice variations across firms:
-  The impact of national culture}
-    \field{volume}{29}
-    \field{journaltitle}{Journal of International Business Studies}
-    \field{year}{1998}
-  \endentry
-
-  \entry{sharma2000managerial}{article}{}
-    \name{author}{1}{}{%
-      {{hash=SS}{%
-         family={Sharma},
-         familyi={S\bibinitperiod},
-         given={Sanjay},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Academy of Management Briarcliff Manor, NY 10510}%
-    }
-    \strng{namehash}{SS1}
-    \strng{fullhash}{SS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{number}{4}
-    \field{pages}{681\bibrangedash 697}
-    \field{title}{Managerial interpretations and organizational context as
-  predictors of corporate choice of environmental strategy}
-    \field{volume}{43}
-    \field{journaltitle}{Academy of Management journal}
-    \field{year}{2000}
-  \endentry
-
-  \entry{sherman1984specific}{article}{}
-    \name{author}{2}{}{%
-      {{hash=SLW}{%
-         family={Sherman},
-         familyi={S\bibinitperiod},
-         given={Lawrence\bibnamedelima W},
-         giveni={L\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-      {{hash=BRA}{%
-         family={Berk},
-         familyi={B\bibinitperiod},
-         given={Richard\bibnamedelima A},
-         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {JSTOR}%
-    }
-    \strng{namehash}{SLWBRA1}
-    \strng{fullhash}{SLWBRA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{pages}{261\bibrangedash 272}
-    \field{title}{The specific deterrent effects of arrest for domestic
-  assault}
-    \field{journaltitle}{American sociological review}
-    \field{year}{1984}
-  \endentry
-
-  \entry{sia2009employees}{article}{}
-    \name{author}{2}{}{%
-      {{hash=SSK}{%
-         family={Sia},
-         familyi={S\bibinitperiod},
-         given={Surendra\bibnamedelima Kumar},
-         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=BG}{%
-         family={Bhardwaj},
-         familyi={B\bibinitperiod},
-         given={Gopa},
-         giveni={G\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SSKBG1}
-    \strng{fullhash}{SSKBG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{number}{2}
-    \field{pages}{305\bibrangedash 312}
-    \field{title}{Employees’ perception of diversity climate: role of
-  psychological contract}
-    \field{volume}{35}
-    \field{journaltitle}{Journal of the Indian Academy of Applied Psychology}
-    \field{year}{2009}
-  \endentry
-
-  \entry{steinfield1990theory}{article}{}
-    \name{author}{2}{}{%
-      {{hash=SCW}{%
-         family={Steinfield},
-         familyi={S\bibinitperiod},
-         given={Charles\bibnamedelima W},
-         giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-      {{hash=FJ}{%
-         family={Fulk},
-         familyi={F\bibinitperiod},
-         given={Janet},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Sage Newbury Park, CA}%
-    }
-    \strng{namehash}{SCWFJ1}
-    \strng{fullhash}{SCWFJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{pages}{13\bibrangedash 25}
-    \field{title}{The theory imperative}
-    \field{journaltitle}{Organizations and communication technology}
-    \field{year}{1990}
-  \endentry
-
-  \entry{strauss1994grounded}{article}{}
-    \name{author}{2}{}{%
-      {{hash=SA}{%
-         family={Strauss},
-         familyi={S\bibinitperiod},
-         given={Anselm},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=CJ}{%
-         family={Corbin},
-         familyi={C\bibinitperiod},
-         given={Juliet},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SACJ1}
-    \strng{fullhash}{SACJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{pages}{273\bibrangedash 85}
-    \field{title}{Grounded theory methodology}
-    \field{volume}{17}
-    \field{journaltitle}{Handbook of qualitative research}
-    \field{year}{1994}
-  \endentry
-
-  \entry{sullivan2014food}{article}{}
-    \name{author}{1}{}{%
-      {{hash=SDM}{%
-         family={Sullivan},
-         familyi={S\bibinitperiod},
-         given={Daniel\bibnamedelima Monroe},
-         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SDM1}
-    \strng{fullhash}{SDM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{title}{From food desert to food mirage: Race, social class, and food
-  shopping in a gentrifying neighborhood}
-    \field{journaltitle}{Advances in Applied Sociology}
-    \field{year}{2014}
-  \endentry
-
-  \entry{teddlie2006general}{article}{}
-    \name{author}{2}{}{%
-      {{hash=TC}{%
-         family={Teddlie},
-         familyi={T\bibinitperiod},
-         given={Charles},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=TA}{%
-         family={Tashakkori},
-         familyi={T\bibinitperiod},
-         given={Abbas},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{TCTA1}
-    \strng{fullhash}{TCTA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \field{number}{1}
-    \field{pages}{12\bibrangedash 28}
-    \field{title}{A general typology of research designs featuring mixed
-  methods}
-    \field{volume}{13}
-    \field{journaltitle}{Research in the Schools}
-    \field{year}{2006}
-  \endentry
-
-  \entry{twain2014following}{book}{}
-    \name{author}{1}{}{%
-      {{hash=TM}{%
-         family={Twain},
-         familyi={T\bibinitperiod},
-         given={Mark},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{2}{%
-      {Simon}%
-      {Schuster}%
-    }
-    \strng{namehash}{TM1}
-    \strng{fullhash}{TM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \field{title}{Following the Equator:(With Original Illustrations)}
-    \field{year}{2014}
-  \endentry
-
-  \entry{whetten1989constitutes}{article}{}
-    \name{author}{1}{}{%
-      {{hash=WDA}{%
-         family={Whetten},
-         familyi={W\bibinitperiod},
-         given={David\bibnamedelima A},
-         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Academy of Management Briarcliff Manor, NY 10510}%
-    }
-    \strng{namehash}{WDA1}
-    \strng{fullhash}{WDA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{W}
-    \field{sortinithash}{W}
-    \field{number}{4}
-    \field{pages}{490\bibrangedash 495}
-    \field{title}{What constitutes a theoretical contribution?}
-    \field{volume}{14}
-    \field{journaltitle}{Academy of management review}
-    \field{year}{1989}
-  \endentry
-
-  \entry{yusuf1995critical}{article}{}
-    \name{author}{1}{}{%
-      {{hash=YA}{%
-         family={Yusuf},
-         familyi={Y\bibinitperiod},
-         given={Attahir},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {International Council for Small Business}%
-    }
-    \strng{namehash}{YA1}
-    \strng{fullhash}{YA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{Y}
-    \field{sortinithash}{Y}
-    \field{number}{2}
-    \field{pages}{68}
-    \field{title}{Critical success factors for small business: Perceptions of
-  South Pacific entrepreneurs}
-    \field{volume}{33}
-    \field{journaltitle}{Journal of small business management}
-    \field{year}{1995}
+    \field{title}{On the theory of scales of measurement}
+    \field{year}{1946}
   \endentry
 \enddatalist
 \endinput
