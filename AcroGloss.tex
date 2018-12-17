@@ -6,7 +6,7 @@
 % The ``definition'' is what the user sees in the glossary
 %\newacronym{code}{name}{Definition}
 
-\newacronym{nasa}{NASA}{National Aeronatics and Space Administration}
+%\newacronym{nasa}{NASA}{National Aeronatics and Space Administration}
 
 % Glossary
 % The ``code'' is what I use in the document to link to a definition here
@@ -25,21 +25,89 @@
 % Note that a glossary entry will not be printed if it is not in the
 % main text somewhere.
 
-\newglossaryentry{myphone}{
-	name={George's Phone},
-	description={(520) 335-2958},
-	see={myaddr}
-}
-
-\newglossaryentry{myaddr}{
-	name={George's Address},
-	description={Cochise College Downtown Center}
-}
+%\newglossaryentry{myphone}{
+%	name={George's Phone},
+%	description={(520) 335-2958},
+%	see={myaddr}
+%}
 
 % For long entries, the percent sign after the opening brace
 % removes the CR/LF so you don't get an extra vertical space
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapter 01
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \longnewglossaryentry{constr}
-	{name={constructivism}}
+{name={constructivism}}
+{%
+	A philosophical stance that reality is a construct of the human mind and is, therefore, subjective. Normally, qualitative research methods are used by researchers who are constructivists.
+}
+
+\longnewglossaryentry{deduc}
+{name={deductive research}}
+{%
+	A research methodology that works from a general theory to specific observations. This is sometimes called the ``theory-testing'' form of research.
+}
+
+\newglossaryentry{episto}{
+	name={epistomology}, 
+	description={A branch of philosophy that is concerned with the sources of knowledge.}
+}
+
+\longnewglossaryentry{falsi}
+{name={falsifiability}}
+{%
+	To have credence, a hypothesis must be disprovable; that is, there must be a way to prove it wrong.
+}
+
+\longnewglossaryentry{idiog}
+{name={idiographic}}
+{%
+	An explanation for an observed phenomenon that explains only a single case and is not applicable to a wider population.
+}
+
+\longnewglossaryentry{induct}
+{name={inductive research}}
+{%
+	A research methodology that works from specific observations to a general theory. This is sometimes called the ``theory-building'' form of research.
+}
+
+\longnewglossaryentry{nomo}
+{name={nomothetic}}
+{%
+	An explanation for an observed phenomenon that is applicable across a wide population rather than a single example.
+}
+
+\longnewglossaryentry{objec}
+{name={objectivism}}
+{%
+	A philosophical stance that there exists an objective reality can be studied and understood.
+}
+
+\newglossaryentry{ontol}{
+	name={ontology},
+	description={The branch of philosophy that is concerned with the nature of reality.}
+}
+
+\newglossaryentry{parad}{
+	name={paradigm},
+	description={A pattern or model of how things work in the world.}
+}
+
+\longnewglossaryentry{parsi}
+	{name={parsimony}}
 	{%
-	  A philosophical stance that reality is a construct of the human mind and is, therefore, subjective. Normally, qualitative research methods are used by researchers who are constructivists.
-    }
+		A fundamental aspect of research that states if two or more competing explanations are considered then the simplest must be accepted. Thus, researcher would state that the pyramids were built by humans using known technology rather than aliens in spaceships.
+	}
+
+\longnewglossaryentry{prec}
+	{name={precision}}
+	{%
+		Research projects must precisely focus on one aspect of a problem or they will become so broad that their value will be diminished.
+	}
+
+\longnewglossaryentry{repli}
+	{name={replicability}}
+	{%
+		A research project must be able to be replicated by other researchers or at other times in order to be considered sound.
+	}

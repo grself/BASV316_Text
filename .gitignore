@@ -12,6 +12,20 @@
 *.cb2
 .*.lb
 
+## Core latex/pdflatex auxiliary files in the chapters directory:
+Chapters/*.aux
+Chapters/*.lof
+Chapters/*.log
+Chapters/*.lot
+Chapters/*.fls
+Chapters/*.out
+Chapters/*.toc
+Chapters/*.fmt
+Chapters/*.fot
+Chapters/*.cb
+Chapters/*.cb2
+Chapters/.*.lb
+
 ## Intermediate documents:
 *.dvi
 *.xdv
