@@ -4,11 +4,23 @@ A level-1 auxiliary file: FrontBackmatter/Titlepage.aux
 A level-1 auxiliary file: FrontBackmatter/Titleback.aux
 A level-1 auxiliary file: FrontBackmatter/Foreword.aux
 A level-1 auxiliary file: FrontBackmatter/Contents.aux
+<<<<<<< HEAD
 A level-1 auxiliary file: Chapters/01Intro.aux
 A level-1 auxiliary file: Chapters/00Appendix.aux
 A level-1 auxiliary file: FrontBackmatter/Glossary.aux
+=======
+A level-1 auxiliary file: Chapters/05Measuring.aux
+A level-1 auxiliary file: Chapters/06Data.aux
+A level-1 auxiliary file: Chapters/07Sampling.aux
+A level-1 auxiliary file: Chapters/08Surveys.aux
+A level-1 auxiliary file: Chapters/00Appendix.aux
+>>>>>>> master
 A level-1 auxiliary file: FrontBackmatter/Bibliography.aux
 A level-1 auxiliary file: FrontBackmatter/Colophon.aux
 Database file #1: ResearchMethods-blx.bib
 Database file #2: ResearchMethods.bib
+<<<<<<< HEAD
 Biblatex version: 3.11
+=======
+Biblatex version: 3.8
+>>>>>>> master

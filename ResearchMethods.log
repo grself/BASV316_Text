@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.24)  17 DEC 2018 13:19
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.10)  28 OCT 2018 09:04
+>>>>>>> master
 entering extended mode
 **./ResearchMethods.tex
 (ResearchMethods.tex
@@ -328,6 +332,7 @@ Package csquotes Info: ... configuration file loaded successfully.
 (E:\Programs\MikTex\tex\latex\csquotes\csquotes.cfg
 File: csquotes.cfg 
 ))
+<<<<<<< HEAD
 (E:\Programs\MikTex\tex\latex\biblatex\biblatex.sty
 Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
 
@@ -336,6 +341,16 @@ Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 (E:\Programs\MikTex\tex\generic\oberdiek\ifpdf.sty
+=======
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.sty
+Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+>>>>>>> master
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -343,6 +358,7 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+<<<<<<< HEAD
 (E:\Programs\MikTex\tex\latex\logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count103
@@ -350,6 +366,23 @@ Package: logreq 2010/08/04 v1.0 xml request logger
 (E:\Programs\MikTex\tex\latex\logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
+=======
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count101
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+\@xs@message=\write3
+\integerpart=\count102
+\decimalpart=\count103
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+>>>>>>> master
 \c@tabx@nest=\count104
 \c@listtotal=\count105
 \c@listcount=\count106
@@ -365,6 +398,7 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \c@maxitems=\count116
 \c@minitems=\count117
 \c@citecounter=\count118
+<<<<<<< HEAD
 \c@maxcitecounter=\count119
 \c@savedcitecounter=\count120
 \c@uniquelist=\count121
@@ -410,10 +444,53 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 (E:\Programs\MikTex\tex\latex\biblatex\blx-dm.def
 File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
+=======
+\c@savedcitecounter=\count119
+\c@uniquelist=\count120
+\c@uniquename=\count121
+\c@refsection=\count122
+\c@refsegment=\count123
+\c@maxextratitle=\count124
+\c@maxextratitleyear=\count125
+\c@maxextradate=\count126
+\c@maxextraalpha=\count127
+\c@abbrvpenalty=\count128
+\c@highnamepenalty=\count129
+\c@lownamepenalty=\count130
+\c@maxparens=\count131
+\c@parenlevel=\count132
+\blx@tempcnta=\count133
+\blx@tempcntb=\count134
+\blx@tempcntc=\count135
+\blx@maxsection=\count136
+\blx@maxsegment@0=\count137
+\blx@notetype=\count138
+\blx@parenlevel@text=\count139
+\blx@parenlevel@foot=\count140
+\blx@sectionciteorder@0=\count141
+\labelnumberwidth=\skip61
+\labelalphawidth=\skip62
+\biblabelsep=\skip63
+\bibitemsep=\skip64
+\bibnamesep=\skip65
+\bibinitsep=\skip66
+\bibparsep=\skip67
+\bibhang=\skip68
+\blx@bcfin=\read2
+\blx@bcfout=\write4
+\c@mincomprange=\count142
+\c@maxcomprange=\count143
+\c@mincompwidth=\count144
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-dm.def)
+>>>>>>> master
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+<<<<<<< HEAD
 \c@afterword=\count148
 \c@savedafterword=\count149
 \c@annotator=\count150
@@ -501,12 +578,98 @@ Package biblatex Info: ... file 'blx-compat.def' found.
 
 (E:\Programs\MikTex\tex\latex\biblatex\blx-compat.def
 File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+=======
+\c@afterword=\count145
+\c@savedafterword=\count146
+\c@annotator=\count147
+\c@savedannotator=\count148
+\c@author=\count149
+\c@savedauthor=\count150
+\c@bookauthor=\count151
+\c@savedbookauthor=\count152
+\c@commentator=\count153
+\c@savedcommentator=\count154
+\c@editor=\count155
+\c@savededitor=\count156
+\c@editora=\count157
+\c@savededitora=\count158
+\c@editorb=\count159
+\c@savededitorb=\count160
+\c@editorc=\count161
+\c@savededitorc=\count162
+\c@foreword=\count163
+\c@savedforeword=\count164
+\c@holder=\count165
+\c@savedholder=\count166
+\c@introduction=\count167
+\c@savedintroduction=\count168
+\c@namea=\count169
+\c@savednamea=\count170
+\c@nameb=\count171
+\c@savednameb=\count172
+\c@namec=\count173
+\c@savednamec=\count174
+\c@translator=\count175
+\c@savedtranslator=\count176
+\c@shortauthor=\count177
+\c@savedshortauthor=\count178
+\c@shorteditor=\count179
+\c@savedshorteditor=\count180
+\c@labelname=\count181
+\c@savedlabelname=\count182
+\c@institution=\count183
+\c@savedinstitution=\count184
+\c@lista=\count185
+\c@savedlista=\count186
+\c@listb=\count187
+\c@savedlistb=\count188
+\c@listc=\count189
+\c@savedlistc=\count190
+\c@listd=\count191
+\c@savedlistd=\count192
+\c@liste=\count193
+\c@savedliste=\count194
+\c@listf=\count195
+\c@savedlistf=\count196
+\c@location=\count197
+\c@savedlocation=\count198
+\c@organization=\count199
+\c@savedorganization=\count266
+\c@origlocation=\count267
+\c@savedoriglocation=\count268
+\c@origpublisher=\count269
+\c@savedorigpublisher=\count270
+\c@publisher=\count271
+\c@savedpublisher=\count272
+\c@language=\count273
+\c@savedlanguage=\count274
+\c@origlanguage=\count275
+\c@savedoriglanguage=\count276
+\c@pageref=\count277
+\c@savedpageref=\count278
+\shorthandwidth=\skip69
+\shortjournalwidth=\skip70
+\shortserieswidth=\skip71
+\shorttitlewidth=\skip72
+\shortauthorwidth=\skip73
+\shorteditorwidth=\skip74
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-compat.def
+File: blx-compat.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+>>>>>>> master
 )
 Package biblatex Info: Trying to load BibTeX backend compatibility...
 Package biblatex Info: ... file 'blx-bibtex.def' found.
 
+<<<<<<< HEAD
 (E:\Programs\MikTex\tex\latex\biblatex\blx-bibtex.def
 File: blx-bibtex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+=======
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-bibtex.def
+File: blx-bibtex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+>>>>>>> master
 
 
 Package biblatex Warning: Using fall-back BibTeX(8) backend:
@@ -515,6 +678,7 @@ Package biblatex Warning: Using fall-back BibTeX(8) backend:
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
+<<<<<<< HEAD
  (E:\Programs\MikTex\tex\latex\biblatex\biblatex.def
 File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
 \c@textcitecount=\count282
@@ -524,18 +688,35 @@ File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
 \c@biburlucpenalty=\count286
 \c@biburllcpenalty=\count287
 \c@smartand=\count288
+=======
+ (C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.def
+File: biblatex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count279
+\c@textcitetotal=\count280
+\c@textcitemaxnames=\count281
+\c@biburlnumpenalty=\count282
+\c@biburlucpenalty=\count283
+\c@biburllcpenalty=\count284
+\c@smartand=\count285
+>>>>>>> master
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
 
+<<<<<<< HEAD
 (E:\Programs\MikTex\tex\latex\biblatex\blx-natbib.def
 File: blx-natbib.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
  overwriting.
+=======
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-natbib.def
+File: blx-natbib.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+>>>>>>> master
 )
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
+<<<<<<< HEAD
 (E:\Programs\MikTex\tex\latex\biblatex\bbx\numeric-comp.bbx
 File: numeric-comp.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
@@ -550,14 +731,39 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count289
 \c@bbx:relatedtotal=\count290
+=======
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\numeric-comp.
+bbx
+File: numeric-comp.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\numeric.bbx
+File: numeric.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\standard.bbx
+File: standard.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count286
+\c@bbx:relatedtotal=\count287
+>>>>>>> master
 )))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
+<<<<<<< HEAD
 (E:\Programs\MikTex\tex\latex\biblatex\cbx\numeric-comp.cbx
 File: numeric-comp.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
 \c@cbx@tempcnta=\count291
 \c@cbx@tempcntb=\count292
+=======
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\cbx\numeric-comp.
+cbx
+File: numeric-comp.cbx 2017/12/19 v3.10 biblatex citation style (PK/JW/AB)
+\c@cbx@tempcnta=\count288
+\c@cbx@tempcntb=\count289
+>>>>>>> master
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -572,6 +778,7 @@ Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
+<<<<<<< HEAD
 
 (E:\Programs\MikTex\tex\latex\biblatex\biblatex.cfg
 File: biblatex.cfg 
@@ -579,6 +786,13 @@ File: biblatex.cfg
 (E:\Programs\MikTex\tex\latex\amsmath\amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip85
+=======
+ (C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.cfg
+File: biblatex.cfg 
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip75
+>>>>>>> master
 
 For additional information on amsmath, use the `?' option.
 (E:\Programs\MikTex\tex\latex\amsmath\amstext.sty
@@ -596,6 +810,7 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (E:\Programs\MikTex\tex\latex\amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
+<<<<<<< HEAD
 \inf@bad=\count293
 LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count294
@@ -603,6 +818,15 @@ LaTeX Info: Redefining \frac on input line 213.
 LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count296
 \DOTSCASE@=\count297
+=======
+\inf@bad=\count290
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count291
+\leftroot@=\count292
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count293
+\DOTSCASE@=\count294
+>>>>>>> master
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -611,6 +835,7 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen108
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+<<<<<<< HEAD
 \macc@depth=\count298
 \c@MaxMatrixCols=\count299
 \dotsspace@=\muskip11
@@ -620,6 +845,17 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \row@=\count302
 \column@=\count303
 \maxfields@=\count304
+=======
+\macc@depth=\count295
+\c@MaxMatrixCols=\count296
+\dotsspace@=\muskip11
+\c@parentequation=\count297
+\dspbrk@lvl=\count298
+\tag@help=\toks21
+\row@=\count299
+\column@=\count300
+\maxfields@=\count301
+>>>>>>> master
 \andhelp@=\toks22
 \eqnshift@=\dimen109
 \alignsep@=\dimen110
@@ -628,8 +864,13 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \totwidth@=\dimen113
 \lineht@=\dimen114
 \@envbody=\toks23
+<<<<<<< HEAD
 \multlinegap=\skip86
 \multlinetaggap=\skip87
+=======
+\multlinegap=\skip76
+\multlinetaggap=\skip77
+>>>>>>> master
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
@@ -724,6 +965,7 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
+<<<<<<< HEAD
 (E:\Programs\MikTex\tex\latex\koma-script\scrhack.sty
 Package: scrhack 2018/03/30 v3.25 KOMA-Script package 
 
@@ -744,24 +986,57 @@ Package: expl3 2018-06-14 L3 programming layer (code)
 \l__iow_line_target_int=\count313
 \l__iow_one_indent_int=\count314
 \l__iow_indent_int=\count315
+=======
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrhack.sty
+Package: scrhack 2017/09/07 v3.24 KOMA-Script package 
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\xpatch\xpatch.sty
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3.sty
+Package: expl3 2017/09/18 L3 programming layer (loader) 
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3-code.tex
+Package: expl3 2017/09/18 L3 programming layer (code)
+\c_max_int=\count302
+\l_tmpa_int=\count303
+\l_tmpb_int=\count304
+\g_tmpa_int=\count305
+\g_tmpb_int=\count306
+\g__intarray_font_int=\count307
+\g__prg_map_int=\count308
+\c_log_iow=\count309
+\l_iow_line_count_int=\count310
+\l__iow_line_target_int=\count311
+\l__iow_one_indent_int=\count312
+\l__iow_indent_int=\count313
+>>>>>>> master
 \c_zero_dim=\dimen115
 \c_max_dim=\dimen116
 \l_tmpa_dim=\dimen117
 \l_tmpb_dim=\dimen118
 \g_tmpa_dim=\dimen119
 \g_tmpb_dim=\dimen120
+<<<<<<< HEAD
 \c_zero_skip=\skip88
 \c_max_skip=\skip89
 \l_tmpa_skip=\skip90
 \l_tmpb_skip=\skip91
 \g_tmpa_skip=\skip92
 \g_tmpb_skip=\skip93
+=======
+\c_zero_skip=\skip78
+\c_max_skip=\skip79
+\l_tmpa_skip=\skip80
+\l_tmpb_skip=\skip81
+\g_tmpa_skip=\skip82
+\g_tmpb_skip=\skip83
+>>>>>>> master
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
+<<<<<<< HEAD
 \l_keys_choice_int=\count316
 \l__intarray_loop_int=\count317
 \c__intarray_sp_dim=\dimen121
@@ -834,6 +1109,79 @@ Package: expl3 2018-06-14 L3 programming layer (code)
 \l__regex_submatch_int=\count384
 \l__regex_zeroth_submatch_int=\count385
 \g__regex_trace_regex_int=\count386
+=======
+\l_keys_choice_int=\count314
+\c__fp_leading_shift_int=\count315
+\c__fp_middle_shift_int=\count316
+\c__fp_trailing_shift_int=\count317
+\c__fp_big_leading_shift_int=\count318
+\c__fp_big_middle_shift_int=\count319
+\c__fp_big_trailing_shift_int=\count320
+\c__fp_Bigg_leading_shift_int=\count321
+\c__fp_Bigg_middle_shift_int=\count322
+\c__fp_Bigg_trailing_shift_int=\count323
+\c__fp_rand_size_int=\count324
+\c__fp_rand_four_int=\count325
+\c__fp_rand_eight_int=\count326
+\l__sort_length_int=\count327
+\l__sort_min_int=\count328
+\l__sort_top_int=\count329
+\l__sort_max_int=\count330
+\l__sort_true_max_int=\count331
+\l__sort_block_int=\count332
+\l__sort_begin_int=\count333
+\l__sort_end_int=\count334
+\l__sort_A_int=\count335
+\l__sort_B_int=\count336
+\l__sort_C_int=\count337
+\l__tl_build_start_index_int=\count338
+\l__tl_build_index_int=\count339
+\l__tl_analysis_normal_int=\count340
+\l__tl_analysis_index_int=\count341
+\l__tl_analysis_nesting_int=\count342
+\l__tl_analysis_type_int=\count343
+\l__regex_internal_a_int=\count344
+\l__regex_internal_b_int=\count345
+\l__regex_internal_c_int=\count346
+\l__regex_balance_int=\count347
+\l__regex_group_level_int=\count348
+\l__regex_mode_int=\count349
+\c__regex_cs_in_class_mode_int=\count350
+\c__regex_cs_mode_int=\count351
+\l__regex_catcodes_int=\count352
+\l__regex_default_catcodes_int=\count353
+\c__regex_catcode_D_int=\count354
+\c__regex_catcode_S_int=\count355
+\c__regex_catcode_L_int=\count356
+\c__regex_catcode_O_int=\count357
+\c__regex_catcode_A_int=\count358
+\c__regex_all_catcodes_int=\count359
+\l__regex_show_lines_int=\count360
+\l__regex_min_state_int=\count361
+\l__regex_max_state_int=\count362
+\l__regex_left_state_int=\count363
+\l__regex_right_state_int=\count364
+\l__regex_capturing_group_int=\count365
+\l__regex_min_pos_int=\count366
+\l__regex_max_pos_int=\count367
+\l__regex_curr_pos_int=\count368
+\l__regex_start_pos_int=\count369
+\l__regex_success_pos_int=\count370
+\l__regex_curr_char_int=\count371
+\l__regex_curr_catcode_int=\count372
+\l__regex_last_char_int=\count373
+\l__regex_case_changed_char_int=\count374
+\l__regex_curr_state_int=\count375
+\l__regex_step_int=\count376
+\l__regex_min_active_int=\count377
+\l__regex_max_active_int=\count378
+\l__regex_replacement_csnames_int=\count379
+\l__regex_match_count_int=\count380
+\l__regex_min_submatch_int=\count381
+\l__regex_submatch_int=\count382
+\l__regex_zeroth_submatch_int=\count383
+\g__debug_trace_regex_int=\count384
+>>>>>>> master
 \c_empty_box=\box30
 \l_tmpa_box=\box31
 \l_tmpb_box=\box32
@@ -864,6 +1212,7 @@ Package: expl3 2018-06-14 L3 programming layer (code)
 \l__coffin_display_coffin=\box42
 \l__coffin_display_coord_coffin=\box43
 \l__coffin_display_pole_coffin=\box44
+<<<<<<< HEAD
 \l__coffin_display_offset_dim=\dimen137
 \l__coffin_display_x_dim=\dimen138
 \l__coffin_display_y_dim=\dimen139
@@ -891,6 +1240,34 @@ Package: xparse 2018-05-12 L3 Experimental document command parser
 \l__xparse_m_args_int=\count392
 \l__xparse_mandatory_args_int=\count393
 \l__xparse_v_nesting_int=\count394
+=======
+\l__coffin_display_offset_dim=\dimen136
+\l__coffin_display_x_dim=\dimen137
+\l__coffin_display_y_dim=\dimen138
+\l__coffin_bounding_shift_dim=\dimen139
+\l__coffin_left_corner_dim=\dimen140
+\l__coffin_right_corner_dim=\dimen141
+\l__coffin_bottom_corner_dim=\dimen142
+\l__coffin_top_corner_dim=\dimen143
+\l__coffin_scaled_total_height_dim=\dimen144
+\l__coffin_scaled_width_dim=\dimen145
+)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count385
+\l__driver_tmp_box=\box45
+))
+Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\xparse\xparse.s
+ty
+Package: xparse 2017/09/18 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count386
+\g__xparse_grabber_int=\count387
+\l__xparse_m_args_int=\count388
+\l__xparse_mandatory_args_int=\count389
+\l__xparse_v_nesting_int=\count390
+>>>>>>> master
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -1086,11 +1463,27 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (fixltx2e)                See the latexrelease package for details.
 
 Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+<<<<<<< HEAD
 ) (E:\Programs\MikTex\tex\latex\shorttoc\shorttoc.sty
+=======
+) (C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\acronym\acronym.sty
+Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\bigfoot\suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
+)
+\AC@clearlist=\toks25
+)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\shorttoc\shorttoc.sty
+>>>>>>> master
 Package: shorttoc 2002/08/20 v1.3 Short table of contents (JPFD)
 )
 (E:\Programs\MikTex\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
+<<<<<<< HEAD
 \c@float@type=\count395
 \float@exts=\toks25
 \float@box=\box45
@@ -1111,6 +1504,28 @@ Package scrhack Info: undefining \float@addtolists on input line 163.
 \c@WF@wrappedlines=\count396
 \WF@box=\box47
 \WF@everypar=\toks27
+=======
+\c@float@type=\count391
+\float@exts=\toks26
+\float@box=\box46
+\@float@everytoks=\toks27
+\@floatcapt=\box47
+)
+Package scrhack Info: loading float hack on input line 154.
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\float.hak
+File: float.hak 2017/09/07 v3.24 KOMA-Script package (hacking package float)
+Package scrhack Info: redefining \newfloat on input line 161.
+Package scrhack Info: redefining \listof on input line 161.
+Package scrhack Info: undefining \float@addtolists on input line 161.
+)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
+\wrapoverhang=\dimen146
+\WF@size=\dimen147
+\c@WF@wrappedlines=\count392
+\WF@box=\box48
+\WF@everypar=\toks28
+>>>>>>> master
 Package: wrapfig 2003/01/31  v 3.6
 )
 \@float@every@figure=\toks28
@@ -1123,12 +1538,19 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
+<<<<<<< HEAD
 (E:\Programs\MikTex\tex\latex\graphics-def\pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+\Gread@gobject=\count393
+>>>>>>> master
 )
 (E:\Programs\MikTex\tex\latex\colortbl\colortbl.sty
 Package: colortbl 2018/05/02 v1.0c Color table columns (DPC)
 
+<<<<<<< HEAD
 (E:\Programs\MikTex\tex\latex\tools\array.sty
 Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \col@sep=\dimen149
@@ -1143,6 +1565,20 @@ Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \minrowclearance=\skip96
 )
 \rownum=\count397
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen148
+\extrarowheight=\dimen149
+\NC@list=\toks30
+\extratabsurround=\skip84
+\backup@length=\skip85
+)
+\everycr=\toks31
+\minrowclearance=\skip86
+)
+\rownum=\count394
+>>>>>>> master
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -1156,6 +1592,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 (E:\Programs\MikTex\tex\latex\xcolor\svgnam.def
 File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 ))
+<<<<<<< HEAD
 (E:\Programs\MikTex\tex\latex\tools\tabularx.sty
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 \TX@col@width=\dimen151
@@ -1179,6 +1616,41 @@ Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 \pgfutil@abb=\box50
 
 (E:\Programs\MikTex\tex\latex\ms\everyshi.sty
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+\TX@col@width=\dimen150
+\TX@old@table=\dimen151
+\TX@old@col=\dimen152
+\TX@target=\dimen153
+\TX@delta=\dimen154
+\TX@cols=\count395
+\TX@ftn=\toks32
+)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\tabulary\tabulary.sty
+Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
+\TY@count=\count396
+\TY@linewidth=\dimen155
+\tymin=\dimen156
+\tymax=\dimen157
+\TY@tablewidth=\dimen158
+)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.sty
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-co
+mmon.tex
+\pgfutil@everybye=\toks33
+\pgfutil@tempdima=\dimen159
+\pgfutil@tempdimb=\dimen160
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-co
+mmon-lists.tex))
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-la
+tex.def
+\pgfutil@abb=\box49
+ (C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
+>>>>>>> master
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
 (E:\Programs\MikTex\tex\generic\pgf\utilities\pgfrcs.code.tex
@@ -1201,8 +1673,13 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 )
+<<<<<<< HEAD
 \Gin@req@height=\dimen158
 \Gin@req@width=\dimen159
+=======
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
+>>>>>>> master
 )
 (E:\Programs\MikTex\tex\latex\pgf\systemlayer\pgfsys.sty
 (E:\Programs\MikTex\tex\generic\pgf\systemlayer\pgfsys.code.tex
@@ -1215,6 +1692,7 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (E:\Programs\MikTex\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks35
 ))
+<<<<<<< HEAD
 \pgf@x=\dimen160
 \pgf@y=\dimen161
 \pgf@xa=\dimen162
@@ -1234,6 +1712,27 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 \t@pgf@tokc=\toks38
 
 (E:\Programs\MikTex\tex\generic\pgf\systemlayer\pgf.cfg
+=======
+\pgf@x=\dimen163
+\pgf@y=\dimen164
+\pgf@xa=\dimen165
+\pgf@ya=\dimen166
+\pgf@xb=\dimen167
+\pgf@yb=\dimen168
+\pgf@xc=\dimen169
+\pgf@yc=\dimen170
+\w@pgf@writea=\write5
+\r@pgf@reada=\read3
+\c@pgf@counta=\count397
+\c@pgf@countb=\count398
+\c@pgf@countc=\count399
+\c@pgf@countd=\count400
+\t@pgf@toka=\toks37
+\t@pgf@tokb=\toks38
+\t@pgf@tokc=\toks39
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
+>>>>>>> master
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
@@ -1246,8 +1745,13 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
 (E:\Programs\MikTex\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+<<<<<<< HEAD
 \pgfsyssoftpath@smallbuffer@items=\count403
 \pgfsyssoftpath@bigbuffer@items=\count404
+=======
+\pgfsyssoftpath@smallbuffer@items=\count401
+\pgfsyssoftpath@bigbuffer@items=\count402
+>>>>>>> master
 )
 (E:\Programs\MikTex\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -1255,6 +1759,7 @@ File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 (E:\Programs\MikTex\tex\generic\pgf\basiclayer\pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
+<<<<<<< HEAD
 (E:\Programs\MikTex\tex\generic\pgf\math\pgfmath.code.tex
 (E:\Programs\MikTex\tex\generic\pgf\math\pgfmathcalc.code.tex
 (E:\Programs\MikTex\tex\generic\pgf\math\pgfmathutil.code.tex)
@@ -1277,9 +1782,48 @@ x) (E:\Programs\MikTex\tex\generic\pgf\math\pgfmathfunctions.random.code.tex)
 (E:\Programs\MikTex\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.co
 de.tex))) (E:\Programs\MikTex\tex\generic\pgf\math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count406
+=======
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.te
+x
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.cod
+e.tex
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.cod
+e.tex)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.c
+ode.tex
+\pgfmath@dimen=\dimen171
+\pgfmath@count=\count403
+\pgfmath@box=\box50
+\pgfmath@toks=\toks40
+\pgfmath@stack@operand=\toks41
+\pgfmath@stack@operation=\toks42
+)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.code.tex
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.basic.code.tex)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.trigonometric.code.tex)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.random.code.tex)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.comparison.code.tex)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.base.code.tex)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.round.code.tex)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.misc.code.tex)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunction
+s.integerarithmetics.code.tex)))
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.co
+de.tex
+\c@pgfmathroundto@lastzeros=\count404
+>>>>>>> master
 ))
 (E:\Programs\MikTex\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+<<<<<<< HEAD
 \pgf@picminx=\dimen169
 \pgf@picmaxx=\dimen170
 \pgf@picminy=\dimen171
@@ -1299,29 +1843,76 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen183
 \pgf@path@lasty=\dimen184
+=======
+\pgf@picminx=\dimen172
+\pgf@picmaxx=\dimen173
+\pgf@picminy=\dimen174
+\pgf@picmaxy=\dimen175
+\pgf@pathminx=\dimen176
+\pgf@pathmaxx=\dimen177
+\pgf@pathminy=\dimen178
+\pgf@pathmaxy=\dimen179
+\pgf@xx=\dimen180
+\pgf@xy=\dimen181
+\pgf@yx=\dimen182
+\pgf@yy=\dimen183
+\pgf@zx=\dimen184
+\pgf@zy=\dimen185
+)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepa
+thconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen186
+\pgf@path@lasty=\dimen187
+>>>>>>> master
 )
 (E:\Programs\MikTex\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+<<<<<<< HEAD
 \pgf@shorten@end@additional=\dimen185
 \pgf@shorten@start@additional=\dimen186
+=======
+\pgf@shorten@end@additional=\dimen188
+\pgf@shorten@start@additional=\dimen189
+>>>>>>> master
 )
 (E:\Programs\MikTex\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+<<<<<<< HEAD
 \pgfpic=\box52
 \pgf@hbox=\box53
 \pgf@layerbox@main=\box54
 \pgf@picture@serial@count=\count407
+=======
+\pgfpic=\box51
+\pgf@hbox=\box52
+\pgf@layerbox@main=\box53
+\pgf@picture@serial@count=\count405
+>>>>>>> master
 )
 (E:\Programs\MikTex\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+<<<<<<< HEAD
 \pgflinewidth=\dimen187
+=======
+\pgflinewidth=\dimen190
+>>>>>>> master
 )
 (E:\Programs\MikTex\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+<<<<<<< HEAD
 \pgf@pt@x=\dimen188
 \pgf@pt@y=\dimen189
 \pgf@pt@temp=\dimen190
 ) (E:\Programs\MikTex\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+=======
+\pgf@pt@x=\dimen191
+\pgf@pt@y=\dimen192
+\pgf@pt@temp=\dimen193
+)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorequ
+ick.code.tex
+>>>>>>> master
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
 (E:\Programs\MikTex\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
@@ -1332,12 +1923,21 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
 (E:\Programs\MikTex\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+<<<<<<< HEAD
 \pgfarrowsep=\dimen191
+=======
+\pgfarrowsep=\dimen194
+>>>>>>> master
 )
 (E:\Programs\MikTex\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+<<<<<<< HEAD
 \pgf@max=\dimen192
 \pgf@sys@shading@range@num=\count408
+=======
+\pgf@max=\dimen195
+\pgf@sys@shading@range@num=\count406
+>>>>>>> master
 )
 (E:\Programs\MikTex\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -1364,8 +1964,13 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
 (E:\Programs\MikTex\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+<<<<<<< HEAD
 \pgf@nodesepstart=\dimen193
 \pgf@nodesepend=\dimen194
+=======
+\pgf@nodesepstart=\dimen196
+\pgf@nodesepend=\dimen197
+>>>>>>> master
 )
 (E:\Programs\MikTex\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
@@ -1378,17 +1983,27 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 (E:\Programs\MikTex\tex\generic\pgf\utilities\pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
+<<<<<<< HEAD
 (E:\Programs\MikTex\tex\generic\pgf\math\pgfmath.code.tex)
 \pgffor@iter=\dimen195
 \pgffor@skip=\dimen196
 \pgffor@stack=\toks42
 \pgffor@toks=\toks43
+=======
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.te
+x)
+\pgffor@iter=\dimen198
+\pgffor@skip=\dimen199
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
+>>>>>>> master
 ))
 (E:\Programs\MikTex\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
 (E:\Programs\MikTex\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+<<<<<<< HEAD
 \pgf@plot@mark@count=\count409
 \pgfplotmarksize=\dimen197
 )
@@ -1414,6 +2029,34 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgf@matrix@numberofcolumns=\count416
 )
 \tikz@expandcount=\count417
+=======
+\pgf@plot@mark@count=\count407
+\pgfplotmarksize=\dimen256
+)
+\tikz@lastx=\dimen257
+\tikz@lasty=\dimen258
+\tikz@lastxsaved=\dimen259
+\tikz@lastysaved=\dimen260
+\tikzleveldistance=\dimen261
+\tikzsiblingdistance=\dimen262
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count408
+\tikznumberofchildren=\count409
+\tikznumberofcurrentchild=\count410
+\tikz@fig@count=\count411
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulemat
+rix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count412
+\pgfmatrixcurrentcolumn=\count413
+\pgf@matrix@numberofcolumns=\count414
+)
+\tikz@expandcount=\count415
+>>>>>>> master
 
 (E:\Programs\MikTex\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytop
 aths.code.tex
@@ -1429,6 +2072,7 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
 (E:\Programs\MikTex\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+<<<<<<< HEAD
 \arrowsize=\dimen260
 ))
 (E:\Programs\MikTex\tex\latex\caption\caption.sty
@@ -1447,11 +2091,32 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 )
 Package caption Info: KOMA-Script document class.
 \c@ContinuedFloat=\count418
+=======
+\arrowsize=\dimen263
+))
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen264
+\captionmargin@=\dimen265
+\captionwidth=\dimen266
+\caption@tempdima=\dimen267
+\caption@indent=\dimen268
+\caption@parindent=\dimen269
+\caption@hangindent=\dimen270
+)
+Package caption Info: KOMA-Script document class.
+\c@ContinuedFloat=\count416
+>>>>>>> master
 Package caption Info: float package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
 (E:\Programs\MikTex\tex\latex\subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
+<<<<<<< HEAD
 \c@KVtest=\count419
 \sf@farskip=\skip97
 \sf@captopadj=\dimen268
@@ -1470,11 +2135,32 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 Package: tcolorbox 2018/07/26 version 4.14 text color boxes
 
 (E:\Programs\MikTex\tex\latex\environ\environ.sty
+=======
+\c@KVtest=\count417
+\sf@farskip=\skip87
+\sf@captopadj=\dimen271
+\sf@capskip=\skip88
+\sf@nearskip=\skip89
+\c@subfigure=\count418
+\c@subfigure@save=\count419
+\c@lofdepth=\count420
+\c@subtable=\count421
+\c@subtable@save=\count422
+\c@lotdepth=\count423
+\sf@top=\skip90
+\sf@bottom=\skip91
+)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcolorbox.sty
+Package: tcolorbox 2017/09/14 version 4.11 text color boxes
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\environ\environ.sty
+>>>>>>> master
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
 (E:\Programs\MikTex\tex\latex\trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
+<<<<<<< HEAD
 \tcb@titlebox=\box61
 \tcb@upperbox=\box62
 \tcb@lowerbox=\box63
@@ -1508,11 +2194,45 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count435
 \lst@skipnumbers=\count436
 \lst@framebox=\box70
+=======
+\tcb@titlebox=\box60
+\tcb@upperbox=\box61
+\tcb@lowerbox=\box62
+\tcb@phantombox=\box63
+\c@tcbbreakpart=\count424
+\c@tcblayer=\count425
+\tcolorbox@number=\count426
+\tcb@temp=\box64
+\tcb@temp=\box65
+\tcb@temp=\box66
+\tcb@temp=\box67
+\tcb@out=\write6
+\tcb@record@out=\write7
+) (C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+\lst@mode=\count427
+\lst@gtempboxa=\box68
+\lst@token=\toks45
+\lst@length=\count428
+\lst@currlwidth=\dimen272
+\lst@column=\count429
+\lst@pos=\count430
+\lst@lostspace=\dimen273
+\lst@width=\dimen274
+\lst@newlines=\count431
+\lst@lineno=\count432
+\lst@maxwidth=\dimen275
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count433
+\lst@skipnumbers=\count434
+\lst@framebox=\box69
+>>>>>>> master
 )
 (E:\Programs\MikTex\tex\latex\listings\listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
-Package scrhack Info: loading listings hack on input line 198.
+Package scrhack Info: loading listings hack on input line 199.
 
 (E:\Programs\MikTex\tex\latex\koma-script\listings.hak
 File: listings.hak 2018/03/30 v3.25 KOMA-Script package (hacking package listin
@@ -1554,7 +2274,7 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 239.
+(scrhack)             need that hack, on input line 240.
 
 (E:\Programs\MikTex\tex\latex\hyperref\hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
@@ -1598,16 +2318,26 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (E:\Programs\MikTex\tex\latex\oberdiek\auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
+<<<<<<< HEAD
 \@linkdim=\dimen273
 \Hy@linkcounter=\count437
 \Hy@pagecounter=\count438
+=======
+\@linkdim=\dimen276
+\Hy@linkcounter=\count435
+\Hy@pagecounter=\count436
+>>>>>>> master
 
 (E:\Programs\MikTex\tex\latex\hyperref\pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
+<<<<<<< HEAD
 \Hy@SavedSpaceFactor=\count439
+=======
+\Hy@SavedSpaceFactor=\count437
+>>>>>>> master
 
 (E:\Programs\MikTex\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1620,6 +2350,7 @@ Package hyperref Info: Hyper index ON on input line 4517.
 Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+<<<<<<< HEAD
 Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count440
 LaTeX Info: Redefining \url on input line 5115.
@@ -1647,21 +2378,55 @@ File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \c@bookmark@seq@number=\count445
 
 (E:\Programs\MikTex\tex\latex\oberdiek\rerunfilecheck.sty
+=======
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count438
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen277
+\Fld@menulength=\count439
+\Field@Width=\dimen278
+\Fld@charsize=\dimen279
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count440
+\c@Item=\count441
+)
+
+Package hyperref Message: Driver: hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count442
+\c@bookmark@seq@number=\count443
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+>>>>>>> master
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
+<<<<<<< HEAD
 \Hy@SectionHShift=\skip102
+=======
+\Hy@SectionHShift=\skip92
+>>>>>>> master
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 263.
-Package hyperref Info: Option `linktocpage' set `true' on input line 263.
-Package hyperref Info: Option `breaklinks' set `true' on input line 263.
-Package hyperref Info: Option `pageanchor' set `true' on input line 263.
-Package hyperref Info: Option `plainpages' set `false' on input line 263.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 263.
+Package hyperref Info: Option `colorlinks' set `true' on input line 264.
+Package hyperref Info: Option `linktocpage' set `true' on input line 264.
+Package hyperref Info: Option `breaklinks' set `true' on input line 264.
+Package hyperref Info: Option `pageanchor' set `true' on input line 264.
+Package hyperref Info: Option `plainpages' set `false' on input line 264.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 264.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 263.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 263.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 264.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 264.
 
 (E:\Programs\MikTex\tex\latex\glossaries\base\glossaries.sty
 Package: glossaries 2018/07/23 v4.41 (NLCT)
@@ -1855,6 +2620,7 @@ Package: beramono 2004/01/31 (WaS)
 (E:\Programs\MikTex\tex\latex\eulervm\eulervm.sty
 Package: eulervm 2005/01/11 v4.0 (WaS)
 )
+<<<<<<< HEAD
 (E:\Programs\MikTex\tex\latex\microtype\microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
 \MT@toks=\toks56
@@ -1870,6 +2636,23 @@ File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 913.
 LaTeX Info: Redefining \lslig on input line 913.
 \MT@outer@space=\skip115
+=======
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype.sty
+Package: microtype 2017/07/07 v2.7 Micro-typographical refinements (RS)
+\MT@toks=\toks46
+\MT@count=\count444
+LaTeX Info: Redefining \textls on input line 789.
+\MT@outer@kern=\dimen280
+LaTeX Info: Redefining \textmicrotypecontext on input line 1334.
+\MT@listname@count=\count445
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype-pdftex
+.def
+File: microtype-pdftex.def 2017/07/07 v2.7 Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 912.
+LaTeX Info: Redefining \lslig on input line 912.
+\MT@outer@space=\skip93
+>>>>>>> master
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -1896,6 +2679,7 @@ Package typearea Info: These are the values describing the layout:
 
 (E:\Programs\MikTex\tex\latex\booktabs\booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
+<<<<<<< HEAD
 \heavyrulewidth=\dimen290
 \lightrulewidth=\dimen291
 \cmidrulewidth=\dimen292
@@ -1913,6 +2697,28 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@thisruleclass=\count477
 \@lastruleclass=\count478
 \@thisrulewidth=\dimen302
+=======
+\heavyrulewidth=\dimen281
+\lightrulewidth=\dimen282
+\cmidrulewidth=\dimen283
+\belowrulesep=\dimen284
+\belowbottomsep=\dimen285
+\aboverulesep=\dimen286
+\abovetopsep=\dimen287
+\cmidrulesep=\dimen288
+\cmidrulekern=\dimen289
+\defaultaddspace=\dimen290
+\@cmidla=\count446
+\@cmidlb=\count447
+\@aboverulesep=\dimen291
+\@belowrulesep=\dimen292
+\@thisruleclass=\count448
+\@lastruleclass=\count449
+\@thisrulewidth=\dimen293
+)
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\textcase\textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+>>>>>>> master
 )
 Package classicthesis Info: Using pdftex/microtype for character spacing.Make s
 ure your pdftex is version 1.40 or higher. on input line 345.
@@ -1954,6 +2760,7 @@ Class scrreprt Warning: Usage of package `titlesec' together
 
 (E:\Programs\MikTex\tex\latex\titlesec\titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+<<<<<<< HEAD
 \ttl@box=\box76
 \beforetitleunit=\skip116
 \aftertitleunit=\skip117
@@ -1963,6 +2770,17 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidth=\dimen305
 \titlewidthlast=\dimen306
 \titlewidthfirst=\dimen307
+=======
+\ttl@box=\box70
+\beforetitleunit=\skip94
+\aftertitleunit=\skip95
+\ttl@plus=\dimen294
+\ttl@minus=\dimen295
+\ttl@toksa=\toks47
+\titlewidth=\dimen296
+\titlewidthlast=\dimen297
+\titlewidthfirst=\dimen298
+>>>>>>> master
 
 
 Package titlesec Warning: Non standard sectioning command detected
@@ -1992,6 +2810,7 @@ Class scrreprt Warning: Activating an ugly workaround for a missing
 (E:\Programs\MikTex\tex\latex\tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
+<<<<<<< HEAD
 \cftparskip=\skip118
 \cftbeforetoctitleskip=\skip119
 \cftaftertoctitleskip=\skip120
@@ -2046,6 +2865,62 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforeloltitleskip=\skip166
 \cftafterloltitleskip=\skip167
 \listingslabelwidth=\skip168
+=======
+\cftparskip=\skip96
+\cftbeforetoctitleskip=\skip97
+\cftaftertoctitleskip=\skip98
+\cftbeforepartskip=\skip99
+\cftpartnumwidth=\skip100
+\cftpartindent=\skip101
+\cftbeforechapskip=\skip102
+\cftchapindent=\skip103
+\cftchapnumwidth=\skip104
+\cftbeforesecskip=\skip105
+\cftsecindent=\skip106
+\cftsecnumwidth=\skip107
+\cftbeforesubsecskip=\skip108
+\cftsubsecindent=\skip109
+\cftsubsecnumwidth=\skip110
+\cftbeforesubsubsecskip=\skip111
+\cftsubsubsecindent=\skip112
+\cftsubsubsecnumwidth=\skip113
+\cftbeforeparaskip=\skip114
+\cftparaindent=\skip115
+\cftparanumwidth=\skip116
+\cftbeforesubparaskip=\skip117
+\cftsubparaindent=\skip118
+\cftsubparanumwidth=\skip119
+\cftbeforeloftitleskip=\skip120
+\cftafterloftitleskip=\skip121
+\cftbeforefigskip=\skip122
+\cftfigindent=\skip123
+\cftfignumwidth=\skip124
+\cftbeforelottitleskip=\skip125
+\cftafterlottitleskip=\skip126
+\cftbeforetabskip=\skip127
+\cfttabindent=\skip128
+\cfttabnumwidth=\skip129
+\cftbeforesubfigskip=\skip130
+\cftsubfigindent=\skip131
+\cftsubfignumwidth=\skip132
+\cftbeforesubtabskip=\skip133
+\cftsubtabindent=\skip134
+\cftsubtabnumwidth=\skip135
+)
+\newnumberwidth=\skip136
+\beforebibskip=\skip137
+\newchnumberwidth=\skip138
+\figurelabelwidth=\skip139
+\tablelabelwidth=\skip140
+\c@listings=\count450
+\cftbeforelistingsskip=\skip141
+\cftlistingsindent=\skip142
+\cftlistingsnumwidth=\skip143
+\c@loldepth=\count451
+\cftbeforeloltitleskip=\skip144
+\cftafterloltitleskip=\skip145
+\listingslabelwidth=\skip146
+>>>>>>> master
 
 Using KOMA-command "deffootnote" for footnote setup
 (E:\Programs\MikTex\tex\latex\koma-script\scrtime.sty
@@ -2062,6 +2937,12 @@ Package remreset Warning: The remreset package is obsolete:
 ))) (E:\Programs\MikTex\tex\latex\ccicons\ccicons.sty
 Package: ccicons 2017/10/30 v1.6 LaTeX support for Creative Commons icons
 )
+<<<<<<< HEAD
+=======
+\XKV@depth=\count452
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+>>>>>>> master
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -2069,6 +2950,7 @@ Package csquotes Info: Redefining alias 'default' -> 'american'.
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
 
+<<<<<<< HEAD
 (E:\Programs\MikTex\tex\latex\biblatex\lbx\american.lbx
 File: american.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english'...
@@ -2103,6 +2985,30 @@ File: german.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 (FrontBackmatter/Titlepage.aux) (FrontBackmatter/Titleback.aux)
 (FrontBackmatter/Foreword.aux) (FrontBackmatter/Contents.aux)
 (Chapters/01Intro.aux) (Chapters/00Appendix.aux) (FrontBackmatter/Glossary.aux)
+=======
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\american.lbx
+File: american.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\english.lbx
+File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
+))
+Package biblatex Info: Trying to load language 'ngerman'...
+Package biblatex Info: ... file 'ngerman.lbx' found.
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\ngerman.lbx
+File: ngerman.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\german.lbx
+File: german.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
+))
+(ResearchMethods.aux (FrontBackmatter/Titlepage.aux)
+(FrontBackmatter/Titleback.aux) (FrontBackmatter/Foreword.aux)
+(FrontBackmatter/Contents.aux) (Chapters/05Measuring.aux) (Chapters/06Data.aux)
+(Chapters/07Sampling.aux) (Chapters/08Surveys.aux) (Chapters/00Appendix.aux)
+>>>>>>> master
 (FrontBackmatter/Bibliography.aux) (FrontBackmatter/Colophon.aux))
 \openout1 = `ResearchMethods.aux'.
 
@@ -2133,13 +3039,18 @@ Package biblatex Info: Data encoding 'ascii' specified.
 Package biblatex Info: Input encoding 'utf8' specified.
 Package biblatex Info: Data encoding 'ascii' specified.
 (biblatex)             No need to reencode data.
+<<<<<<< HEAD
 \openout3 = `ResearchMethods-blx.bib'.
+=======
+\openout4 = `ResearchMethods-blx.bib'.
+>>>>>>> master
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ResearchMethods.bbl' found.
  (ResearchMethods.bbl)
 Package biblatex Info: Reference section=0 on input line 43.
 Package biblatex Info: Reference segment=0 on input line 43.
+<<<<<<< HEAD
 
 (E:\Programs\MikTex\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2155,6 +3066,22 @@ Package biblatex Info: Reference segment=0 on input line 43.
 \makeMPintoPDFobject=\count486
 \everyMPtoPDFconversion=\toks59
 ) (E:\Programs\MikTex\tex\latex\oberdiek\epstopdf-base.sty
+=======
+ (C:\Users\gself\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count453
+\scratchdimen=\dimen299
+\scratchbox=\box71
+\nofMPsegments=\count454
+\nofMParguments=\count455
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count456
+\MPscratchDim=\dimen300
+\MPnumerator=\count457
+\makeMPintoPDFobject=\count458
+\everyMPtoPDFconversion=\toks51
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+>>>>>>> master
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 (E:\Programs\MikTex\tex\latex\oberdiek\grfext.sty
@@ -2179,7 +3106,11 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
+<<<<<<< HEAD
 \c@lstlisting=\count487
+=======
+\c@lstlisting=\count459
+>>>>>>> master
 Package scrhack Info: undefining \float@addtolists on input line 43.
 \AtBeginShipoutBox=\box78
 Package hyperref Info: Link coloring ON on input line 43.
@@ -2190,16 +3121,25 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (E:\Programs\MikTex\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
+<<<<<<< HEAD
 \c@section@level=\count488
+=======
+\c@section@level=\count460
+>>>>>>> master
 )
 LaTeX Info: Redefining \ref on input line 43.
 LaTeX Info: Redefining \pageref on input line 43.
 LaTeX Info: Redefining \nameref on input line 43.
 
 (ResearchMethods.out) (ResearchMethods.out)
+<<<<<<< HEAD
 \@outlinefile=\write9
 \openout9 = `ResearchMethods.out'.
 
+=======
+\@outlinefile=\write8
+\openout8 = `ResearchMethods.out'.
+>>>>>>> master
 
 (E:\Programs\MikTex\tex\latex\glossaries-english\glossaries-dictionary-English.
 dict
@@ -2280,7 +3220,11 @@ Underfull \hbox (badness 1521) in paragraph at lines 10--10
 \T1/pplj/m/n/10.95 Com-mons   Attribution-NonCommercial-
  []
 
+<<<<<<< HEAD
 <doclicense-CC-by-nc-sa.pdf, id=109, 121.45375pt x 43.16125pt>
+=======
+<doclicense-CC-by-nc-sa.pdf, id=253, 121.45375pt x 43.16125pt>
+>>>>>>> master
 File: doclicense-CC-by-nc-sa.pdf Graphic file (type pdf)
 <use doclicense-CC-by-nc-sa.pdf>
 Package pdftex.def Info: doclicense-CC-by-nc-sa.pdf  used on input line 10.
@@ -2292,22 +3236,30 @@ Package pdftex.def Info: doclicense-CC-by-nc-sa.pdf  used on input line 10.
 \openout2 = `FrontBackmatter/Foreword.aux'.
 
  (FrontBackmatter/Foreword.tex
-LaTeX Font Info:    Try loading font information for TS1+pplj on input line 13.
+Overfull \hbox (9.56418pt too wide) in paragraph at lines 10--11
+[]\T1/pplj/m/n/10.95 Bhattacherjee[[][]3[][]], Black-stone[[][]4[][]], and Pric
+e[[][]15[][]] all re-leased books about
+ []
 
+LaTeX Font Info:    Try loading font information for TS1+pplj on input line 15.
 
 (E:\Programs\MikTex\tex\latex\psnfss\ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 13.
- [3
+(Font)              scaled to size 9.30756pt on input line 22.
+) [3
 
 
 
 
 
 
-]) [4]
+] [4
+
+
+
+]
 \openout2 = `FrontBackmatter/Contents.aux'.
 
 
@@ -2319,9 +3271,6 @@ Package microtype Info: Character `029' is missing
 
 
 
-
-
-
 ] [6
 
 
@@ -2329,18 +3278,25 @@ Package microtype Info: Character `029' is missing
 Package tocbasic Info: character protrusion at toc deactivated on input line 15
 .
 
+<<<<<<< HEAD
 (ResearchMethods.toc)
 \tf@toc=\write10
 \openout10 = `ResearchMethods.toc'.
+=======
+(ResearchMethods.toc [7])
+\tf@toc=\write9
+\openout9 = `ResearchMethods.toc'.
+>>>>>>> master
 
 
 1: section
 1: chapter
 1: chapter
 1: section
-[7]
+[8]
 Package tocbasic Info: character protrusion at lof deactivated on input line 37
 .
+<<<<<<< HEAD
  (ResearchMethods.lof)
 \tf@lof=\write11
 \openout11 = `ResearchMethods.lof'.
@@ -2354,16 +3310,50 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 48
  (ResearchMethods.lol)
 \tf@lol=\write13
 \openout13 = `ResearchMethods.lol'.
+=======
+ (ResearchMethods.lof
+Overfull \hbox (4.11406pt too wide) in paragraph at lines 47--47
+ [][] []\T1/pplj/m/n/10.95 Sample Size For Con-fi-dence Level of 95% []  
+ []
 
-) [8
+)
+\tf@lof=\write10
+\openout10 = `ResearchMethods.lof'.
 
+Package tocbasic Info: character protrusion at lot deactivated on input line 48
+.
+ (ResearchMethods.lot
+Overfull \hbox (32.32112pt too wide) in paragraph at lines 19--19
+ [][] []\T1/pplj/m/n/10.95 Compare the Three Lon-gi-tu-di-nal Sur-vey Types [] 
+ 
+ []
+
+)
+\tf@lot=\write11
+\openout11 = `ResearchMethods.lot'.
+
+ (ResearchMethods.lol)
+\tf@lol=\write12
+\openout12 = `ResearchMethods.lol'.
+>>>>>>> master
+
+) [9
+
+<<<<<<< HEAD
 ]
 [1
+=======
+] [10
+
+
+>>>>>>> master
+
+] [1
 
 
 
 
-
+<<<<<<< HEAD
 ] [2]
 \openout2 = `Chapters/01Intro.aux'.
 
@@ -2372,6 +3362,266 @@ chapter 1.
 [3
 
 
+=======
+] [4]
+\openout2 = `Chapters/05Measuring.aux'.
+
+ (Chapters/05Measuring.tex
+chapter 1.
+
+Overfull \hbox (6.28618pt too wide) in paragraph at lines 14--15
+\T1/pplj/m/n/10.95 come a clas-sic work in re-search method-ol-ogy, \T1/pplj/m/
+it/10.95 The Con-duct of In-quiry\T1/pplj/m/n/10.95 [[][]13[][]].
+ []
+
+[5
+
+
+
+
+
+]
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 26.
+
+
+LaTeX Warning: Reference `ch05:data' on page 6 undefined on input line 26.
+
+
+LaTeX Warning: Reference `ch05:data' on page 6 undefined on input line 26.
+
+[6] [7] [8] [9] [10] [11]
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 87.
+
+Overfull \hbox (22.74875pt too wide) in paragraph at lines 87--88
+[]\T1/pplj/b/n/10.95 Inter-rater re-li-a-bil-ity\T1/pplj/m/n/10.95 . Inter-rate
+r re-li-a-bil-ity, also called inter-observer
+ []
+
+[12] [13] [14]
+Overfull \hbox (1.599pt too wide) in paragraph at lines 116--117
+\T1/pplj/m/n/10.95 demon-strate con-ver-gent and dis-crim-i-nant va-lid-ity is 
+ex-ploratory
+ []
+
+[15] [16]
+Overfull \hbox (8.30806pt too wide) in paragraph at lines 133--134
+[]\T1/pplj/m/n/10.95 . Con-struct va-lid-ity ex-am-ines how well a given
+ []
+
+
+Overfull \hbox (3.36974pt too wide) in paragraph at lines 135--136
+[]\T1/pplj/m/n/10.95 . Sta-tis-ti-cal con-clu-sion va-lid-ity ex-am-ines
+ []
+
+[17]) [18]
+\openout2 = `Chapters/06Data.aux'.
+
+ (Chapters/06Data.tex
+chapter 2.
+[19
+
+
+
+
+] [20] <gfx/05-01.png, id=538, 314.67563pt x 191.9672pt>
+File: gfx/05-01.png Graphic file (type png)
+
+<use gfx/05-01.png>
+Package pdftex.def Info: gfx/05-01.png used on input line 42.
+(pdftex.def)             Requested size: 314.67485pt x 191.9755pt.
+ [21 <./gfx/05-01.png>]
+<gfx/05-02.png, id=547, 318.43968pt x 231.86626pt>
+File: gfx/05-02.png Graphic file (type png)
+ <use gfx/05-02.png>
+Package pdftex.def Info: gfx/05-02.png used on input line 58.
+(pdftex.def)             Requested size: 318.4389pt x 231.86568pt.
+ [22 <./gfx/05-02.png>] <gfx/05-03.png, id=556, 318.43968pt x 233.37187pt>
+File: gfx/05-03.png Graphic file (type png)
+
+<use gfx/05-03.png>
+Package pdftex.def Info: gfx/05-03.png used on input line 68.
+(pdftex.def)             Requested size: 318.4389pt x 233.37129pt.
+ [23 <./gfx/05-03.png>] [24] [25]
+Overfull \hbox (1.27051pt too wide) in paragraph at lines 108--109
+\T1/pplj/m/n/10.95 Fahren-heit is the same as that be-tween $\U/zeur/m/n/10.95 
+80$ \T1/pplj/m/n/10.95 and $\U/zeur/m/n/10.95 90$ \T1/pplj/m/n/10.95 de-grees F
+ahren-
+ []
+
+
+Overfull \hbox (20.1645pt too wide) in paragraph at lines 108--109
+\T1/pplj/m/n/10.95 sat-is-fied'' and ``strongly dis-sat-is-fied.'' How-ever, bu
+si-ness re-searchers
+ []
+
+[26] [27] [28]
+Overfull \hbox (15.1364pt too wide) in paragraph at lines 145--146
+[]\T1/pplj/m/n/10.95 This is a com-pos-ite (multi-item) scale where
+ []
+
+) [29]
+\openout2 = `Chapters/07Sampling.aux'.
+
+ (Chapters/07Sampling.tex [30
+
+
+
+
+]
+chapter 3.
+<gfx/07-01.png, id=595, 216.81pt x 122.3772pt>
+File: gfx/07-01.png Graphic file (type png)
+ <use gfx/07-01.png>
+Package pdftex.def Info: gfx/07-01.png used on input line 19.
+(pdftex.def)             Requested size: 127.68164pt x 72.06932pt.
+ [31 <./gfx/07-01.png (PNG copy)>] [32]
+Overfull \hbox (1.69983pt too wide) in paragraph at lines 40--41
+\T1/pplj/m/n/10.95 pling tech-niques can be grouped into two broad cat-e-gories
+: prob-
+ []
+
+
+Overfull \hbox (7.51657pt too wide) in paragraph at lines 40--41
+\T1/pplj/m/n/10.95 a-bil-ity (or ran-dom) sam-pling and non-probability sam-pli
+ng. Prob-
+ []
+
+<gfx/07-11.png, id=607, 420.8523pt x 223.3143pt>
+File: gfx/07-11.png Graphic file (type png)
+ <use gfx/07-11.png>
+Package pdftex.def Info: gfx/07-11.png used on input line 48.
+(pdftex.def)             Requested size: 319.19897pt x 169.37645pt.
+ [33 <./gfx/07-11.png>] [34] <gfx/07-02.png, id=621, 288.59981pt x 478.99884pt>
+File: gfx/07-02.png Graphic file (type png)
+
+<use gfx/07-02.png>
+Package pdftex.def Info: gfx/07-02.png used on input line 67.
+(pdftex.def)             Requested size: 117.60205pt x 195.18481pt.
+ [35 <./gfx/07-02.png>]
+<gfx/07-03.png, id=627, 288.59981pt x 478.99884pt>
+File: gfx/07-03.png Graphic file (type png)
+ <use gfx/07-03.png>
+Package pdftex.def Info: gfx/07-03.png used on input line 78.
+(pdftex.def)             Requested size: 117.60205pt x 195.18481pt.
+ [36 <./gfx/07-03.png>] <gfx/07-04.png, id=633, 288.59981pt x 478.99884pt>
+File: gfx/07-04.png Graphic file (type png)
+
+<use gfx/07-04.png>
+Package pdftex.def Info: gfx/07-04.png used on input line 89.
+(pdftex.def)             Requested size: 117.60205pt x 195.18481pt.
+ <gfx/07-05.png, id=634, 288.59981pt x 415.5525pt>
+File: gfx/07-05.png Graphic file (type png)
+
+<use gfx/07-05.png>
+Package pdftex.def Info: gfx/07-05.png used on input line 98.
+(pdftex.def)             Requested size: 117.60205pt x 169.33139pt.
+ [37 <./gfx/07-04.png>]
+Overfull \hbox (2.81432pt too wide) in paragraph at lines 103--104
+\T1/pplj/m/n/10.95 would be cat-e-go-rized into ``high prof-itable'' and ``low 
+prof-itable'' firms
+ []
+
+<gfx/07-06.png, id=640, 288.59981pt x 478.6683pt>
+File: gfx/07-06.png Graphic file (type png)
+ <use gfx/07-06.png>
+Package pdftex.def Info: gfx/07-06.png used on input line 107.
+(pdftex.def)             Requested size: 117.60205pt x 195.05013pt.
+
+Overfull \hbox (12.19861pt too wide) in paragraph at lines 112--113
+[]\T1/pplj/b/n/10.95 Multi-stage Sam-pling \T1/pplj/m/n/10.95 The prob-a-bil-it
+y sam-pling tech-niques de-scribed
+ []
+
+[38 <./gfx/07-05.png> <./gfx/07-06.png>]
+Overfull \hbox (3.53151pt too wide) in paragraph at lines 116--117
+\T1/pplj/m/n/10.95 or con-ve-nience. Be-cause se-lec-tion is non-random, non-pr
+obability sam-
+ []
+
+
+Overfull \hbox (0.28484pt too wide) in paragraph at lines 118--119
+\T1/pplj/m/n/10.95 probability sam-ple is also use-ful for some ex-ploratory re
+-search project
+ []
+
+
+Overfull \hbox (21.40744pt too wide) in paragraph at lines 118--119
+\T1/pplj/m/n/10.95 der-stand-ing of some phe-nomenon might col-lect data from n
+on-probability
+ []
+
+[39] <gfx/07-07.png, id=652, 288.59981pt x 263.62944pt>
+File: gfx/07-07.png Graphic file (type png)
+ <use gfx/07-07.png>
+Package pdftex.def Info: gfx/07-07.png used on input line 126.
+(pdftex.def)             Requested size: 117.60205pt x 107.42502pt.
+
+<gfx/07-08.png, id=653, 288.59981pt x 326.29546pt>
+File: gfx/07-08.png Graphic file (type png)
+ <use gfx/07-08.png>
+Package pdftex.def Info: gfx/07-08.png used on input line 135.
+(pdftex.def)             Requested size: 117.60205pt x 132.96048pt.
+ [40 <./gfx/07-07.png>] <gfx/07-09.png, id=659, 288.59981pt x 172.15146pt>
+File: gfx/07-09.png Graphic file (type png)
+
+<use gfx/07-09.png>
+Package pdftex.def Info: gfx/07-09.png used on input line 144.
+(pdftex.def)             Requested size: 117.60205pt x 70.14911pt.
+ [41 <./gfx/07-08.png> <./gfx/07-09.png>]
+Overfull \hbox (0.31296pt too wide) in paragraph at lines 156--157
+\T1/pplj/m/n/10.95 ram-e-ter, sam-ple statis-tic, and sam-pling bias. This sec-
+tion de-fines these
+ []
+
+<gfx/07-10.png, id=667, 288.59981pt x 102.6234pt>
+File: gfx/07-10.png Graphic file (type png)
+ <use gfx/07-10.png>
+Package pdftex.def Info: gfx/07-10.png used on input line 163.
+(pdftex.def)             Requested size: 288.5991pt x 102.62314pt.
+
+<gfx/07-12.png, id=669, 432.86719pt x 252.945pt>
+File: gfx/07-12.png Graphic file (type png)
+ <use gfx/07-12.png>
+Package pdftex.def Info: gfx/07-12.png used on input line 172.
+(pdftex.def)             Requested size: 319.19897pt x 186.53181pt.
+ [42 <./gfx/07-10.png>] <gfx/07-13.png, id=675, 288.59981pt x 258.9675pt>
+File: gfx/07-13.png Graphic file (type png)
+
+<use gfx/07-13.png>
+Package pdftex.def Info: gfx/07-13.png used on input line 186.
+(pdftex.def)             Requested size: 288.5991pt x 258.96684pt.
+ [43 <./gfx/07-12.png>] [44 <./gfx/07-13.png>]
+<gfx/07-14.png, id=695, 279.29344pt x 300.3722pt>
+File: gfx/07-14.png Graphic file (type png)
+ <use gfx/07-14.png>
+Package pdftex.def Info: gfx/07-14.png used on input line 216.
+(pdftex.def)             Requested size: 289.07999pt x 310.90845pt.
+ [45]
+[46 <./gfx/07-14.png>]
+Overfull \hbox (5.39005pt too wide) in paragraph at lines 229--230
+\T1/pplj/m/n/10.95 only from WEIRD (West-ern, Ed-u-cated, In-dus-tri-al-ized, R
+ich, and Demo-
+ []
+
+[47]) [48]
+\openout2 = `Chapters/08Surveys.aux'.
+
+ (Chapters/08Surveys.tex
+chapter 4.
+<gfx/08-01.jpg, id=724, 6012.4625pt x 4007.97375pt>
+File: gfx/08-01.jpg Graphic file (type jpg)
+ <use gfx/08-01.jpg>
+Package pdftex.def Info: gfx/08-01.jpg used on input line 10.
+(pdftex.def)             Requested size: 127.68164pt x 85.06892pt.
+
+Underfull \hbox (badness 1609) in paragraph at lines 13--21
+\T1/pplj/m/n/10.95 key, an on-line sur-vey tool, posted
+ []
+
+[49
+>>>>>>> master
 
 ]
 Overfull \hbox (22.77847pt too wide) in paragraph at lines 36--37
@@ -2385,6 +3635,7 @@ Overfull \hbox (3.25246pt too wide) in paragraph at lines 60--61
  phe-nomenon
  []
 
+<<<<<<< HEAD
 [6]
 Overfull \hbox (3.29688pt too wide) in paragraph at lines 79--80
 \T1/pplj/m/n/10.95 Scientific re-search moves eas-ily be-tween the-ory and ob-s
@@ -2395,6 +3646,17 @@ er-va-tions, each
 Overfull \hbox (1.38443pt too wide) in paragraph at lines 79--80
 \T1/pplj/m/n/10.95 re-in-forc-ing the other. The-ory drives the re-search of so
 me phe-nomenon
+=======
+ <./gfx/08-01.jpg>] [50] [51]
+Overfull \hbox (6.01703pt too wide) in paragraph at lines 67--68
+\T1/pplj/m/n/10.95 things re-mained that way af-ter-wards. For ex-am-ple, imag-
+ine how Amer-
+ []
+
+[52] [53]
+Underfull \hbox (badness 10000) in alignment at lines 102--102
+[][] 
+>>>>>>> master
  []
 
 LaTeX Font Info:    Font shape `T1/fvm/bx/n' in size <10.95> not available
@@ -2426,6 +3688,7 @@ Overfull \hbox (4.53809pt too wide) in paragraph at lines 133--134
 su-ing overly
  []
 
+<<<<<<< HEAD
 [9] [10]
 Overfull \hbox (2.8151pt too wide) in paragraph at lines 148--149
 \T1/pplj/m/n/10.95 Exploratory re-search is of-ten con-ducted in new ar-eas of 
@@ -2477,10 +3740,54 @@ tor must
 
 
 ] [22] [23
+=======
+[54] [55] [56] [57] [58] [59] [60] [61]
+Overfull \hbox (4.88312pt too wide) in paragraph at lines 203--203
+[]\T1/pplj/m/n/10.95 Prop|  
+ []
+
+[62] [63] [64] [65] [66] [67] [68]
+Underfull \hbox (badness 1005) in paragraph at lines 328--329
+\T1/pplj/m/n/10.95 sort of data quan-ti-ta-tive sur-vey re-searchers col-lect. 
+It can per-
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 328--329
+\T1/pplj/m/n/10.95 which in-cludes many of the same fea-tures as SPSS, and Ex-
+ []
+
+
+Underfull \hbox (badness 6493) in paragraph at lines 328--329
+\T1/pplj/m/n/10.95 cel (http://office.microsoft.com/en-us/excel-help/about-stat
+istical-
+ []
+
+[69] [70] [71] [72] [73] [74]) [75] [76
+
+
+] [77] [78]
+Underfull \hbox (badness 1325) in paragraph at lines 87--87
+\T1/pplj/m/n/10.95 numeric data, like pho-tographs and text doc-u-ments.
+ []
+
+[79
+
+
+
+] [80] [81
+
+
+] [82] [83
+
+
+] [84] [85
+>>>>>>> master
 
 
 
 
+<<<<<<< HEAD
 ] [24]
 \openout2 = `Chapters/00Appendix.aux'.
 
@@ -2494,19 +3801,34 @@ e-times called
 
 [25
 
+=======
+] [86]
+\openout2 = `Chapters/00Appendix.aux'.
+
+ (Chapters/00Appendix.tex
+chapter 5.
+[87
+>>>>>>> master
 
 
 ]) [26]
 \openout2 = `FrontBackmatter/Glossary.aux'.
 
+<<<<<<< HEAD
  (FrontBackmatter/Glossary.tex (ResearchMethods.gls)) [27
+=======
+]) [88]
+\openout2 = `FrontBackmatter/Bibliography.aux'.
+>>>>>>> master
+
+ (FrontBackmatter/Bibliography.tex) [89
 
 
 
 
 
 
-
+<<<<<<< HEAD
 
 ] [28
 
@@ -2521,6 +3843,13 @@ e-times called
 
 
 ] [30
+=======
+] [90]
+\openout2 = `FrontBackmatter/Colophon.aux'.
+
+
+(FrontBackmatter/Colophon.tex) [91
+>>>>>>> master
 
 
 
@@ -2531,6 +3860,7 @@ e-times called
 [31
 
 ]
+<<<<<<< HEAD
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
  (ResearchMethods.aux (FrontBackmatter/Titlepage.aux)
@@ -2539,6 +3869,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
 (FrontBackmatter/Glossary.aux) (FrontBackmatter/Bibliography.aux)
 (FrontBackmatter/Colophon.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
+=======
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
+ (ResearchMethods.aux
+(FrontBackmatter/Titlepage.aux) (FrontBackmatter/Titleback.aux)
+(FrontBackmatter/Foreword.aux) (FrontBackmatter/Contents.aux)
+(Chapters/05Measuring.aux) (Chapters/06Data.aux) (Chapters/07Sampling.aux)
+(Chapters/08Surveys.aux) (Chapters/00Appendix.aux)
+(FrontBackmatter/Bibliography.aux) (FrontBackmatter/Colophon.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
+>>>>>>> master
 
 
  *File List*
@@ -2583,6 +3924,7 @@ american.ldf    2017/06/06 v3.3r English support from the babel system
 csquotes.sty    2018/04/13 v5.2d context-sensitive quotations (JAW)
 csquotes.def    2018/04/13 v5.2d csquotes generic definitions (JAW)
 csquotes.cfg    
+<<<<<<< HEAD
 biblatex.sty    2018/11/02 v3.12 programmable bibliographies (PK/MW)
 pdftexcmds.sty    2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
    ifpdf.sty    2017/03/15 v3.2 Provides the ifpdf switch
@@ -2599,6 +3941,27 @@ numeric-comp.bbx    2018/11/02 v3.12 biblatex bibliography style (PK/MW)
 numeric-comp.cbx    2018/11/02 v3.12 biblatex citation style (PK/MW)
 biblatex.cfg    
  amsmath.sty    2017/09/02 v2.17a AMS math features
+=======
+biblatex.sty    2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
+pdftexcmds.sty    2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
+   ifpdf.sty    2017/03/15 v3.2 Provides the ifpdf switch
+  logreq.sty    2010/08/04 v1.0 xml request logger
+  logreq.def    2010/08/04 v1.0 logreq spec v1.0
+ xstring.sty    2013/10/13  v1.7c  String manipulations (C Tellechea)
+  blx-dm.def
+numeric-comp.dbx
+biblatex-dm.cfg
+blx-compat.def    2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+blx-bibtex.def    2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+biblatex.def    2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+blx-natbib.def    2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+standard.bbx    2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+ numeric.bbx    2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+numeric-comp.bbx    2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+numeric-comp.cbx    2017/12/19 v3.10 biblatex citation style (PK/JW/AB)
+biblatex.cfg    
+ amsmath.sty    2016/11/05 v2.16a AMS math features
+>>>>>>> master
  amstext.sty    2000/06/29 v2.01 AMS text
   amsgen.sty    1999/11/30 v2.0 generic functions
   amsbsy.sty    1999/11/29 v1.2d Bold Symbols
@@ -2615,6 +3978,12 @@ l3pdfmode.def    2018-06-14 v L3 Experimental driver: PDF mode
   xparse.sty    2018-05-12 L3 Experimental document command parser
 mparhack.sty    2005/04/17 v1.4 (T. Sgouros and S. Ulrich)
 fixltx2e.sty    2016/12/29 v2.1a fixes to LaTeX (obsolete)
+<<<<<<< HEAD
+=======
+ acronym.sty    2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
+  suffix.sty    2006/07/15 1.5a Variant command support
+ relsize.sty    2003/07/04 ver 3.1
+>>>>>>> master
 shorttoc.sty    2002/08/20 v1.3 Short table of contents (JPFD)
    float.sty    2001/11/08 v1.3d Float enhancements (AL)
    float.hak    2018/03/30 v3.25 KOMA-Script package (hacking package float)
@@ -2625,7 +3994,12 @@ shorttoc.sty    2002/08/20 v1.3 Short table of contents (JPFD)
 colortbl.sty    2018/05/02 v1.0c Color table columns (DPC)
    array.sty    2018/04/30 v2.4h Tabular extension package (FMi)
   svgnam.def    2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+<<<<<<< HEAD
 tabularx.sty    2016/02/03 v2.11b `tabularx' package (DPC)
+=======
+tabularx.sty    2016/02/03 v2.11 `tabularx' package (DPC)
+tabulary.sty    2014/06/11 v0.10 tabulary package (DPC)
+>>>>>>> master
     tikz.sty    2015/08/07 v3.0.1a (rcs-revision 1.151)
      pgf.sty    2015/08/07 v3.0.1a (rcs-revision 1.15)
   pgfrcs.sty    2015/08/07 v3.0.1a (rcs-revision 1.31)
@@ -2748,10 +4122,19 @@ titlesec.sty    2016/03/21 v2.10.2 Sectioning titles
 prelim2e.sty    2009/05/29 v1.3 prelim2e Package (MS)
 remreset.sty    
  ccicons.sty    2017/10/30 v1.6 LaTeX support for Creative Commons icons
+<<<<<<< HEAD
  english.lbx    2018/11/02 v3.12 biblatex localization (PK/MW)
 american.lbx    2018/11/02 v3.12 biblatex localization (PK/MW)
   german.lbx    2018/11/02 v3.12 biblatex localization (PK/MW)
  ngerman.lbx    2018/11/02 v3.12 biblatex localization (PK/MW)
+=======
+ xkeyval.sty    2014/12/03 v2.7a package option processing (HA)
+ xkeyval.tex    2014/12/03 v2.7a key=value parser (HA)
+ english.lbx    2017/12/19 v3.10 biblatex localization (PK/JW/AB)
+american.lbx    2017/12/19 v3.10 biblatex localization (PK/JW/AB)
+  german.lbx    2017/12/19 v3.10 biblatex localization (PK/JW/AB)
+ ngerman.lbx    2017/12/19 v3.10 biblatex localization (PK/JW/AB)
+>>>>>>> master
   t1pplj.fd    2004/09/06 font definitions for T1/pplj.
 ResearchMethods.bbl
 supp-pdf.mkii
@@ -2778,20 +4161,50 @@ doclicense-CC-by-nc-sa.pdf    Graphic file (type pdf)
 FrontBackmatter/Foreword.tex
  ts1pplj.fd    2004/09/06 font definitions for TS1/pplj.
 FrontBackmatter/Contents.tex
+<<<<<<< HEAD
 Chapters/01Intro.tex
 Chapters/00Appendix.tex
 FrontBackmatter/Glossary.tex
 ResearchMethods.gls
+=======
+Chapters/05Measuring.tex
+Chapters/06Data.tex
+gfx/05-01.png
+gfx/05-02.png
+gfx/05-03.png
+Chapters/07Sampling.tex
+gfx/07-01.png
+gfx/07-11.png
+gfx/07-02.png
+gfx/07-03.png
+gfx/07-04.png
+gfx/07-05.png
+gfx/07-06.png
+gfx/07-07.png
+gfx/07-08.png
+gfx/07-09.png
+gfx/07-10.png
+gfx/07-12.png
+gfx/07-13.png
+gfx/07-14.png
+Chapters/08Surveys.tex
+gfx/08-01.jpg
+Chapters/00Appendix.tex
+>>>>>>> master
 FrontBackmatter/Bibliography.tex
 FrontBackmatter/Colophon.tex
  ***********
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
 Package rerunfilecheck Info: File `ResearchMethods.out' has not changed.
+<<<<<<< HEAD
 (rerunfilecheck)             Checksum: DA86DA148634844A3B915643BA9CF2C2;1377.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+=======
+(rerunfilecheck)             Checksum: EE0E9552BEFB1BDEBDD7AB92163F4F33;3967.
+>>>>>>> master
 
 LaTeX Warning: There were undefined references.
 
@@ -2800,6 +4213,7 @@ Package logreq Info: Writing requests to 'ResearchMethods.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  51392 strings out of 492973
  1001815 string characters out of 3139920
  1634354 words of memory out of 3000000
@@ -2822,4 +4236,28 @@ PDF statistics:
  440 PDF objects out of 1000 (max. 8388607)
  115 named destinations out of 1000 (max. 500000)
  25290 words of extra memory for PDF output out of 29859 (max. 10000000)
+=======
+ 46067 strings out of 493323
+ 905044 string characters out of 3139065
+ 1468130 words of memory out of 3000000
+ 48463 multiletter control sequences out of 15000+200000
+ 617652 words of font info for 141 fonts, out of 3000000 for 9000
+ 1145 hyphenation exceptions out of 8191
+ 68i,23n,96p,10522b,2255s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/euler/eurb10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/euler/eurm10.pfb><C:/Users/gself/AppData/Roaming/MiKTeX/2.9/
+fonts/type1/public/fpl/fplrc8a.pfb><C:/Users/gself/AppData/Roaming/MiKTeX/2.9/f
+onts/type1/public/fpl/fplrij8a.pfb><C:/Users/gself/AppData/Roaming/MiKTeX/2.9/f
+onts/type1/bera/fvmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatin
+o/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on ResearchMethods.pdf (101 pages, 8926138 bytes).
+PDF statistics:
+ 1050 PDF objects out of 1200 (max. 8388607)
+ 265 named destinations out of 1000 (max. 500000)
+ 25156 words of extra memory for PDF output out of 29859 (max. 10000000)
+>>>>>>> master
 
