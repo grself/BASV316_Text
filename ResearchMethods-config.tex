@@ -111,20 +111,20 @@
 
 \usepackage{csquotes}
 
-%\PassOptionsToPackage{%
-%  backend=biber, %instead of bibtex
-%  backend=bibtex8,bibencoding=ascii,%
-%  language=auto,%
-%  style=numeric-comp,%
-%    %style=authoryear-comp, % Author 1999, 2010
-%    %bibstyle=authoryear,dashed=false, % dashed: substitute rep. author with ---
-%  sorting=nyt, % name, year, title
-%  maxbibnames=10, % default: 3, et al.
-%    %backref=true,%
-%  natbib=true % natbib compatibility mode (\citep and \citet still work)
-%  }{biblatex}
-%  \usepackage{biblatex}
-%\addbibresource{ResearchMethods}
+\PassOptionsToPackage{%
+  backend=biber, %instead of bibtex
+  backend=bibtex8,bibencoding=ascii,%
+  language=auto,%
+  style=numeric-comp,%
+    %style=authoryear-comp, % Author 1999, 2010
+    %bibstyle=authoryear,dashed=false, % dashed: substitute rep. author with ---
+  sorting=nyt, % name, year, title
+  maxbibnames=10, % default: 3, et al.
+    %backref=true,%
+  natbib=true % natbib compatibility mode (\citep and \citet still work)
+  }{biblatex}
+  \usepackage{biblatex}
+\addbibresource{ResearchMethods}
 
 % math environments and more by the AMS 
 \PassOptionsToPackage{fleqn}{amsmath}  
@@ -141,9 +141,9 @@
 \usepackage{mparhack} % get marginpar right
 \usepackage{fixltx2e} % fixes some LaTeX stuff 
 
-\PassOptionsToPackage{printonlyused,smaller}{acronym} 
-  \usepackage{acronym} % nice macros for handling all acronyms in the thesis
-\renewcommand*{\aclabelfont}[1]{\acsfont{#1}}
+%\PassOptionsToPackage{printonlyused,smaller}{acronym} 
+%  \usepackage{acronym} % nice macros for handling all acronyms in the thesis
+%\renewcommand*{\aclabelfont}[1]{\acsfont{#1}}
 
 \usepackage{shorttoc} % For the short TOC at the top of the document
 
@@ -262,21 +262,6 @@
   pdfproducer={LaTeX with hyperref and classicthesis}%
 }
 
-% *************************************************
-% Glossaries and Acronyms
-% Note: I could never get glossaries to compile in this 
-% document (but I could in another document). There doesn't
-% seem to be a problem with MikTex or TexStudio, but
-% some package I have installed for this document is not
-% compatible with glossaries. I decided to just manually
-% create a glossary in the ``Contents'' document.
-% *************************************************
-%\usepackage[acronym,nomain,xindy]{glossaries}
-%\makeglossaries
-%
-%\newglossaryentry{LW}{name={Long Word},description={This is just a long word.}}
-%
-%\newacronym{wtf}{WTF}{What the Flying Freakin' Flip???}
 
 % *************************************************
 % Setup autoreferences
@@ -316,7 +301,25 @@
   }{\relax}
 \makeatother
 
-
+% *************************************************
+% Glossaries and Acronyms
+% Note: Glossaries must be loaded after
+% hyperref, babel, polyglossia, inputenc, and fontenc
+% Note: I could never get glossaries to compile in this 
+% document (but I could in another document). There doesn't
+% seem to be a problem with MikTex or TexStudio, but
+% some package I have installed for this document is not
+% compatible with glossaries. I decided to just manually
+% create a glossary in the ``Contents'' document.
+% *************************************************
+\usepackage[style=long,nolist]{glossaries}
+\newcommand{\glossname}{Glossary}
+\makeglossaries
+\loadglsentries{AcroGloss}
+%
+%\newglossaryentry{LW}{name={Long Word},description={This is just a long word.}}
+%
+%\newacronym{wtf}{WTF}{What the Flying Freakin' Flip???}
 % *************************************************
 % 7. Last calls before the bar closes
 % *************************************************

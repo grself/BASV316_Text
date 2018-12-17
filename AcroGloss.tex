@@ -1,0 +1,45 @@
+% This file contains all of the acronymns and glossary entries for the book.
+
+% Acronyms
+% The ``code'' is what I use in the document to link to a definition here
+% The ``name'' is what the user sees in the document
+% The ``definition'' is what the user sees in the glossary
+%\newacronym{code}{name}{Definition}
+
+\newacronym{nasa}{NASA}{National Aeronatics and Space Administration}
+
+% Glossary
+% The ``code'' is what I use in the document to link to a definition here
+% The ``name'' is the phrase listed in the glossary
+% The ``description'' defines the phrase
+% Can also include a ``text'' entry that is how the phrase will appear in the text
+% Ex: name{Latin Alphabet} uses caps in the Glossary
+%     text{Latin alphabet} uses LC in the text
+% Can also include a ``plural'' entry to spell non-standard plural words
+% Ex: name{bravo} 
+%     plural{bravi}
+
+%\newglossaryentry{code}{name={Phrase in Glossary},
+%		description={This describes the phrase.}}
+% ``see'' creates a cross-link in the glossary, usually not needed
+% Note that a glossary entry will not be printed if it is not in the
+% main text somewhere.
+
+\newglossaryentry{myphone}{
+	name={George's Phone},
+	description={(520) 335-2958},
+	see={myaddr}
+}
+
+\newglossaryentry{myaddr}{
+	name={George's Address},
+	description={Cochise College Downtown Center}
+}
+
+% For long entries, the percent sign after the opening brace
+% removes the CR/LF so you don't get an extra vertical space
+\longnewglossaryentry{constr}
+	{name={constructivism}}
+	{%
+	  A philosophical stance that reality is a construct of the human mind and is, therefore, subjective. Normally, qualitative research methods are used by researchers who are constructivists.
+    }

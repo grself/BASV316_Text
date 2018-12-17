@@ -39,19 +39,23 @@
 % 15 Presenting: Pre-draft
 
 %************************************************************
-\section{acronyms}
-% Define a new acronym in "Contents.tex"
-% The definition takes the form: \acro{POS}{Product of Sums}
-% Enter them in alphabetic order since they will be printed in the Table of Acronymns 
-% 	in the same order that they are listed on the Contents page
+\section{acronyms and glossary}
+% all acronymns and glossary entries are defined in
+% AcroGloss.tex. I have some information in that document
+% about how to format entries.
+% To compile the glossary:
+% 1. Build the document
+% 2. Tools -> Glossary (F9) % to build the glossary entries
+% 3. Build the document again
+
+% To use an acronym or glossary term in the text:
 %***************************************************************
-\ac{ACR}   % prints the acronym text and then the acronym in brackets 
-\acl{ACR}  % prints the long version (the definition without acronym)
-\acf{ACR}  % prints the full name of the acronym plus the acronym
-\acs{ACR}  % prints the short version (no definition)
-\acp{ACR}  % prints the plural version
-\acfp{ACR} % prints the full version in plural
-\aclp{ACR} % prints the long version in plural
+\gls{code} % Where ``code'' is the code I specify in the glossary entry
+\glspl{code} % For the plural (note: forms a simple ``s'' plural)
+% for more complex plurals, create an alternate form in AcroGloss
+\Gls{code} % Capitalize the first letter
+\Glspl{code} % Capitalize the first letter, make the word plural
+
 
 %******************************************************
 \section{3-Line Equation}
