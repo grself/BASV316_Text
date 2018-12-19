@@ -2,13 +2,19 @@
 % the text width in a normal line is 11.80737cm
 % To make a TODO note, start a comment with two or more consecutive capital letters.
 
+% Figures are in the gfx folder. They should not have dots in the names
+% since that interferes with the crossref function. They should be named
+% something like '01-intro.png' where the first two digits are the 
+% chapter number and then some simple description of the figure.
+
 % Potential arrangement (for 2nd ed???): 
 %		3 Background chapters
 %		8 Chapters about ``Traditional'' procedures
 %		4 Chapters about Business Analytics, datamining, etc.
 
 % TODO
-% add photo to start of each chapter 
+% add photo to start of each chapter
+ 
 
 % TODO: Status
 % FIXME
@@ -186,6 +192,21 @@
 \begin{lstlisting}
   Code here
 \end{lstlisting}
+
+%***************************************************************************
+\section{Introductory Figure}
+%**************************************************************************
+% Use this for figures at the top of each chapter
+
+\section{first section head}
+
+\begin{wrapfigure}{r}{0.2\textwidth}
+	\label{05:fig01} 
+	\centering
+	\includegraphics[width=0.2\textwidth]{gfx/05-cake} 
+\end{wrapfigure}
+
+First paragraph.\blfootnote{Photo by lindsay Cotter on Unsplash}
 
 %***************************************************************************
 \section{Wrap Figure}
