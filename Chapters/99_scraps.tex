@@ -136,23 +136,25 @@
 %***************************************************************************
 \section{Text Table}
 %***************************************************************************
-\vspace{.15in}
 % the p values set column width and force word wrap, left align text
-% the .95 value makes the table hlines remain inside the text area
-\begin{tabularx}{.95\linewidth}{p{0.50in}p{3.50in}}
-	\hline
-	\textbf{Type} & \textbf{Description} \\
-	\hline
-	
-	x & y \\
-	x & y \\
-	x & y\\
-	
-	\hline
-\end{tabularx}
-\vspace{.15in}
-
-\vspace{.15in}
+% the p values should total 0.95, the width of the table
+\begin{table}[H]
+	\centering
+	\begin{tabularx}{0.95\linewidth}{p{0.15\linewidth}p{0.40\linewidth}p{0.40\linewidth}}
+		\toprule
+		\textbf{X} & \textbf{Y} & \textbf{Z} \\
+		\midrule
+		a & b & c \\
+		a & b & c \\
+		a & b & c \\
+		a & b & c \\
+		\midrule
+		\multicolumn{3}{p{0.95\linewidth}}{Note: def.} \\	
+		\bottomrule
+	\end{tabularx}
+	\caption{My great table.}
+	\label{tab06.01}
+\end{table}
 
 %*************************************
 % Tabulary will automatically adjust the column widths and word wrap
@@ -200,10 +202,10 @@
 
 \section{first section head}
 
-\begin{wrapfigure}{r}{0.2\textwidth}
+\begin{wrapfigure}{r}{0.4\textwidth}
 	\label{05:fig01} 
 	\centering
-	\includegraphics[width=0.2\textwidth]{gfx/05-cake} 
+	\includegraphics[width=0.4\textwidth]{gfx/05-cake} 
 \end{wrapfigure}
 
 First paragraph.\blfootnote{Photo by lindsay Cotter on Unsplash}
