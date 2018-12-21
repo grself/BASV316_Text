@@ -183,32 +183,20 @@ Sometimes, students will find a website with a list of links to journal articles
 
 As an example of using a public database, imagine that the CEO of ``BASVFOODS'' is interested in opening a neighborhood market in a small town they have never serviced before. In order to gather information about that location it is possible to use US Census Bureau data to find out things like the median household size, income, and education level. The CEO could then compare that data with similar data from a town that has a successful store to help inform a decision to open a new store.
 
-\section{Statistical Analysis}
+\section{Statistical Test Selection}
 
 Once the data are gathered it is important to run some statistical processes to see if the data contains anything of interest. While there are hundreds of tests that can be used, here is a bit of information about the most common tests.
 
-When researchers are determining what type of statistical test to use they must consider the goal of the analysis and the type of data being analyzed. Following are several tables to help determine an appropriate statistical test.
+When researchers are determining what type of statistical test to use they must consider the goal of the analysis and the type of data being analyzed. To begin to determine what statistical tests are appropriate, start by classifying the variables being evaluated. 
 
-\paragraph{Summary Statistics}
-
-One of the easiest type of analysis to complete is determining the center and spread of a data set. This analysis is also one of the first that research readers expect to find. Here is a guide for what sort of summary test to choose.
+\begin{itemize}
+	\item Quantitative variables are numeric and are found through measurement or counting. Continuous data can be any value, including fractions or decimals, like a person's height or the length of time it takes to complete some task. Discrete data are integers normally found by counting, like the number of people at an event or the age of a respondent.
+	\item Qualitative variables are non-numeric and are found by people checking boxes on a survey. Ordinal data have some implied order, like a student's class (senior, junior, etc.) or the level of agreement with a statement. Nominal data have no order, like a respondent's gender.
+\end{itemize}
 
 \begin{figure}[H]
 	\centering
 
-%	\begin{tikzpicture} [outer sep=auto]
-%		\node [draw]{Variable}
-%			[edge from parent fork down]
-%			child {node [draw] {Scale}
-%				child {node [draw] {Continuous}}
-%				child {node [draw] {Discrete}}
-%			}
-%			child {node [draw] {Categorical}
-%				child {node [draw] {Ordinal}}
-%				child {node [draw] {Nominal}}
-%			}
-%		;
-%	\end{tikzpicture}
 	\forestset{qtree/.style={for tree={parent anchor=south, 
 			child anchor=north,
 			align=center,
@@ -217,11 +205,11 @@ One of the easiest type of analysis to complete is determining the center and sp
 		
 	\begin{forest}, baseline, qtree
 		[Variable, fill=purple!40!white
-			[{Scale\\(Measure or count)}, fill=cyan!40!white
+			[{Quantitative\\(Measure or count)}, fill=cyan!40!white
 				[{Continuous\\(Any value)}, fill=cyan!20!white]
 				[{Discrete\\(Integers)}, fill=cyan!20!white]
 			]
-			[{Categorical\\(Tick boxes)}, fill=pink!60!white
+			[{Qualitative\\(Tick boxes)}, fill=pink!60!white
 				[{Ordinal\\(Ordered)}, fill=pink!40!white]
 				[{Nominal\\(No order)}, fill=pink!40!white]
 			]
@@ -229,49 +217,153 @@ One of the easiest type of analysis to complete is determining the center and sp
 	\end{forest}
 
 	\caption{Classifying Variables}
+	\label{fig06.08}
+\end{figure}
+
+\subsection{Summary Statistics}
+
+One of the easiest type of analysis to complete is determining the center and spread of a data set. This analysis is also one of the first that research readers expect to find. Here is a guide for what sort of central measure and spread to report.
+
+\begin{itemize}
+	\item For normally distributed data use the mean and standard deviation.
+	\item For skewed data use the median and Interquartile Range (IQR).
+	\item For ordinal data use the median and Interquartile Range (IQR).
+	\item For nominal data use the mode as a central measure but there is no spread.
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+	
+	\forestset{qtree/.style={for tree={parent anchor=south, 
+				child anchor=north,
+				align=center,
+				inner sep=3pt,
+				draw}}}
+	
+	\begin{forest}, baseline, qtree
+		[Which summary and spread, fill=brown!40!white
+			[{Quantitative}, fill=orange!40!white
+				[{Normal Distribution\\(Mean\\Standard deviation)}, fill=orange!20!white]
+				[{Skewed Data\\(Median\\IQR)}, fill=orange!20!white]
+			]
+			[{Qualitative}, fill=yellow!60!white
+				[{Ordinal\\(Median\\IQR)}, fill=yellow!40!white]
+				[{Nominal\\(Mode\\No range)}, fill=yellow!40!white]
+			]
+		]
+	\end{forest}
+	
+	\caption{Central Measure and Spread}
+	\label{fig06.09}
+\end{figure}
+
+\subsection{Parametric vs. Nonparametric Tests}
+
+Normally, a researcher posits a hypothesis and then conducts research to either support or refute that hypothesis. The type of hypothesis test needed depends on the type of the variables being tested. There are two broad categories of variables in a hypothesis test: independent and dependent.
+
+\begin{itemize}
+	\item Independent variables (explanatory variables) are those that cause something to happen; they explain why some outcome was observed. For example, if the hypothesis is that women spend more on groceries than men then the independent variable is the sex of the shopper. If the hypothesis is that old people are more dangerous drivers than young people then the independent variable is the age of the driver.
+	\item Dependent variables (outcome variables) are those that are the outcome for whatever is happening. For example, if the hypothesis is that women spend more on groceries than men then the dependent variable is amount of money spent. If the hypothesis is that old people are more dangerous drivers than young people then the dependent variable is the number of accidents reported.
+\end{itemize}
+
+The chart in Figure \ref{fig06.10} is used to determine if the hypothesis test should be parametric or nonparametric.
+
+\begin{itemize}
+	\item Parametric tests assume that the data follows a particular distribution, usually normally distributed. Parametric tests are more powerful than nonparametric tests and are more likely to detect true differences or relationships that exist.
+	\item Nonparametric tests are used when the dependent variable is not normally distributed; that is, the data are skewed or are nominal. Nonparametric techniques are usually based on ranks or signs rather than the actual data and are usually less powerful than parametric tests.
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+	
+	\forestset{qtree/.style={for tree={parent anchor=south, 
+				child anchor=north,
+				align=center,
+				inner sep=3pt,
+				draw}}}
+	
+	\begin{forest}, baseline, qtree
+		[Dependent Variable, fill=green!40!white
+		[{Quantitative}, fill=teal!40!white
+		[{Normal Distribution\\(Parametric)}, fill=teal!20!white]
+		[{Skewed Data\\(Nonparametric)}, fill=teal!20!white]
+		]
+		[{Qualitative}, fill=lime!60!white
+		[{Ordinal\\(Nonparametric)}, fill=lime!40!white]
+		[{Nominal\\(Chi-square)}, fill=lime!40!white]
+		]
+		]
+	\end{forest}
+	
+	\caption{Parametric vs. Nonparametric Selection}
 	\label{fig06.10}
 \end{figure}
 
+\subsection{Hypothesis Test Selection}
 
-
-
-
-
-
-
-
-
+Table \ref{tab06.07} lists the hypothesis tests that are commonly used to compare the averages of two or more groups.
 
 \begin{table}[H]
 	\centering
-	\definecolor{ltgray}{gray}{0.95}
-	\rowcolors{1}{}{ltgray}
-	\begin{tabularx}{0.95\linewidth}{p{0.20\linewidth}p{0.70\linewidth}}
+	\definecolor{ltgray}{gray}{0.95} % this is a light gray
+	\rowcolors{1}{}{ltgray} % zebra striping background
+	\begin{tabularx}{0.95\linewidth}{p{0.25\linewidth}
+			p{0.15\linewidth}
+			p{0.15\linewidth}
+			p{0.15\linewidth}
+			p{0.15\linewidth}
+		}
 		\toprule
-		\textbf{Test} & \textbf{Notes} \\
+		\textbf{Comparing} & 
+			\textbf{Dep Var} & 
+			\textbf{Ind Var} &
+			\textbf{Para} & 
+			\textbf{NonPara} \\
 		\midrule
-		{} & \textbf{Association between variables} \\
-		Pearson & Correlation between two interval or ratio variables. \\
-		Spearman & Correlation between two ordinal variables. \\
-		Chi-square & Strength of association between two nominal variables. \\
-		\midrule
-		{} & \textbf{Difference between means of two variables} \\
-		T-test & Difference between two variables. \\
-		ANOVA & Difference between two means after other variances are accounted for. \\
-		\midrule
-		{} & \textbf{Predict one variable from change in another.} \\
-		Simple \newline regression & Use a single predictor variable to predict change in another variable. \\
-		Multiple regression & Use a multiple predictor variables to predict change in another variable. \\
-		\midrule
-		{} & \textbf{Tests for qualitative data} \\
-		Mann-Whitney & Difference between two categorical variables. \\
-		Kruskal-Wallis & Difference between three or more categorical variables. \\
+		2 independent \newline groups & Quant & Binary & Indep t-test & Mann-Whitney \\
+		3+ independent \newline groups & Quant & Nom & ANOVA & Kruskal-Wallis \\
+		2 matched \newline groups & Quant & Time & Paired t-test & Wilcoxon \\	
+		3+ measures \newline same subj & Quant & Time & Rep ANOVA & Friedman \\		
+
 		\bottomrule
 	\end{tabularx}
-	\caption{My great table.}
-	\label{tab06.06}
+	\caption{Tests to Compare Two or More Samples}
+	\label{tab06.07}
 \end{table}
 
+
+Table \ref{tab06.08} lists the hypothesis tests that are commonly used to find any associations relationships (correlations) between two groups.
+
+\begin{table}[H]
+	\centering
+	\definecolor{ltgray}{gray}{0.95} % this is a light gray
+	\rowcolors{1}{}{ltgray} % zebra striping background
+	\begin{tabularx}{0.95\linewidth}{p{0.25\linewidth}
+			p{0.15\linewidth}
+			p{0.15\linewidth}
+			p{0.15\linewidth}
+			p{0.15\linewidth}
+		}
+		\toprule
+		\textbf{Comparing} & 
+		\textbf{Dep Var} & 
+		\textbf{Ind Var} &
+		\textbf{Para} & 
+		\textbf{NonPara} \\
+		\midrule
+		2 Continuous & Quant & Quant & Pearson's r & Spearman's rho \\
+		Prediction & Quant & Any & Regression & None \\
+		Prediction & Nominal & Any & Log \newline regression & None \\	
+		2 Qual vars & Qual & Qual & None & Chi-square \\		
+		
+		\bottomrule
+	\end{tabularx}
+	\caption{Tests to Association Between Two Samples}
+	\label{tab06.08}
+\end{table}
+
+
+\section{Statistical Test Sampler}
 
 \subsection{Central Measures}
 
