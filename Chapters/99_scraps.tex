@@ -140,6 +140,8 @@
 % the p values should total 0.95, the width of the table
 \begin{table}[H]
 	\centering
+	\definecolor{ltgray}{gray}{0.95} % this is a light gray
+	\rowcolors{1}{}{ltgray} % zebra striping background
 	\begin{tabularx}{0.95\linewidth}{p{0.15\linewidth}p{0.40\linewidth}p{0.40\linewidth}}
 		\toprule
 		\textbf{X} & \textbf{Y} & \textbf{Z} \\
@@ -147,7 +149,7 @@
 		a & b & c \\
 		a & b & c \\
 		a & b & c \\
-		a & b & c \\
+		a \newline b & b & c \\ % line break in cell
 		\midrule
 		\multicolumn{3}{p{0.95\linewidth}}{Note: def.} \\	
 		\bottomrule
@@ -203,7 +205,7 @@
 \section{first section head}
 
 \begin{wrapfigure}{r}{0.4\textwidth}
-	\label{05:fig01} 
+	\label{fig01.01} 
 	\centering
 	\includegraphics[width=0.4\textwidth]{gfx/05-cake} 
 \end{wrapfigure}
@@ -215,7 +217,7 @@ First paragraph.\blfootnote{Photo by lindsay Cotter on Unsplash}
 %**************************************************************************
 \begin{wrapfigure}{O}{0.2\textwidth}
 	\caption{} % No text, wraps badly in very narrow space (does print fig number)
-	\label{03:fig01} 
+	\label{fig01.01} 
 	\centering
 	\includegraphics[width=0.2\textwidth]{gfx/99-placeholder} 
 \end{wrapfigure}
@@ -227,7 +229,7 @@ First paragraph.\blfootnote{Photo by lindsay Cotter on Unsplash}
 	\centering
 	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/99-placeholder}
 	\caption{Caption}
-	\label{fig05.01}
+	\label{fig01.01}
 \end{figure}
 
 %***************************************************************************
