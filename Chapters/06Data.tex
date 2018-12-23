@@ -367,15 +367,90 @@ While there are hundreds of statistical procedures available, this section cover
 
 \subsection{Central Measures}
 
-\subsection{Dispersion}
+Three different central measures are commonly used, depending on the type of data being summarized.
+
+\begin{itemize}
+	\item \textbf{Mean}. An arithmetic mean is calculated by adding together all of the terms and then dividing by the number of terms. This process is taught in elementary school as calculating the ``average.'' However, if the terms have wildly different values then a \textit{geometric mean} is a better choice. In a geometric mean the values are multiplied together and then the n-root is taken, where ``n'' is the number of terms in the data. Finally, if the mean of a series of rates is needed, then a \textit{harmonic mean} is used. For a harmonic mean all of the terms are reciprocated, a mean is found of those reciprocated terms, and then the mean is reciprocated.
+	\item \textbf{Median}. A median is found by putting all of the terms in numeric order and then selecting the middle term. This is useful if the data set includes outliers, that is, a few values far outside the other terms. Medians are frequently used to report house values since a few houses may be worth far more than the other houses in an area. If the data set has an even number of terms, so there is no middle term, then the median is found by taking the mean of the middle two terms.
+	\item \textbf{Mode}. The mode is used for nominal data and is the count of the most common term. For example, if a count of the number of undergraduate students in each class (senior, junior, etc.) is made and it turns out that there are more seniors than any other group then the mode would be ``senior.''
+\end{itemize}
+
+\subsection{Spread}
+
+Two measures of spread are commonly used. 
+
+\begin{itemize}
+	\item \textbf{Range}. The range, or ``dispersion,'' is the difference between the highest value and lowest value.
+	\item \textbf{Standard deviation}. This often misunderstood value is nothing more than an indicator of how much variation exists in the data, or how ``scattered out'' the data are. In general, the greater the standard deviation the more variation there are in the data. As an example, imagine that a professor administered an examination to a group of students and found the mean to be $ 70\% $ with a standard deviation of $ 15 $. Then the professor changed something about the class the next semester and administered the same examination to that group of students and found the mean was $ 85\% $ with a standard deviation of $ 5 $. This result would indicate that the scores the second semester had much less variation, they were much ``tighter,'' and that would likely be good news for the professor.
+\end{itemize}
 
 \subsection{Frequency Tables}
 
+Discrete or qualitative data items are normally reported in frequency tables where the counts for a particular item are displayed. When a frequency table has two dimensions it is usually called a ``cross-tab'' or ``pivot table.'' As an example, Table \ref{tab06.02} contains the results of an exit poll from 2016 presidential election. \cite{cnn2016election}
+
+\begin{table}[H]
+	\centering
+	\definecolor{ltgray}{gray}{0.95} % this is a light gray
+	\rowcolors{1}{}{ltgray} % zebra striping background
+	\begin{tabularx}{0.95\linewidth}{
+			p{0.22\linewidth}
+			p{0.22\linewidth}
+			p{0.22\linewidth}
+			p{0.22\linewidth}}
+		\toprule
+		\textbf{Party} & \textbf{Clinton} & \textbf{Trump} & \textbf{Other} \\
+		\midrule
+		Democrats & $ 89\% $ & $ 8\% $ & $ 3\% $ \\
+		Republicans & $ 8\% $ & $ 88\% $ & $ 4\% $ \\
+		Independents & $ 42\% $ & $ 46\% $ & $ 12\% $ \\
+		\bottomrule
+	\end{tabularx}
+	\caption{2016 Exit Poll.}
+	\label{tab06.02}
+\end{table}
+
 \subsection{Correlation}
 
-\subsection{Parametric Hypothesis Tests}
+Correlation is a method used to describe a relationship between the independent (or x-axis) and dependent (or y-axis) variables in a research project. A correlation is expressed as a number between $ -1.0 $ and $ +1.0 $ where the closer the correlation gets to the extremes the more meaningful it becomes. Thus, two variables with a correlation of $ +0.65 $ have a closer association than two variables with a correlation of $ +0.23 $. Correlations are often displayed in a matrix. Table \ref{tab06.06} shows the Miles per Gallon, Displacement, and Horsepower for a group of automobiles. In this table, notice that there is a negative correlation between horsepower and miles per gallon, which means that cars with greater horsepower get fewer miles per gallon. On the other hand, there is a positive correlation between displacement and horsepower so cars with greater engine displacement have more horsepower.
+
+\begin{table}[H]
+	\centering
+	\definecolor{ltgray}{gray}{0.95} % this is a light gray
+	\rowcolors{1}{}{ltgray} % zebra striping background
+	\begin{tabularx}{0.95\linewidth}{
+			p{0.22\linewidth}
+			p{0.22\linewidth}
+			p{0.22\linewidth}
+			p{0.22\linewidth}}
+		\toprule
+		{}   & mpg       & disp      & hp \\
+		mpg  & $ +1.00 $ & $ -0.85 $ & $ -0.78 $ \\
+		disp & $ -0.85 $ & $ +1.00 $ & $ +0.79 $ \\
+		hp   & $ -0.78 $ & $ +0.79 $ & $ +1.00 $ \\
+		\bottomrule
+	\end{tabularx}
+	\caption{Selected Automobile Correlations.}
+	\label{tab06.06}
+\end{table}
+
+
+\subsection{Parametric Tests}
+
+Some analysis techniques are only useful with \gls{parametric} data. While there are dozens of statistical processes that will work with parametric data, two are most commonly seen.
+
+\begin{itemize}
+	\item \textbf{T-test}. A t-test is used to analyze the difference in two groups of samples that are normally distributed. For example, a researcher may hypothesize that there is a significant difference in the ages of people in two towns. Once people's ages are recorded a t-test could be used to see if there is a significant difference in the mean age for the people in those two towns.
+	
+	There are two varieties of t-test commonly used, depending on the type of data being analyzed. If the two groups being compared are independent of each other then an ``independent t-test'' would be used. However, researchers often use the same group but test them at two different times. For example, a medical trial may measure some factor (like blood presure), apply some treatment, and then measure the factor a second time. In that case, a ``paired t-test'' would be used where the values from the first trial would be compared to those in the second.
+	
+	\item \textbf{Analysis of Variance (ANOVA)}. An ANOVA is similar to a t-test but is used to analyze three or more groups to see if there is a significant difference in any of the groups.
+\end{itemize}
+
+The result of either a t-test or ANOVA is a \textit{p-value} (``probability value''). A p-value describes the probability that some result was caused by pure chance and not from some applied treatment. P-values are expressed as percentages and, normally, researchers expect a p-value under $ 0.05 $ ($ 5\% $) in order to declare the result to be significant. If the calculated p-value is above $ 0.05 $ then the researcher declares that no significant result was found.
 
 \subsection{Nonparametric Hypothesis Tests}
+
+
 
 \section{Data Mining}
 
@@ -383,9 +458,20 @@ Data mining is a relatively new statistical technique that attempts to extract (
 
 \subsubsection{Clustering}
 
-It is beneficial to ``cluster'' customers in some way so advertising (and sales) can be more effective. For example, if a large grocery store chain can determine that most of the customers in one region share some common trait then it becomes easier to market to that region. 
+It is beneficial to ``cluster'' customers in some way so advertising (and sales) can be more effective. For example, if a large grocery store chain can determine that most of the customers in one region share some common trait then it becomes easier to market to that region.
+
+Figure \ref{fig06.11} shows a scatter plot with three clusters. This plot was generated from dummy data but it shows the type of clustering that a researcher may be able to find in a data set. The location of a specific cluster in relationship to the others would perhaps drive a marketing campaign focused on the specific properties the customers in that one cluster share.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/06-Cluster}
+	\caption{Example of Clustering}
+	\label{fig06.11}
+\end{figure}
 
 \subsubsection{Decision Tree}
+
+A decision tree organizes known data so predictions can be made on new data. Figure \ref{fig06.05} is taken from a data set that shows the fate of all the passengers on the Titanic. Starting at the top, few males survived. Of the females, there were no survivors who had more than $ 4.5 $ siblings or spouses on board, so large families perished. Notice, though, that near the bottom of the tree nearly all first class female passengers with few family members on board survived. A decision tree like this could be used to predict whether a given passenger survived. 
 
 \begin{figure}[H]
 	\centering
@@ -394,10 +480,11 @@ It is beneficial to ``cluster'' customers in some way so advertising (and sales)
 	\label{fig06.05}
 \end{figure}
 
-
-
-
 \subsubsection{Market Basket}
+
+A market basket analysis evaluates the products that customers purchase at the same time (they are in the same ``market basket'') and then uses that data to drive decisions on things like store organization and sales. For example, it is well known that customers who purchase beer also tend to purchase potato chips. What may be surprising is that customers who purchase beer also tend to purchase baby diapers. A market basket analysis does not attempt to determine why these relationships exist, just that they do exist. A grocery store owner may chose to put beer and chips on sale at the same time or create a display near the front of the store with both beer and chips. 
+
+Figure \ref{fig06.06} is a graphic representation of the rule set found in Figure \ref{fig06.10}, created from a market basket analysis of a bakery. The goal was to determine what sorts of products customers purchased with cherry tarts. Rule $ 53 $ indicates that apricot danish and cherry tarts tend to be purchased at the same time, and that would be valuable information for a bakery owner. The explanation of the numbers displayed (``Support,'' ``Confidence,'' etc.) is beyond the scope of this class, but business owners would want to work with a researcher who could complete this sort of analysis.
 
 \begin{figure}[H]
 	\centering
