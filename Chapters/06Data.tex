@@ -450,7 +450,15 @@ The result of either a t-test or ANOVA is a \textit{p-value} (``probability valu
 
 \subsection{Nonparametric Hypothesis Tests}
 
+Some analysis techniques are only useful with \gls{nonparametric} data. While there are dozens of statistical processes that will work with nonparametric data, two are most commonly seen.
 
+\begin{itemize}
+	\item \textbf{Mann-Whitney U}. This test is used to determine if there are any significant differences in two groups of data that are not normally-distributed, often categorical. 
+	
+	\item \textbf{Kruskal-Wallis H}. This test is used to determine if there are any significant differences in three or more groups of data that are not normally-distributed, often categorical. 
+\end{itemize}
+
+The result of either a Mann-Whitney U or Kruskal-Wallis H is a \textit{p-value} (``probability value''). A p-value describes the probability that some result was caused by pure chance and not from some applied treatment. P-values are expressed as percentages and, normally, researchers expect a p-value under $ 0.05 $ ($ 5\% $) in order to declare the result to be significant. If the calculated p-value is above $ 0.05 $ then the researcher declares that no significant result was found.
 
 \section{Data Mining}
 
