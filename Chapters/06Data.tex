@@ -10,6 +10,7 @@
 \end{wrapfigure}
 Data are\footnote{The word ``data'' is plural and is treated that way in this text even though modern usage seems to be trending toward a singular form.} a collection of facts about some topic. As examples, a ``customer loyalty'' program gathers data from customers on how often they shop, what they purchase on each trip, what time of day they typically shop, and all sorts of other data. When data are interpreted in some way they become information. The types of analyses that can be done with data are limited by the types of data involved. The purpose of this chapter is to introduce various concepts about data and show how they can be analyzed.\footnote{Photo by Mika Baumeister on Unsplash}
 
+
 \subsection{Types of Data}
 
 Psychologist Stanley Smith Stevens defined four generic types of data\cite{stevens1946theory}. 
@@ -450,11 +451,19 @@ The result of either a t-test or ANOVA is a \textit{p-value} (``probability valu
 
 \subsection{Nonparametric Hypothesis Tests}
 
+Some analysis techniques are only useful with \gls{nonparametric} data. While there are dozens of statistical processes that will work with nonparametric data, two are most commonly seen.
 
+\begin{itemize}
+	\item \textbf{Mann-Whitney U}. This test is used to determine if there are any significant differences in two groups of data that are not normally-distributed, often categorical. As an example of using a Mann-Whitney U test, Gluck et al. used it in \textit{How Short Is Too Short? Implications of Length and Framing on the Effectiveness of Privacy Notices}\cite{gluck2016short}. This study postulated that privacy notices were so long people did not often read, or understand, them. They conducted an experiment where they presented groups of people with both short and long privacy notices and then assessed their understanding. A Mann-Whitney U test was used to compare the groups and, not surprisingly, people who used the short form seemed to understand their privacy rights better than those who used a long form. This experiment also varied the framing of the policy (positive vs. negative) and used a Kruskal-Wallis H test to compare the results but they found no effect provided by different framing. This study is a good example of using both Kruskal-Wallis H and Mann-Whitney U in a single analysis.
+	
+	\item \textbf{Kruskal-Wallis H}. This test is used to determine if there are any significant differences in three or more groups of data that are not normally-distributed, often categorical. As an example of using a Kruskal-Wallis H test, Titlebaum and Lawrence published \textit{Perceived Motivations for Corporate Suite Ownership in the ``Big Four'' Leagues}\cite{titlebaum2016perceived}. This study looked at $ 29 $ different reasons (entertain clients, support the community, and business-to-business networking, etc.) corporations purchase luxury suites in any of the four major sports leagues (NFL, MLB, NBA, and NHL). They surveyed corporate leadership and then applied a Kruskal-Wallis H test to the survey results to see which reason was most important. They found four that were significant: 1) Entertaining Employees, 2) Supporting the Community, 3) Perception of the Company in the Community, and 4) Customized Gifts for Suite Owners. They also compared the leagues, two at a time, to see if the reasons were different between the leagues and used a Mann-Whitney U test for this part of the analysis. They found that MLB had a significantly higher rank for ``Entertaining Employees'' than all of the other sports. This study is a good example of using both Kruskal-Wallis H and Mann-Whitney U in a single analysis.
+\end{itemize}
+
+The result of either a Mann-Whitney U or Kruskal-Wallis H is a \textit{p-value} (``probability value''). A p-value describes the probability that some result was caused by pure chance and not from some applied treatment. P-values are expressed as percentages and, normally, researchers expect a p-value under $ 0.05 $ ($ 5\% $) in order to declare the result to be significant. If the calculated p-value is above $ 0.05 $ then the researcher declares that no significant result was found.
 
 \section{Data Mining}
 
-Data mining is a relatively new statistical technique that attempts to extract (``mine'') valuable intelligence from massive databases. For example, a grocery store chain mines customer purchases, shopping habits, and other data to plan sales, send coupons, and make other suggestions that will, hopefully, lead to increased spending. While there are more than a dozen data mining techniques, these three are most common.
+Data mining is a relatively new statistical technique that attempts to extract (``mine'') valuable intelligence from massive databases. Raval\cite{raval2012data} published an excellent overview of data mining techniques. As but one example, a grocery store chain mines customer purchases, shopping habits, and other data to plan sales, send coupons, and make other suggestions that will, hopefully, lead to increased spending. While there are more than a dozen data mining techniques, these three are most common.
 
 \subsubsection{Clustering}
 
@@ -469,6 +478,8 @@ Figure \ref{fig06.11} shows a scatter plot with three clusters. This plot was ge
 	\label{fig06.11}
 \end{figure}
 
+As an example of using clustering, Vogel, Greiser, and Mattfeld publised \textit{Understanding Bike-Sharing Systems using Data Mining: Exploring Activity Patterns}\cite{vogel2011understanding} in 2011. They analyzed more than $ 760,000 $ pickups and returns at bike stations in Vienna from $ 2008-2009 $. Their goal was to determine if the stations could be clustered in some way by usage patterns. They used cluster analysis to divide the city's stations into five groups, for example, the ``returns morning pickups evening'' group showed especially high number of morning returns and evening pickups. They provided the city with information that was designed to help in future station placement.
+
 \subsubsection{Decision Tree}
 
 A decision tree organizes known data so predictions can be made on new data. Figure \ref{fig06.05} is taken from a data set that shows the fate of all the passengers on the Titanic. Starting at the top, few males survived. Of the females, there were no survivors who had more than $ 4.5 $ siblings or spouses on board, so large families perished. Notice, though, that near the bottom of the tree nearly all first class female passengers with few family members on board survived. A decision tree like this could be used to predict whether a given passenger survived. 
@@ -479,6 +490,8 @@ A decision tree organizes known data so predictions can be made on new data. Fig
 	\caption{Decision Tree}
 	\label{fig06.05}
 \end{figure}
+
+As an example of using a decision tree, Ona, Ona and Lopez completed a study of the Grenada, Spain, public transportation system\cite{de2016transit}. They data mined $ 3,664 $ passenger surveys conducted from $ 2008 $ until $ 2011 $. The surveys asked passengers some demographic questions (age, etc.) and about various aspects of the bus service. The researchers first created four clusters of passenger types using cluster analysis, ``Young Students,'' ``Working Women,'' ``Sporadic Users,'' and ``Elderly Passengers.'' Then they generated five different decision trees, one for each group and one overall, to define the difference between ``poor'' and ``good'' service ratings from the passengers. For example, in the Overall tree, service frequency was the first, most important, branch on the tree; but for Young Students the first branch was punctuality. This is an excellent study that is easy to read and understand and shows how two different data mining techniques, cluster analysis and decision tree building, can be used in a single study.
 
 \subsubsection{Market Basket}
 
@@ -501,6 +514,7 @@ Figure \ref{fig06.06} is a graphic representation of the rule set found in Figur
 	\label{fig06.07}
 \end{figure}
 
+As an example of a market basket analysis, Musalem, Aburto, and Bosch completed a study of a mid-sized supermarket in Latin America\cite{musalem2018market}. That market sells approximately $ 7,000 $ products and the average basket size is products from $ 3.6 $ categories. They reviewed the register receipts from the month of July 2000 and recorded the products sold, units sold, date, and time. They categorized the products into four categories: non-perishable (cereals, flour, noodles, etc.), immediate consumption (meat, milk, cheese, etc.), hygiene (shampoo, conditioner, diapers, etc.), and hedonic (ice cream, beer, candy, etc.). They found that items in the hygiene basket were associated with larger transactions but there were not many of them. The non-perishable basket had a high number of different categories and a high transaction size, so these buyers are extremely important to the market. This study is a good example of how market basket analysis can be used to improve sales.
 
 \section{Summary}\label{ch06:summary}
 
