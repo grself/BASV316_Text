@@ -1,29 +1,80 @@
 %*****************************************
 \chapter{Mixed Methods}\label{ch14:mixed}
 %*****************************************
-%TODO Status: Empty
+%TODO Status: First draft
 
 \section{Introduction}
 
+There are, broadly speaking, two ways to approach a research project: quantitative and qualitative. Quantitative projects gather numeric data and analyze those data with statistical tools. Qualitative projects gather non-numeric data and analyze those data with non-mathematical tools. It is possible, though, to combine both types of analysis in a single research project, a process known as ``mixed methods.'' This chapter first reviews both quantitative and qualitative methods and then considers the process used to combine those methods.
+
 \section{Quantitative Analysis}
 %TODO Bhattacherjee p 128
-Numeric data collected in a research project can be analyzed quantitatively using statistical tools in two different ways. Descriptive analysis refers to statistically describing, aggregating, and presenting the constructs of interest or associations between these constructs. Inferential analysis refers to the statistical testing of hypotheses (theory testing). In this chapter, we will examine statistical techniques used for descriptive analysis, and the next chapter will examine statistical techniques for inferential analysis. Much of today’s quantitative data analysis is conducted using software programs such as SPSS or SAS. Readers are advised to familiarize themselves with one of these programs for understanding the concepts described in this chapter.
 
+Numeric data collected in a research project can be analyzed quantitatively using statistical tools in two different ways. 
+
+\begin{itemize}
+	\item Descriptive analysis refers to statistically describing, aggregating, and presenting the constructs of interest or associations between these constructs. 
+
+	\item Inferential analysis refers to the statistical testing of hypotheses (theory testing). 
+
+\end{itemize}
+
+Most quantitative data analysis is conducted using software programs such as R and the labs that accompany this text are designed to introduce that important software.
 
 \subsection{Quantitative Analysis: Descriptive}
 %TODO Bhattacherjee p 128
-Univariate Analysis
+\subsubsection{Univariate Analysis}
 
-Univariate analysis, or analysis of a single variable, refers to a set of statistical techniques that can describe the general properties of one variable. Univariate statistics include: (1) frequency distribution, (2) central tendency, and (3) dispersion. The frequency distribution of a variable is a summary of the frequency (or percentages) of individual values or ranges of values for that variable. For instance, we can measure how many times a sample of respondents attend religious services (as a measure of their “religiosity”) using a categorical scale: never, once per year, several times per year, about once a month, several times per month, several times per week, and an optional category for “did not answer.” If we count the number (or percentage) of observations within each category (except “did not answer” which is really a missing value rather than a category), and display it in the form of a table as shown in Figure 14.1, what we have is a frequency distribution. This distribution can also be depicted in the form of a bar chart, as shown on the right panel of Figure 14.1, with the horizontal axis representing each category of that variable and the vertical axis representing the frequency or percentage of observations within each category.
+Univariate analysis, or analysis of a single variable, refers to a set of statistical techniques that can describe the general properties of one variable. Univariate statistics include: (1) frequency distribution, (2) central tendency, and (3) dispersion. The frequency distribution of a variable is a summary of the frequency that individual values are found in a variable. For instance, it is easy to measure how often customers in a grocery store purchase types of products, like ``produce,'' ``dairy,'' and ``meat.'' If the number (or percentage) of observations within each category are counted and displayed in a table it would be called a \textit{frequency distribution}, as seen in Table \ref{14:tab01}. A frequency distribution can also be depicted in the form of a bar chart, as shown in Figure \ref{14:fig01}, with the horizontal axis representing number of purchases in each category and the vertical axis representing the categories.
 
-With very large samples where observations are independent and random, the frequency distribution tends to follow a plot that looked like a bell-shaped curve (a smoothed bar chart of the frequency distribution) similar to that shown in Figure 14.2, where most observations are clustered toward the center of the range of values, and fewer and fewer observations toward the extreme ends of the range. Such a curve is called a normal distribution. Central tendency is an estimate of the center of a distribution of values. There are three major estimates of central tendency: mean, median, and mode. The arithmetic mean (often simply called the “mean”) is the simple average of all values in a given distribution. Consider a set of eight test scores: 15, 22, 21, 18, 36, 15, 25, 15. The arithmetic mean of these values is (15 + 20 + 21 + 20 + 36 + 15 + 25 + 15)/8 = 20.875. Other types of means include geometric mean (nth root of the product of n numbers in a distribution) and harmonic mean (the reciprocal of the arithmetic means of the reciprocal of each value in a distribution), but these means are not very popular for statistical analysis of social research data.
+\begin{table}[H]
+	\centering
+	\begin{tabulary}{\linewidth}{LR}
+		\hline
+		Item & Number \\ 
+		\hline
+		Produce & 374 \\ 
+		Dairy & 291 \\ 
+		Meat & 187 \\ 
+		\hline
+	\end{tabulary} 
+	\caption{Frequency Table}
+	\label{14:tab01}
+\end{table}
 
-The second measure of central tendency, the median, is the middle value within a range of values in a distribution. This is computed by sorting all values in a distribution in increasing order and selecting the middle value. In case there are two middle values (if there is an even number of values in a distribution), the average of the two middle values represent the median. In the above example, the sorted values are: 15, 15, 15, 18, 22, 21, 25, 36. The two middle values are 18 and 22, and hence the median is (18 + 22)/2 = 20. Lastly, the mode is the most frequently occurring value in a distribution of values. In the previous example, the most frequently occurring value is 15, which is the mode of the above set of test scores. Note that any value that is estimated from a sample, such as mean, median, mode, or any of the later estimates are called a statistic.
+\vspace{.15in}
 
-Dispersion refers to the way values are spread around the central tendency, for example, how tightly or how widely are the values clustered around the mean. Two common measures of dispersion are the range and standard deviation. The range is the difference between the highest and lowest values in a distribution. The range in our previous example is 36-15 = 21. The range is particularly sensitive to the presence of outliers. For instance, if the highest value in the above distribution was 85 and the other vales remained the same, the range would be 85-15 = 70. Standard deviation, the second measure of dispersion, corrects for such outliers by using a formula that takes into account how close or how far each value from the distribution mean: where $\sigma $ is the standard deviation, $ x_i $ is the ith observation (or value), $ \mu $ is the arithmetic mean, $ n $ is the total number of observations, and $ \Sigma $ means summation across all observations. The square of the standard deviation is called the variance of a distribution. In a normally distributed frequency distribution, it is seen that 68\% of the observations lie within one standard deviation of the mean $ (\mu + 1 \sigma) $, 95\% of the observations lie within two standard deviations $ (\mu + 2 \sigma) $, and 99.7\% of the observations lie within three standard deviations $ (\mu + 3 \sigma) $, as shown in Figure 14.2.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/14-BarChart}
+	\caption{Bar Chart}
+	\label{14:fig01}
+\end{figure}
 
-Bivariate Analysis
+With very large samples where observations are independent and random, the frequency distribution resembles a normal distribution, which looks like a bell-shaped curve when plotted. Figure \ref{14:fig02} shows the distribution of scores for the Scholastic Aptitude Test (\textit{SAT}) where most observations are clustered toward the center of the range with fewer observations toward the extremes. 
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/14-NormDist}
+	\caption{Normal Distribution}
+	\label{14:fig02}
+\end{figure}
+
+Central tendency is an estimate of the center of a distribution of values. There are three major estimates of central tendency: mean, median, and mode. The arithmetic mean (often simply called the ``mean'') is the simple average of all values in a given distribution. Consider a set of eight test scores: $ 15 $, $ 22 $, $ 21 $, $ 18 $, $ 36 $, $ 15 $, $ 25 $, $ 15 $. The arithmetic mean of these values is ($ 15 + 20 + 21 + 20 + 36 + 15 + 25 + 15)/8 = 20.875 $.
+
+The median, is the middle value in a distribution. This is computed by ordering all values and selecting the one in the middle. In case there are two middle values (if there is an even number of values in a distribution), the median is the average of the two middle values. In the example test scores from the previous paragraph, the sorted values are: $ 15 , 15 , 15 , 18 , 22 , 21, 25, 36 $. The two middle values are $ 18 $ and $ 22 $ so the median is $ (18 + 22)/2 = 20 $. 
+
+The mode is the most frequently occurring value in a distribution of values. In the test scores example, the most frequently occurring value is $ 15 $ so that is the mode.
+
+Dispersion refers to the way values are spread around the central tendency, for example, how tightly or how widely are the values clustered around the mean. Two common measures of dispersion are the range and standard deviation. 
+
+The range is the difference between the highest and lowest values in a distribution. The range in the test scores above $ 36 - 15 = 21 $. The range is particularly sensitive to the presence of outliers. For instance, if the highest value in the above distribution was $ 85 $ and the other vales remained the same, the range would be $ 85 - 15 = 70 $. 
+
+Standard deviation corrects for outliers by calculating how close each value is from the mean of the distribution. In a normal distribution, it turns out that 68\% of the observations lie within one standard deviation of the mean, 95\% within two standard deviations, and 99.7\% within three standard deviations.
+
+\subsubsection{Bivariate Analysis}
+
+%TODO Start Here
 Bivariate analysis examines how two variables are related to each other. The most common bivariate statistic is the bivariate correlation (often, simply called “correlation”), which is a number between -1 and +1 denoting the strength of the relationship between two variables. Let’s say that we wish to study how age is related to self-esteem in a sample of 20 respondents, i.e., as age increases, does self-esteem increase, decrease, or remains unchanged. If self-esteem increases, then we have a positive correlation between the two variables, if selfesteem decreases, we have a negative correlation, and if it remains the same, we have a zero correlation. To calculate the value of this correlation, consider the hypothetical dataset shown in Table 14.1.
 
 Figure 14.2. Normal distribution
@@ -163,6 +214,129 @@ In general, however, qualitative researchers are well aware of the issues of obj
 
 
 \section{Combining Quantitative and Qualitative}
+
+%TODO This comes from Terrell - Mixed Methods...
+Quantitative research (i.e., a positivist paradigm) has historically been the
+cornerstone of social-science research. Purists call for researchers to
+“eliminate their biases, remain emotionally detached and uninvolved with the
+objects of study and test or empirically justify their stated hypotheses”
+(Johnson \& Onwuegbuzie, 2004, p.14).
+
+Qualitative purists support a constructivist or interpretivist paradigm and
+“contend that multiple-constructed realities abound, that time- and contextfree
+generalizations are neither desirable nor possible, that research is valuebound,
+that it is impossible to differentiate fully causes and effects, that logic
+flows from specific to general and that knower and known cannot be
+separated because the subjective knower is the only source of reality”
+(Johnson \& Onwuegbuzie, 2004, p. 14).
+
+The End of the “Paradigm Wars” and the Emergence of Mixed Methods
+Calls in the 80's and 90's for ``a truce'' between the two major paradigms.
+
+Many major authors and researchers felt that quantitative and qualitative research methodologies are compatible.
+
+Paradigm relativism – ``the use of whatever philosophical and/or methodological approach (that) works for the particular research problem under study'' (Tashakkori \& Teddlie, 2008, p. 9).
+
+Many social-scientists now believe there is no major problem area that should be studied exclusively with one research method.
+
+Quantitative tells us ``if'' while qualitative tells us ``how or why.''
+
+The Type of Multi-Method Approach Depends Upon Four Factors
+
+Theoretical perspective
+	Explicit – based firmly on a theory
+	Implicit – based indirectly on a theory
+
+Priority of strategy
+	Equal
+	Qualitative
+	Quantitative
+
+Sequence of data collection implementation
+	Qualitative first
+	Quantitative first
+	No sequence
+
+The point at which the data are integrated
+	At data collection
+	At data analysis
+	At data interpretation
+	With some combination
+
+Sequential Explanatory
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/14-Seq_Explain}
+	\caption{Sequential Explanatory}
+	\label{14:fig90}
+\end{figure}
+
+Sequential Explanatory Strategy
+
+The collection and analysis of quantitative data followed by the collection and analysis of qualitative data.
+
+Equal priority is given to the two phases.
+
+Data are integrated during interpretation.
+
+Primary focus is to explain quantitative results by exploring certain results in more detail or helping explain unexpected results (e.g., using follow-up interviews to better understand the results of a quantitative study).
+
+Strengths: relatively straight forward due to clear, distinct stages and easier to describe than concurrent strategies.
+
+Weakness: very time consuming especially when both phases are given equal consideration
+and priority.
+
+Sequential Exploratory
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/14-Seq_Explore}
+	\caption{Sequential Exploratory}
+	\label{14:fig91}
+\end{figure}
+
+Sequential Exploratory Strategy
+
+The collection and analysis of qualitative data followed by the collection and analysis of
+quantitative data.
+
+Equal priority is given to the two phases but priority can be given to either.
+
+Data are integrated during interpretation.
+
+Used primarily to explore a phenomenon by:
+	Testing elements of a theory
+	Generalizing qualitative findings to different samples
+	Development of instrumentation (e.g., using a small group to create instrumentation and then collecting quantitative data based on the instrumentation).
+
+Strength: relatively straight forward due to clear, distinct stages and easier to describe than concurrent strategies.
+
+Weakness: very time consuming especially when both phases are given equal consideration
+and priority.
+
+Triangulation
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/14-Triangulation}
+	\caption{Triangulation}
+	\label{14:fig92}
+\end{figure}
+
+Concurrent Triangulation Strategy
+
+There are two concurrent data collection phases.
+
+Priority should be equal but can be given to either approach.
+
+Data are integrated during interpretation phase. The interpretation notes either a lack of convergence or convergence that strengthens knowledge claims. Data integration can also occur during analysis.
+
+Primarily purpose for confirmation, corroboration or cross-validation within a single study.
+
+Strengths: Familiar to many researchers. Shorter data collection time when compared to sequential methods. Offsets weaknesses inherent to one design by using both.
+
+Weaknesses: Requires a great deal of expertise and effort to study the phenomenon under consideration using two different methods. It may be difficult to compare two types of data as well as resolve discrepancies if they arise.
 
 %TODO from Lorenzini
 
