@@ -74,82 +74,38 @@ Standard deviation corrects for outliers by calculating each value's distance fr
 
 \subsubsection{Bivariate Analysis}
 
-Bivariate analysis examines how two variables are related to each other. The most common bivariate statistic is the correlation, which is a number between $ -1.00 $ and $ +1.00 $ denoting the strength of the relationship between two variables. For example, imagine a research project designed to relate age to the amount of money spent on groceries. If the amount of money spent increases as age increases then that would be a positive correlation but if the amount spent decreases as age increases then that would be a negative correlation. If the correlation is near zero then there is no relationship between age and the amount spent on groceries.
-
-As an example, H{\"a}rdle\cite{hardlesmoothing} analyzed the duration and waiting time (in minutes) for eruptions of the Old Faithful Geyser in Yellowstone Park. There are $ 272 $ observations in that data set and Table \ref{14:tab02} shows the first five of those observations.
-
-\begin{table}[H]
-	\centering
-	\begin{tabulary}{\linewidth}{CC}
-		\hline
-		Waiting & Eruption \\ 
-		\hline
-		$ 79 $ & $ 3.600 $ \\ 
-		$ 54 $ & $ 1.800 $ \\ 
-		$ 74 $ & $ 3.333 $ \\ 
-		$ 62 $ & $ 2.283 $ \\ 
-		$ 85 $ & $ 4.533 $ \\ 
-		$ 55 $ & $ 2.883 $ \\ 
-		\hline
-	\end{tabulary} 
-	\caption{Geyser Times}
-	\label{14:tab02}
-\end{table}
-
-The correlation between these two variables is $ +0.901 $. Since the correlation is positive then as the waiting time goes up the duration also goes up. Figure \ref{14:fig06} graphs the eruption duration as a function of the waiting time and it is reasonably clear that as the waiting time increases (the right edge of the X-axis) the duration also tends to increase.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/14_Faithful}
-	\caption{Geyser Eruptions}
-	\label{14:fig06}
-\end{figure}
-
-After computing a correlation, researchers are often interested in knowing whether the correlation is significant, that is to say, is there a true relationship between the variables or was the calculated correlation nothing more than mere chance. Answering such a question requires creating and testing a hypothesis. Suppose, then, the geyser researcher wrote this hypothesis, ``as the waiting time increases the duration of the eruption increases.'' This hypothesis also suggests another hypothesis, ``there is no relationship between the waiting time and duration of an eruption.'' While it seems like these are two hypotheses, they are actually a single hypothesis along with its opposite. The ``no relationship'' hypothesis is formally called the ``null hypothesis'' and that represents the status if there is no relationship. The null hypothesis is very important in research and all hypotheses that are researched also include an implied null hypothesis. For example, if a researcher states a hypothesis that in a grocery store moving the bread to the front of the store will increase bread sales then the null hypothesis is that moving the bread has no effect on sales. As a second example, if a researcher states a hypothesis that automobile tires perform better when warm than cold then the null hypothesis would be that temperature has no effect on tire performance.
-
-For the geyser research project, the researcher would use a statistical procedure known as a two-tailed t-test to see if the eruption times are significant. The probability that a statistical result is caused by pure chance is called the \textit{p-value}. The p-value is compared with a desired significance level, which is the maximum level of risk the researcher will accept that the statistic is nothing more than pure chance. For most statistical analysis, the p-value is specified as $ 0.05 $. So, a p-value less than $ 0.05 $ indicates that the statistical evidence makes it reasonable to reject the null hypothesis and accept the researcher's original hypothesis. On the other hand, if the p-value is greater than $ 0.05 $, then the null hypothesis cannot be rejected. For the geyser data, the calculated p-value is less than $ 2.2 X 10^{-16} $ and since that is much smaller than $ 0.05 $ the researcher would conclude that the correlation between the eruption time and waiting time is significant.
-
-Most research studies involve more than two variables. If there are multiple variables researchers need to use more powerful tools for analysis. One such tool is a correlational matrix. This is a graphic representation of the correlations between a number of variables. As an example, certain data were extracted from the 1974 \textit{Motor Trend} magazine for several automobiles and those data were used to create the correlation matrix found in Figure \ref{14:fig07}.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/14_corplot}
-	\caption{Correlation Matrix}
-	\label{14:fig07}
-\end{figure}
-
-In Figure \ref{14:fig07}, the variable names are printed in the diagonal: ``mpg'' for ``Miles per Gallon,'' ``cyl'' for the number of cylinders in the engine, ``disp'' for the engine displacement, ``hp'' for the horsepower, and ``qsec'' for the time though a quarter mile course. The top triangle (with the colored circles) shows the strength and direction of the correlation. Blue circles represent positive correlation and red is negative. The size of the circle also indicates the strength of the correlation. With this type of display, researchers can very quickly find interesting correlations among even dozens of variables. The lower triangle (with the numbers) displays the correlation numerically, but color is also used so researchers can quickly find the strongest positive or negative correlations. As an example, the relationship between miles-per-gallon and the number of cylinders is $ -0.85 $.
-
-Another common way of presenting multiple variables is with a cross-tabulation, often abbreviated to cross-tab. A cross-tab is a table that describes the frequency (or percentage) of all combinations of two or more nominal or categorical variables. 
-
-As an example, the following cross-tab shows the survivors of the Titanic disaster by sex, age, and class of ticket.
-
-\begin{table}[H]
-	\centering
-	\begin{tabulary}{\linewidth}{RRR}
-		\hline
-		\textbf{Class} & \textbf{Male} & \textbf{Female} \\ 
-		\hline
-		\multicolumn{3}{l}{\textit{Child}} \\
-		1st  & $ 5 $  & $ 1 $ \\ 
-		2nd  & $ 11 $ & $ 13 $ \\ 
-		3rd  & $ 13 $ & $ 14 $ \\ 
-		Crew & $ 0 $  & $ 0 $ \\ 
-		\hline
-		\multicolumn{3}{l}{\textit{Adult}} \\
-		1st  & $ 57 $  & $ 140 $ \\ 
-		2nd  & $ 14 $ & $ 80 $ \\ 
-		3rd  & $ 75 $ & $ 76 $ \\ 
-		Crew & $ 192 $  & $ 20 $ \\ 
-		\hline
-	\end{tabulary} 
-	\caption{Titanic Survivors}
-	\label{14:tab03}
-\end{table}
-
-\subsection{Quantitative Analysis: Inferential}
-%TODO Bhattacherjee p 138
 %TODO Start Here
+Bivariate analysis examines how two variables are related to each other. The most common bivariate statistic is the bivariate correlation (often, simply called “correlation”), which is a number between -1 and +1 denoting the strength of the relationship between two variables. Let’s say that we wish to study how age is related to self-esteem in a sample of 20 respondents, i.e., as age increases, does self-esteem increase, decrease, or remains unchanged. If self-esteem increases, then we have a positive correlation between the two variables, if selfesteem decreases, we have a negative correlation, and if it remains the same, we have a zero correlation. To calculate the value of this correlation, consider the hypothetical dataset shown in Table 14.1.
+
+Figure 14.2. Normal distribution
+
+Table 14.1. Hypothetical data on age and self-esteem
+
+The two variables in this dataset are age (x) and self-esteem (y). Age is a ratio-scale variable, while self-esteem is an average score computed from a multi-item self-esteem scale measured using a 7-point Likert scale, ranging from “strongly disagree” to “strongly agree.” The histogram of each variable is shown on the left side of Figure 14.3. The formula for calculating bivariate correlation is: where rxy is the correlation, x and y are the sample means of x and y, and sx and sy are the standard deviations of x and y. The manually computed value of correlation between age and self-esteem, using the above formula as shown in Table 14.1, is 0.79. This figure indicates that age has a strong positive correlation with self-esteem, i.e., self-esteem tends to increase with increasing age, and decrease with decreasing age. Such pattern can also be seen from visually comparing the age and self-esteem histograms shown in Figure 14.3, where it appears that the top of the two histograms generally follow each other. Note here that the vertical axes in Figure 14.3 represent actual observation values, and not the frequency of observations (as was in Figure 14.1), and hence, these are not frequency distributions but rather histograms. The bivariate scatter plot in the right panel of Figure 14.3 is essentially a plot of self-esteem on the vertical axis against age on the horizontal axis. This plot roughly resembles an upward sloping line (i.e., positive slope), which is also indicative of a positive correlation. If the two variables were negatively correlated, the scatter plot would slope down (negative slope), implying that an increase in age would be related to a decrease in self-esteem and vice versa. If the two variables were uncorrelated, the scatter plot would approximate a horizontal line (zero slope), implying than an increase in age would have no systematic bearing on self-esteem. 
+
+Figure 14.3. Histogram and correlation plot of age and self-esteem
+
+After computing bivariate correlation, researchers are often interested in knowing whether the correlation is significant (i.e., a real one) or caused by mere chance. Answering such a question would require testing the following hypothesis:
+
+H0: r = 0
+
+H1: $ r \neq 0 $
+
+H0 is called the null hypotheses, and H1 is called the alternative hypothesis (sometimes, also represented as Ha). Although they may seem like two hypotheses, H0 and H1 actually represent a single hypothesis since they are direct opposites of each other. We are interested in testing H1 rather than H0. Also note that H1 is a non-directional hypotheses since it does not specify whether r is greater than or less than zero. Directional hypotheses will be specified as H0: $ r \leq 0 $; H1: $ r > 0 $ (if we are testing for a positive correlation). Significance testing of directional hypothesis is done using a one-tailed t-test, while that for non-directional hypothesis is done using a two-tailed t-test.
+
+In statistical testing, the alternative hypothesis cannot be tested directly. Rather, it is tested indirectly by rejecting the null hypotheses with a certain level of probability. Statistical testing is always probabilistic, because we are never sure if our inferences, based on sample data, apply to the population, since our sample never equals the population. The probability that a statistical inference is caused pure chance is called the p-value. The p-value is compared with the significance level $ ( \alpha ) $, which represents the maximum level of risk that we are willing to take that our inference is incorrect. For most statistical analysis, $ \alpha $ is set to 0.05. A p-value less than $ \alpha = 0.05 $ indicates that we have enough statistical evidence to reject the null hypothesis, and thereby, indirectly accept the alternative hypothesis. If p is greater than 0.05, then we do not have adequate statistical evidence to reject the null hypothesis or accept the alternative hypothesis. The easiest way to test for the above hypothesis is to look up critical values of $ r $ from statistical tables available in any standard text book on statistics or on the Internet (most software programs also perform significance testing). The critical value of $ r $ depends on our desired significance level ( $ \alpha = 0.05 $ ), the degrees of freedom (df), and whether the desired test is a one-tailed or two-tailed test. The degree of freedom is the number of values that can vary freely in any calculation of a statistic. In case of correlation, the df simply equals n – 2, or for the data in Table 14.1, df is 20 – 2 = 18. There are two different statistical tables for one-tailed and two-tailed test. In the two-tailed table, the critical value of $ r $ for $ \alpha = 0.05 $ and df = 18 is 0.44. For our computed correlation of 0.79 to be significant, it must be larger than the critical value of 0.44 or less than -0.44. Since our computed value of 0.79 is greater than 0.44, we conclude that there is a significant correlation between age and self-esteem in our data set, or in other words, the odds are less than 5\% that this correlation is a chance occurrence. Therefore, we can reject the null hypotheses that $ r \leq 0 $, which is an indirect way of saying that the alternative hypothesis $ r > 0 $ is probably correct.
+
+Most research studies involve more than two variables. If there are n variables, then we will have a total of n*(n-1)/2 possible correlations between these n variables. Such correlations are easily computed using a software program like SPSS, rather than manually using the formula for correlation (as we did in Table 14.1), and represented using a correlation matrix, as shown in Table 14.2. A correlation matrix is a matrix that lists the variable names along the first row and the first column, and depicts bivariate correlations between pairs of variables in the appropriate cell in the matrix. The values along the principal diagonal (from the top left to the bottom right corner) of this matrix are always 1, because any variable is always perfectly correlated with itself. Further, since correlations are non-directional, the correlation between variables V1 and V2 is the same as that between V2 and V1. Hence, the lower triangular matrix (values below the principal diagonal) is a mirror reflection of the upper triangular matrix (values above the principal diagonal), and therefore, we often list only the lower triangular matrix for simplicity. If the correlations involve variables measured using interval scales, then this specific type of correlations are called Pearson product moment correlations. Another useful way of presenting bivariate data is cross-tabulation (often abbreviated to cross-tab, and sometimes called more formally as a contingency table). A cross-tab is a table that describes the frequency (or percentage) of all combinations of two or more nominal or categorical variables. As an example, let us assume that we have the following observations of gender and grade for a sample of 20 students, as shown in Figure 14.3. Gender is a nominal variable (male/female or M/F), and grade is a categorical variable with three levels (A, B, and C). A simple cross-tabulation of the data may display the joint distribution of gender and grades (i.e., how many students of each gender are in each grade category, as a raw frequency count or as a percentage) in a 2 x 3 matrix. This matrix will help us see if A, B, and C grades are equally distributed across male and female students. The cross-tab data in Table 14.3 shows that the distribution of A grades is biased heavily toward female students: in a sample of 10 male and 10 female students, five female students received the A grade compared to only one male students. In contrast, the distribution of C grades is biased toward male students: three male students received a C grade, compared to only one female student. However, the distribution of B grades was somewhat uniform, with six male students and five female students. The last row and the last column of this table are called marginal totals because they indicate the totals across each category and displayed along the margins of the table.
+
+Table 14.2. A hypothetical correlation matrix for eight variables
+
+Table 14.3. Example of cross-tab analysis
+
+Although we can see a distinct pattern of grade distribution between male and female students in Table 14.3, is this pattern real or “statistically significant”? In other words, do the above frequency counts differ from that that may be expected from pure chance? To answer this question, we should compute the expected count of observation in each cell of the 2 x 3 cross-tab matrix. This is done by multiplying the marginal column total and the marginal row total for each cell and dividing it by the total number of observations. For example, for the male/A grade cell, expected count = 5 * 10 / 20 = 2.5. In other words, we were expecting 2.5 male students to receive an A grade, but in reality, only one student received the A grade. Whether this difference between expected and actual count is significant can be tested using a chi-square test. The chi-square statistic can be computed as the average difference between observed and expected counts across all cells. We can then compare this number to the critical value associated with a desired probability level (p < 0.05) and the degrees of freedom, which is simply (m-1)*(n-1), where m and n are the number of rows and columns respectively. In this example, df = (2 – 1) * (3 – 1) = 2. From standard chi-square tables in any statistics book, the critical chi-square value for p=0.05 and df=2 is 5.99. The computed chi-square value, based on our observed data, is 1.00, which is less than the critical value. Hence, we must conclude that the observed grade pattern is not statistically different from the pattern that can be expected by pure chance.
+
+\subsection{Quantitative Analysis: Inferrential}
+%TODO Bhattacherjee p 138
+
 Inferential statistics are the statistical procedures that are used to reach conclusions about associations between variables. They differ from descriptive statistics in that they are explicitly designed to test hypotheses. Numerous statistical procedures fall in this category, most of which are supported by modern statistical software such as SPSS and SAS. This chapter provides a short primer on only the most basic and frequent procedures; readers are advised to consult a formal text on statistics or take a course on statistics for more advanced procedures.
 
 Basic Concepts
