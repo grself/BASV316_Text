@@ -140,20 +140,17 @@
 % the p values should total 0.95, the width of the table
 \begin{table}[H]
 	\centering
-	\definecolor{ltgray}{gray}{0.95} % this is a light gray
-	\rowcolors{1}{}{ltgray} % zebra striping background
-	\begin{tabularx}{0.95\linewidth}{p{0.15\linewidth}p{0.40\linewidth}p{0.40\linewidth}}
-		\toprule
-		\textbf{X} & \textbf{Y} & \textbf{Z} \\
-		\midrule
-		a & b & c \\
-		a & b & c \\
-		a & b & c \\
-		a \newline b & b & c \\ % line break in cell
-		\midrule
-		\multicolumn{3}{p{0.95\linewidth}}{Note: def.} \\	
-		\bottomrule
-	\end{tabularx}
+	\begin{tabulary}{\linewidth}{LCCCC}
+		\hline
+		\multicolumn{5}{l}{\textbf{Do you support these propositions?}} \\
+		\hline
+		Prop & Strongly Support & Support & Do Not Support & Strongly Do Not Support  \\ 
+		\hline
+		100 & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ \\ 
+		115 & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ \\ 
+		220 & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ \\ 
+		\hline
+	\end{tabulary} 
 	\caption{My great table.}
 	\label{03:tab01}
 \end{table}

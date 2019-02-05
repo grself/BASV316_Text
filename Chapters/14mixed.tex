@@ -74,18 +74,56 @@ Standard deviation corrects for outliers by calculating each value's distance fr
 
 \subsubsection{Bivariate Analysis}
 
+Bivariate analysis examines how two variables are related to each other. The most common bivariate statistic is a correlation, which is a number between $ -1.00 $ and $ +1.00 $ denoting the strength and direction of the relationship between two variables. As an example, consider a data set that contains selected specifications found in the 1974 \textit{Motor Trend} magazine for 32 automobiles (1973–74 models)\footnote{The Motor Trend data was originally published in a report by Henderson and Vellerman in \textit{Biometrics}\cite{henderson1981building}.}. The first few items in that data set are shown in Table \ref{14:tab02}.
+
+\begin{table}[H]
+	\centering
+	\begin{tabulary}{\linewidth}{LCCCCCC}
+		\hline
+		Name           & mpg    & cyl & disp  & hp    & wt      & qsec  \\ 
+		\hline
+		Mazda RX4      & $21.0$ & $6$ & $160$ & $110$ & $2.620$ & $16.46$ \\ 
+		Datsun 710     & $22.8$ & $4$ & $108$ & $93$  & $2.320$ & $18.61$ \\ 
+		Hornet 4 Drive & $21.4$ & $6$ & $258$ & $110$ & $3.215$ & $19.44$ \\ 
+		Valiant        & $18.1$ & $6$ & $225$ & $105$ & $2.460$ & $20.22$ \\ 
+		\hline
+	\end{tabulary} 
+	\caption{Sample of Motor Trend Car Data}
+	\label{14:tab02}
+\end{table}
+
+Two of the variables in this data set are ``disp'' (engine displacement) and ``qsec'' (quarter-mile time, in seconds). It would be normal to expect that the greater the engine displacement (that is, the larger the engine) then the faster the automobile would finish a quarter-mile track. It turns out that the correlation between displacement and quarter-mile time is $ -0.43 $. The negative sign indicates that the relationship is negative, that is, as the displacement increases the time decreases. The magnitude of the correlation, though, indicates that this is not a particularly strong relationship, so a lot of small engines can finish the quarter-mile track as quickly as larger engines. A researcher would want to know why and one of the first confounding factors to consider would be the weight of the automobile. Are automobiles with larger engines also heavier, and, thus, slower through the quarter-mile?
+
+Researchers can use a powerful visual aid to compare the correlations between numerous variables in a single data set using a correlation plot. Figure \ref{14:fig04} shows a correlation plot for each of the Motor Trend variables listed in Table \ref{14:tab02}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/14-corplot}
+	\caption{Correlation Plot}
+	\label{14:fig04}
+\end{figure}
+
+In the correlation plot, the names of the variables are listed diagonally from the top left to the bottom right. In the lower half of the plot the correlations are reported numerically. Thus, the correlation between ``mpg'' and ``cyl'' is $ -0.85 $. Those correlations are also color-coded using the scale found on the right side of the plot. Since $ -0.85 $ is a fairly strong negative correlation it is printed in a dark red color. The top half of the plot shows the correlations using circles where both color and size indicate the strength and direction of the correlation. Thus, the correlation between ``wt'' and ``qsec'' is very weak since the size of the circle is small and it is negative since the color is pale pink. Using a correlation plot, researchers can very quickly locate strong positive and negative correlations, like ``mpg'' and ``wt'' (strong negative) or ``disp'' and ``wt'' (strong positive).
+
+Another useful tool is a scatter plot. Consider Figure \ref{14:fig05}, which shows the relationship between the waiting time and eruption time for the Old Faithful geyser in Yellowstone Park \footnote{These data were first published by H{\"a}rdle in \textit{Smoothing Techniques with Implementation in S}\cite{hardle2012smoothing}.}. The plot clearly shows that the longer people have to wait for an eruption (time along the X-Axis increases) then the longer the eruption will last (time along the Y-Axis increases). This scatter plot also shows two clear groups of points so it would be reasonable to conclude that there are ``short'' eruptions and ``long'' eruptions.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/14-Faithful}
+	\caption{Scatter Plot}
+	\label{14:fig05}
+\end{figure}
+
+After computing a correlation, researchers are often interested in knowing whether the correlation is significant. For researchers, the word ``significant'' means a correlation that is not due to mere chance. For example, if a coin is tossed $ 100 $ times it would be reasonable to expect $ 50 $ ``heads'' and $ 50 $ ``tails'' landings. If the actual number, though, were $ 51-49 $ that would be within a reasonable expectation of chance. However, a result of $ 75-25 $ would not be due to chance and would indicate that something was wrong with the coin. The question for researchers is ``How many 'heads' tosses would be acceptable as chance before there is significance in the coin toss?'' 
+
+\paragraph{Hypothesis Testing}
 %TODO Start Here
-Bivariate analysis examines how two variables are related to each other. The most common bivariate statistic is the bivariate correlation (often, simply called “correlation”), which is a number between -1 and +1 denoting the strength of the relationship between two variables. Let’s say that we wish to study how age is related to self-esteem in a sample of 20 respondents, i.e., as age increases, does self-esteem increase, decrease, or remains unchanged. If self-esteem increases, then we have a positive correlation between the two variables, if selfesteem decreases, we have a negative correlation, and if it remains the same, we have a zero correlation. To calculate the value of this correlation, consider the hypothetical dataset shown in Table 14.1.
+The significance of a correlation is only important when researchers attempt to verify or reject a hypothesis. A hypothesis is a researcher's ``guess'' about the relationship between two variables. For example, a researcher may hypothesize that as the horsepower of an engine increases the fuel efficiency (``mpg'') decreases. Unfortunately, it is not possible to prove a hypothesis directly. Even though researchers may find one hundred automobiles that show decreasing efficiency with increasing horsepower, the very next automobile tested may have a reverse relationship.
 
-Figure 14.2. Normal distribution
 
-Table 14.1. Hypothetical data on age and self-esteem
 
-The two variables in this dataset are age (x) and self-esteem (y). Age is a ratio-scale variable, while self-esteem is an average score computed from a multi-item self-esteem scale measured using a 7-point Likert scale, ranging from “strongly disagree” to “strongly agree.” The histogram of each variable is shown on the left side of Figure 14.3. The formula for calculating bivariate correlation is: where rxy is the correlation, x and y are the sample means of x and y, and sx and sy are the standard deviations of x and y. The manually computed value of correlation between age and self-esteem, using the above formula as shown in Table 14.1, is 0.79. This figure indicates that age has a strong positive correlation with self-esteem, i.e., self-esteem tends to increase with increasing age, and decrease with decreasing age. Such pattern can also be seen from visually comparing the age and self-esteem histograms shown in Figure 14.3, where it appears that the top of the two histograms generally follow each other. Note here that the vertical axes in Figure 14.3 represent actual observation values, and not the frequency of observations (as was in Figure 14.1), and hence, these are not frequency distributions but rather histograms. The bivariate scatter plot in the right panel of Figure 14.3 is essentially a plot of self-esteem on the vertical axis against age on the horizontal axis. This plot roughly resembles an upward sloping line (i.e., positive slope), which is also indicative of a positive correlation. If the two variables were negatively correlated, the scatter plot would slope down (negative slope), implying that an increase in age would be related to a decrease in self-esteem and vice versa. If the two variables were uncorrelated, the scatter plot would approximate a horizontal line (zero slope), implying than an increase in age would have no systematic bearing on self-esteem. 
 
-Figure 14.3. Histogram and correlation plot of age and self-esteem
-
-After computing bivariate correlation, researchers are often interested in knowing whether the correlation is significant (i.e., a real one) or caused by mere chance. Answering such a question would require testing the following hypothesis:
+(i.e., a real one) or caused by mere chance. Answering such a question would require testing the following hypothesis:
 
 H0: r = 0
 
@@ -108,15 +146,19 @@ Although we can see a distinct pattern of grade distribution between male and fe
 
 Inferential statistics are the statistical procedures that are used to reach conclusions about associations between variables. They differ from descriptive statistics in that they are explicitly designed to test hypotheses. Numerous statistical procedures fall in this category, most of which are supported by modern statistical software such as SPSS and SAS. This chapter provides a short primer on only the most basic and frequent procedures; readers are advised to consult a formal text on statistics or take a course on statistics for more advanced procedures.
 
+
+
+
+
 Basic Concepts
 
 British philosopher Karl Popper said that theories can never be proven, only disproven. As an example, how can we prove that the sun will rise tomorrow? Popper said that just because the sun has risen every single day that we can remember does not necessarily mean that it will rise tomorrow, because inductively derived theories are only conjectures that may or may not be predictive of future phenomenon. Instead, he suggested that we may assume a theory that the sun will rise every day without necessarily proving it, and if the sun does not rise on a certain day, the theory is falsified and rejected. Likewise, we can only reject hypotheses based on contrary evidence but can never truly accept them because presence of evidence does not mean that we may not observe contrary evidence later. Because we cannot truly accept a hypothesis of interest (alternative hypothesis), we formulate a null hypothesis as the opposite of the alternative hypothesis, and then use empirical evidence to reject the null hypothesis to demonstrate indirect, probabilistic support for our alternative hypothesis. 
 
 A second problem with testing hypothesized relationships in social science research is that the dependent variable may be influenced by an infinite number of extraneous variables and it is not plausible to measure and control for all of these extraneous effects. Hence, even if two variables may seem to be related in an observed sample, they may not be truly related in the population, and therefore inferential statistics are never certain or deterministic, but always probabilistic.
 
-How do we know whether a relationship between two variables in an observed sample is significant, and not a matter of chance? Sir Ronald A. Fisher, one of the most prominent statisticians in history, established the basic guidelines for significance testing. He said that a statistical result may be considered significant if it can be shown that the probability of it being rejected due to chance is 5% or less. In inferential statistics, this probability is called the value, 5% is called the significance level (α), and the desired relationship between the p-value and α is denoted as: p≤0.05. The significance level is the maximum level of risk that we are willing to accept as the price of our inference from the sample to the population. If the p-value is less than 0.05 or 5%, it means that we have a 5% chance of being incorrect in rejecting the null hypothesis or having a Type I error. If p>0.05, we do not have enough evidence to reject the null hypothesis or accept the alternative hypothesis. 
+How do we know whether a relationship between two variables in an observed sample is significant, and not a matter of chance? Sir Ronald A. Fisher, one of the most prominent statisticians in history, established the basic guidelines for significance testing. He said that a statistical result may be considered significant if it can be shown that the probability of it being rejected due to chance is 5\% or less. In inferential statistics, this probability is called the value, 5\% is called the significance level (α), and the desired relationship between the p-value and α is denoted as: p≤0.05. The significance level is the maximum level of risk that we are willing to accept as the price of our inference from the sample to the population. If the p-value is less than 0.05 or 5\%, it means that we have a 5\% chance of being incorrect in rejecting the null hypothesis or having a Type I error. If p>0.05, we do not have enough evidence to reject the null hypothesis or accept the alternative hypothesis. 
 
-We must also understand three related statistical concepts: sampling distribution, standard error, and confidence interval. A sampling distribution is the theoretical distribution of an infinite number of samples from the population of interest in your study. However, because a sample is never identical to the population, every sample always has some inherent level of error, called the standard error. If this standard error is small, then statistical estimates derived from the sample (such as sample mean) are reasonably good estimates of the population. The precision of our sample estimates is defined in terms of a confidence interval (CI). A 95% CI is defined as a range of plus or minus two standard deviations of the mean estimate, as derived from different samples in a sampling distribution. Hence, when we say that our observed sample estimate has a CI of 95%, what we mean is that we are confident that 95% of the time, the population parameter is within two standard deviations of our observed sample estimate. Jointly, the p-value and the CI give us a good idea of the probability of our result and how close it is from the corresponding population parameter.
+We must also understand three related statistical concepts: sampling distribution, standard error, and confidence interval. A sampling distribution is the theoretical distribution of an infinite number of samples from the population of interest in your study. However, because a sample is never identical to the population, every sample always has some inherent level of error, called the standard error. If this standard error is small, then statistical estimates derived from the sample (such as sample mean) are reasonably good estimates of the population. The precision of our sample estimates is defined in terms of a confidence interval (CI). A 95\% CI is defined as a range of plus or minus two standard deviations of the mean estimate, as derived from different samples in a sampling distribution. Hence, when we say that our observed sample estimate has a CI of 95\%, what we mean is that we are confident that 95\% of the time, the population parameter is within two standard deviations of our observed sample estimate. Jointly, the p-value and the CI give us a good idea of the probability of our result and how close it is from the corresponding population parameter.
 
 General Linear Model
 
