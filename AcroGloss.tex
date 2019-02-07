@@ -34,18 +34,37 @@
 % For long entries, the percent sign after the opening brace
 % removes the CR/LF so you don't get an extra vertical space
 
+\longnewglossaryentry{anova}
+{name={ANOVA},
+	see={ttest}}
+{%
+	A test used to analyze the difference in three or more groups of samples that are normally distributed.
+}
+
 \longnewglossaryentry{appliedresearch}
 {name={applied research},
- see={basic research}}
+ see={basicresearch}}
 {%
 	Research that is intended to be applied to a situation rather than further the knowledge of some topic. For example, if a researcher completes a project designed to increase the sales of bottled water in a small town it would be considered applied research.
 }
 
 \longnewglossaryentry{basicresearch}
 {name={basic research},
-	see={applied research}}
+	see={appliedresearch}}
 {%
 	Research that is intended to be further the knowledge of some topic rather than be applied to a specific situation. For example, if a researcher completes a project designed to refine some aspect of the Law of Supply and Demand it would be considered basic research.  
+}
+
+\longnewglossaryentry{bias}
+{name={bias}}
+{%
+	An undesired over- or under-estimate of the value of a population's parameter. Bias has many potential sources, including sampling error, measurement error, and missing data. 
+}
+
+\longnewglossaryentry{binaryscale}
+{name={binary}}
+{%
+	A binary scale is used to measure nominal data that have only two values, like true/false or yes/no.
 }
 
 \longnewglossaryentry{bivariate}
@@ -59,6 +78,12 @@
 {name={boundary condition}}
 {%
 	The assumptions about the ``who, when, and where'' in a theory. Boundary conditions govern how a theory can be applied or not applied.
+}
+
+\longnewglossaryentry{chisquare}
+{name={chi-square}}
+{%
+	The chi-square test is used to determine if there is a significant difference between the actual and expected result of a non-parametric (usually nominal) variable in a research project.
 }
 
 \longnewglossaryentry{concurrentvalidity}
@@ -108,6 +133,12 @@
 	see={discriminantvalidity}}
 {%
 	The closeness that two measures relate to, ``converge on,'' a single construct. For example, if a research project measures the amount of sales of carbonated drinks, fruit juices, and bottled water in a store it would be expected that those would converge on a construct of ``drink sales.''
+}
+
+\longnewglossaryentry{correlation}
+{name={correlation}}
+{%
+	A correlation is a relationship between two variables. Correlations are normally defined statistically as a value between $ -1.00 $ and $ +1.00 $. Correlations should not be confused with causation but only indicate that two variables seem to vary together. 
 }
 
 \longnewglossaryentry{criterionvalidity}
@@ -219,6 +250,12 @@
 	A theory based on observation rather than experimentation. Thus, the strength of the theory is dependent on the skill of the researcher and may not be repeatable by a different researcher or at a different time.
 }
 
+\longnewglossaryentry{guttmanscale}
+{name={guttman}}
+{%
+	The Guttman scale uses a series of questions in increasing intensity to determine how strongly respondents believe some proposition. 
+}
+
 \longnewglossaryentry{hypothesis}
 {name={hypothesis},
 	plural={hypotheses}}
@@ -267,6 +304,12 @@
 
 \newacronym{irb}{IRB}{Institutional Review Board}
 
+\longnewglossaryentry{likertscale}
+{name={likert}}
+{%
+	The Likert scale is one of the most commonly-used instruments for measuring attitudes and opinions. It consists of a statement followed by, typically, five selections: Strongly Agree, Agree, Neutral, Disagree, Strongly Disagree.
+}
+
 \longnewglossaryentry{logic}
 {name={logic}}
 {%
@@ -305,6 +348,13 @@
 	Nonparametric data are data that do not conform to a distribution, are skewed, or are qualitative in nature. Statistical tests that work with nonparametric data are generally less powerful and predictive than tests that work with parametric data.
 }
 
+\longnewglossaryentry{nonprobibilitysampling}
+{name={non-probability sampling},
+	see={probabilitysampling}}
+{%
+	A type of sampling that does not involve a random selection from the population. This is called non-probability sampling since some members of the population have no probability of being selected.
+}
+
 \longnewglossaryentry{normaldistribution}
 {name={normal distribution}}
 {%
@@ -335,6 +385,12 @@
 	Ordinal data are a type of qualitative data that are grouped where the groupings have an implied order. As an example, the ``satisfaction'' rating on a customer survey typically permits respondents to choose from several levels where one level is somehow better than another.
 }
 
+\longnewglossaryentry{pvalue}
+{name={p-value}}
+{%
+	The probability that some finding reflects a true null hypothesis. In most business research, a p-value of less than $ 0.05 $ (or $ 5\% $) is desired to infer that the null hypothesis can be rejected.
+}
+
 \longnewglossaryentry{paradigm}
 {name={paradigm},
 	see={theory}}
@@ -355,23 +411,11 @@
 		A fundamental aspect of research that states if two or more competing explanations are considered then the simplest must be accepted. Thus, researcher would state that the pyramids were built by humans using known technology rather than aliens in spaceships.
 	}
 
-\longnewglossaryentry{precision}
-	{name={precision}}
-	{%
-		Research projects must precisely focus on one aspect of a problem or they will become so broad that their value will be diminished.
-	}
-
-\longnewglossaryentry{pragmatism}
-{name={pragmatism}}
+\longnewglossaryentry{population}
+{name={population},
+ see={sample}}
 {%
-	An approach to research that values practical application over theory-building. 
-}
-
-\longnewglossaryentry{predictivevalidity}
-{name={predictive validity},
-	see={concurrentvalidity}}
-{%
-	The degree to which a measure predicts an outcome. For example, does increasing beer sales (a measure) predict increasing potato chip sales?
+	A set of similar items or events of interest to a researcher. For example, the set of small business owners in the United States would be a population.
 }
 
 \longnewglossaryentry{positivism}
@@ -391,6 +435,32 @@
 {name={post-modernism}}
 {%
 	A philosophical reaction to the assumptions and values of the ``modern'' period (roughly the 17th to 19th century). Post-modernists believe that rather than an objective reality independent of humans there is a subjective interpretation of reality so there is no such thing as a single ``Truth.''
+}
+
+\longnewglossaryentry{precision}
+{name={precision}}
+{%
+	Research projects must precisely focus on one aspect of a problem or they will become so broad that their value will be diminished.
+}
+
+\longnewglossaryentry{pragmatism}
+{name={pragmatism}}
+{%
+	An approach to research that values practical application over theory-building. 
+}
+
+\longnewglossaryentry{predictivevalidity}
+{name={predictive validity},
+	see={concurrentvalidity}}
+{%
+	The degree to which a measure predicts an outcome. For example, does increasing beer sales (a measure) predict increasing potato chip sales?
+}
+
+\longnewglossaryentry{probabilitysampling}
+{name={probability sampling},
+	see={nonprobibilitysampling}}
+{%
+	A type of sampling that involves a random selection from a population. It is called probability sampling since every member of the population has a probability to be selected. This is frequently called ``random sampling'' since members of the population are chosen at random. 
 }
 
 \longnewglossaryentry{proposition}
@@ -465,6 +535,25 @@
 	A research project must be able to be replicated by other researchers or at other times in order to be considered sound.
 }
 
+\longnewglossaryentry{sample}
+{name={sample},
+	see={population}}
+{%
+	A subset of a population from which data are drawn in order to make inferences about the entire population.
+}
+
+\longnewglossaryentry{sampleframe}
+{name={sampling frame}}
+{%
+	A subset of a sample that is accessible to the researcher. As an example, if the sample is high school students then the sampling frame could be the students in a specific high school or city. 
+}
+
+\longnewglossaryentry{semanticdiffscale}
+{name={semantic differential}}
+{%
+	The Semantic Differential scale is used to determine attitudes or opinions using a sliding scale of values between two opposite pairs of adjectives. For example, respondents can be asked to choose some value between ``1-Dislike'' and ``5-Like'' for a certain snack sample in a store.
+}
+
 \newacronym{ses}{SES}{Socio-Economic Status}
 
 \longnewglossaryentry{skew}
@@ -478,6 +567,13 @@
 	see={validity}}
 {%
 	The degree to which the conclusions found in a research project are correct. Studies with high statistical conclusion validity minimize the two types of statistical errors: Type I (finding a correlation when there is none) and Type II (failing to find a correlation when one exists). 
+}
+
+\longnewglossaryentry{ttest}
+{name={t-test},
+	see={anova}}
+{%
+	A test used to analyze the difference in two groups of samples that are normally distributed.
 }
 
 \longnewglossaryentry{theory}
