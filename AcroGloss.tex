@@ -34,6 +34,14 @@
 % For long entries, the percent sign after the opening brace
 % removes the CR/LF so you don't get an extra vertical space
 
+% To use:
+%   \gls{label} (regular form)
+%   \glspl{label} (plural form)
+%   \Gls{label} (Capitalized regular form)
+%   \Glspl{label} (Capitalized plural form)
+
+
+
 \longnewglossaryentry{anova}
 {name={ANOVA},
 	see={ttest}}
@@ -56,9 +64,10 @@
 }
 
 \longnewglossaryentry{bias}
-{name={bias}}
+{name={bias},
+ plural={biases}}
 {%
-	An undesired over- or under-estimate of the value of a population's parameter. Bias has many potential sources, including sampling error, measurement error, and missing data. 
+	An undesired over- or under-estimate of the value of a population's parameter. Bias has many potential sources, including sampling error, measurement error, and missing data. On a survey question, bias tends to elicit a particular response which would skew the data collected.
 }
 
 \longnewglossaryentry{binaryscale}
@@ -146,6 +155,13 @@
 	see={validity}}
 {%
 	The degree to which a measure is related to an outcome.  
+}
+
+\longnewglossaryentry{crosssectional}
+{name={cross-sectional},
+	see={longitudinal}}
+{%
+	A type of research that is conducted in a single point in time that crosses multiple analytical units. This is most often in reference to a survey but could be applied to other research methods. For example, a survey of several different small business owners in a single city would be cross-sectional. 
 }
 
 \longnewglossaryentry{database}
@@ -320,6 +336,13 @@
 {name={logical consistency}}
 {%
 	A theory or hypothesis is logically consistent when all of the constructs, propositions, boundary conditions, and assumptions are congruous.
+}
+
+\longnewglossaryentry{longitudinal}
+{name={longitudinal},
+	see={crosssectional}}
+{%
+	A type of research that is conducted over a long period of time. This is most often in reference to a survey but could be applied to other research methods. For example, repeated surveys over a period of five years of small business owners in a single city would be longitudinal. 
 }
 
 \longnewglossaryentry{model}
@@ -497,6 +520,12 @@
 	Quantitative research typically uses numerical data and statistical analysis to find patterns and generalize results to a large population. Quantitative data collection involves structured activities like surveys, interviews, and systematic observations.
 }
 
+\longnewglossaryentry{questionnaire}
+{name={questionnaire}}
+{%
+	A type of survey research tool comprised of a written set of questions. Questionnaires are typically self-administered, that is, they are sent to respondents and completed without assistance.
+}
+
 \longnewglossaryentry{radicalhumanism}
 {name={radical humanism}}
 {%
@@ -567,6 +596,12 @@
 	see={validity}}
 {%
 	The degree to which the conclusions found in a research project are correct. Studies with high statistical conclusion validity minimize the two types of statistical errors: Type I (finding a correlation when there is none) and Type II (failing to find a correlation when one exists). 
+}
+
+\longnewglossaryentry{survey}
+{name={survey}}
+{%
+	A research method involving the use of standardized questionnaires or interviews to collect data about people and their preferences, thoughts, and behaviors in a systematic manner. 
 }
 
 \longnewglossaryentry{ttest}
