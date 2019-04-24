@@ -16,55 +16,11 @@
 % Add photo to start of each chapter
 % Add whatever graphics I can to each chapter
 % Add glossary entries and chapter links 
-% Add ``What to expect'' and ``Summary'' sections (Ch 1 has an ``objectives'' box and ``summary'' section already)
 % Add example research reports
 
-% Maybe start each chapter with a photo and ``Introduction'' paragraph, then the Objectives, then the text, finally, a ``Summary''. Maybe use the Text Box object for the objectives and summary section.
+% Start each chapter with a photo and ``Introduction'' paragraph, then the Objectives, then the text, finally, a ``Summary''. 
 
-% TODO: Status
-
-%Background
-% 01 Intro: Glossary and Biblio checked 
-% 02 Foundations: Glossary and Biblio checked
-% 03 Ethics: Glossary and Biblio checked
-% 04 Design: Glossary and Biblio checked
-
-% Quantitative
-% 05 Measuring: Glossary and Biblio checked
-% 06 Data: 1st Draft
-% 07 Sampling: 1st Draft (illustrations done)
-% 08 Surveys: Rough Draft: cleaned up language
-% 09 Experimental: Rough Draft: cleaned up language
-
-% Qualitative
-% 10 Interviews: Rough Draft: cleaned up language
-% 11 Field: Rough Draft: cleaned up language
-% 12 Unobtrusive (content analysis, analysis of data collected by others): Rough Draft: cleaned up language
-% 13 Interpretive (ethnography): Rough Draft: cleaned up language
-
-% Mixed Methods
-% 14 Mixed: Rough draft: cleaned up language
-
-% Reporting
-% 15 Presenting: Rough Draft: cleaned up language. I can expand this greatly with ``how to'' instructions for both oral and written presentations. Maybe add a section on dissertations? In my reference section, see ``communication-for-business-success'' for a lot of information.
-
-%************************************************************
-\section{acronyms and glossary}
-% all acronymns and glossary entries are defined in
-% AcroGloss.tex. I have some information in that document
-% about how to format entries.
-% To compile the glossary:
-% 1. Build the document
-% 2. Tools -> Glossary (F9) % to build the glossary entries
-% 3. Build the document again
-
-% To use an acronym or glossary term in the text (they are the same):
-%***************************************************************
-\gls{code} % Where ``code'' is the code I specify in the glossary entry
-\glspl{code} % For the plural (note: forms a simple ``s'' plural)
-% for more complex plurals, create an alternate form in AcroGloss
-\Gls{code} % Capitalize the first letter
-\Glspl{code} % Capitalize the first letter, make the word plural
+% Use an ``Objective'' box for objectives and ``Summary'' box for summary. Both boxes are found below. Chapters 1 and 11 have an objectives box at the top and a summary box at the end. Use either as a guide for other chapters.
 
 
 %******************************************************
@@ -136,6 +92,19 @@
 	\end{objbox}
 \end{center}
 
+%***************************************************************************
+\section{Summary Box}
+% Relies on ``tkawybox'' in config file
+%***************************************************************************
+\begin{center}
+	\begin{tkawybox}{Objectives}
+		\begin{itemize}		
+			\item x1.
+			\item x2.
+			\item x3.
+		\end{itemize}
+	\end{tkawybox}
+\end{center}
 
 %***************************************************************************
 \section{Text Table}
@@ -202,8 +171,6 @@
 \section{Introductory Figure}
 %**************************************************************************
 % Use this for figures at the top of each chapter
-
-\section{first section head}
 
 \begin{wrapfigure}{r}{0.4\textwidth}
 	\centering
