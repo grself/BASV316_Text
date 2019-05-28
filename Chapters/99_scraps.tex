@@ -97,7 +97,7 @@
 % Relies on ``tkawybox'' in config file
 %***************************************************************************
 \begin{center}
-	\begin{tkawybox}{Objectives}
+	\begin{tkawybox}{Summary}
 		\begin{itemize}		
 			\item x1.
 			\item x2.
@@ -109,8 +109,6 @@
 %***************************************************************************
 \section{Text Table}
 %***************************************************************************
-% the p values set column width and force word wrap, left align text
-% the p values should total 0.95, the width of the table
 \begin{table}[H]
 	\centering
 	\begin{tabulary}{\linewidth}{LCCCC}
@@ -128,24 +126,31 @@
 	\label{03:tab01}
 \end{table}
 
-%*************************************
-% Tabulary will automatically adjust the column widths and word wrap
-%*************************************
 
-\begin{tabulary}{\linewidth}{LCCCC}
-	\hline
-	\multicolumn{5}{l}{\textbf{Do you support these propositions?}} \\
-	\hline
-	Prop & Strongly Support & Support & Do Not Support & Strongly Do Not Support  \\ 
-	\hline
-	100 & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ \\ 
-	115 & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ \\ 
-	220 & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ \\ 
-	\hline
-\end{tabulary} 
-
-\vspace{.15in}
-
+%***************************************************************************
+\section{Text Table v2}
+% The 'p{}' values determine the width of each cell
+%***************************************************************************
+\begin{table}[H]
+	\centering
+	\definecolor{ltgray}{gray}{0.95} % this is a light gray
+	\rowcolors{1}{}{ltgray} % zebra striping background
+	\begin{tabularx}{0.95\linewidth}{
+			p{0.22\linewidth}
+			p{0.22\linewidth}
+			p{0.22\linewidth}
+			p{0.22\linewidth}}
+		\toprule
+		\textbf{Party} & \textbf{Clinton} & \textbf{Trump} & \textbf{Other} \\
+		\midrule
+		Democrats & $ 89\% $ & $ 8\% $ & $ 3\% $ \\
+		Republicans & $ 8\% $ & $ 88\% $ & $ 4\% $ \\
+		Independents & $ 42\% $ & $ 46\% $ & $ 12\% $ \\
+		\bottomrule
+	\end{tabularx}
+	\caption{2016 Exit Poll.}
+	\label{tab06.02}
+\end{table}
 
 %***************************************************************************
 \section{ToDo}
