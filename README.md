@@ -2,7 +2,7 @@
 
 This is my text book for the University of Arizona, Sierra Vista, BASV 316, Introductory Methods of Analysis. 
 
-*This is still a very rough draft!* I am building this book by compiling various open resources and adding my own verbiage. While users are welcome to take a look at the work in progress I do not anticipate having the book in any sort of usable state until Jan, 2019.
+*This is still a very rough draft!* I am building this book by compiling various open resources and adding my own verbiage. While users are welcome to take a look at the work in progress I do not anticipate having the book in any sort of usable state until Jan, 2020.
 
 This is my working Table of Contents.
 
