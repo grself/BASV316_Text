@@ -10,6 +10,24 @@
 \end{wrapfigure}
 Data are\footnote{The word ``data'' is plural and is treated that way in this text even though modern usage seems to be trending toward a singular form.} a collection of facts about some topic. As examples, a ``customer loyalty'' program gathers data from customers on how often they shop, what they purchase on each trip, what time of day they typically shop, and all sorts of other data. When data are interpreted in some way they become information. The types of analyses that can be done with data are limited by the types of data involved. The purpose of this chapter is to introduce various concepts about data and show how they can be analyzed.\footnote{Photo by Mika Baumeister on Unsplash}
 
+\begin{center}
+	\begin{objbox}{Objectives}
+		\begin{itemize}
+			\setlength{\itemsep}{0pt}
+			\setlength{\parskip}{0pt}
+			\setlength{\parsep}{0pt}
+			
+			\item Define the types of data
+			\item Determine the difference between data and rating scales
+			\item Define the three primary properties of data: distribution, excess kurtosis, and skew
+			\item Define database and fine several public databases that may be useful for research projects
+			\item Selecting the correct statistical test for the project
+			\item Define the types of statistical tests used for central measures, spread, frequency, correlation, parametric hypothesis testing, and nonparametric hypothesis testing.
+			\item Define data mining and discuss the three most common forms of data mining: clustering, decision trees, and market basket
+		\end{itemize}
+	\end{objbox}
+\end{center}
+
 
 \subsection{Types of Data}
 
@@ -17,7 +35,7 @@ Psychologist Stanley Smith Stevens defined four generic types of data\cite{steve
 
 \begin{itemize}
 	
-	\item \textbf{\Gls{qualitativedata}} groups observations into a limited number of categories; for example, type of pet (cat, dog, bird, etc.) or place of residence (Arizona, California, etc.). Because qualitative data do not have characteristics like means or standard deviations, they are analyzed using non-parametric tests, like Kruskal-Wallis H and Mann-Whitney U. Qualitative data can be further divided into two sub-types, nominal and ordinal.
+	\item \textbf{\Gls{qualitativedata}} groups observations into a limited number of categories; for example, type of pet (cat, dog, bird, etc.) or place of residence (Arizona, California, etc.). Because qualitative data do not have characteristics like means or standard deviations, they are analyzed using non-parametric tests, like \textit{Kruskal-Wallis H} and \textit{Mann-Whitney U}. Qualitative data can be further divided into two sub-types, nominal and ordinal.
 	
 	\begin{itemize}
 		\item \textbf{\Gls{nominaldata}} are categories that do not overlap and have no meaningful order, they are merely labels for attributes. Examples of nominal data include occupations (custodial, accounting, sales, etc.) and blood type (A, B, AB, O). A special subcategory of nominal data is binary, or dichotomous, where there are only two possible responses, like ``yes'' and ``no''. Nominal data are sometimes stored in a database using numbers but they cannot be treated like numeric data. For example, binary data, like ``Do you rent or own your home?'' can be stored as ``1 = rent, 2 = own'' but the numbers in this case have no numeric significance and could be replaced by words like ``Rent'' and ``Own.''
@@ -25,12 +43,12 @@ Psychologist Stanley Smith Stevens defined four generic types of data\cite{steve
 		\item \textbf{\Gls{ordinaldata}} are categorical data but, unlike nominal, the categories imply some sort of order (which is why it is called ``ordinal'' data). One example of ordinal data is the ``star'' rating system for movies. It is clear that a five-star movie is somehow better than a four-star movie but there is no way to quantify the difference between those two categories. As another example, it is common for hospital staff members to ask patients to rate their pain level on a scale of one to ten. If a patient reports a pain level of ``seven'' but after some sort of treatment later reports a pain level of ``five'' then the pain has clearly decreased but it would be impossible to somehow quantify the exact difference in those two levels. Ordinal scales are most commonly used with Likert-type survey questions where the responses are selections like ``Strongly Agree'', ``Agree'', ``Neutral'', ``Disagree'', ``Strongly Disagree''. Ordinal data are also used when numeric data are grouped. For example, if a dataset included respondents' ages then those numbers could be grouped into categories like ``$ 20-29 $'' and ``$ 30-39 $.'' Those groups would typically be stored in the dataset as a single number so maybe ``$ 2 $'' would represent the ages ``$ 20-29 $,'' which would be ordinal data.
 	\end{itemize}
 	
-	\item \textbf{\Gls{quantitativedata}} are numbers, typically counts or measures, like a person's age, a tree's height, or a truck's weight. Quantitative data are measured with scales that have equal divisions so the difference between any two values can be calculated. Quantitative data are discrete if they are represented by integers, like the count of words in a document, or continuous if they are represented by fractional numbers, like a person's height. Because quantitative data includes characteristics like means and standard deviations, they are analyzed using parametric tests, like T-tests and Analysis of Variance (ANOVA). Quantitative data can be further divided into two sub-types, interval and ratio.
+	\item \textbf{\Gls{quantitativedata}} are numbers, typically counts or measures, like a person's age, a tree's height, or a truck's weight. Quantitative data are measured with scales that have equal divisions so the difference between any two values can be calculated. Quantitative data are discrete if they are represented by integers, like the count of words in a document, or continuous if they are represented by fractional numbers, like a person's height. Because quantitative data includes characteristics like means and standard deviations, they are analyzed using parametric tests, like \textit{T-tests} and \textit{Analysis of Variance (ANOVA)}. Quantitative data can be further divided into two sub-types, interval and ratio.
 	
 	\begin{itemize}
-		\item \textbf{\Gls{intervaldata}} use numbers to represent quantities where the distance between any two quantities can be calculated but there is no true zero point on the scale. One example is a temperature scale where the difference between $ 80 $\textdegree and $ 90 $\textdegree is the same as the difference between $ 60 $\textdegree and $ 70 $\textdegree. It is important to note that interval data do not include any sort of true zero point, thus zero degrees Celsius does not mean ``no temperature,'' and without a zero point it is not reasonable to make a statement like $ 20 $\textdegree is twice as hot as $ 10 $\textdegree.
+		\item \textbf{\Gls{intervaldata}} use numbers to represent quantities where the distance between any two quantities can be calculated but there is no true zero point on the scale. One example is a temperature scale where the difference between $ 80 $\textdegree and $ 90 $\textdegree is the same as the difference between $ 60 $\textdegree and $ 70 $\textdegree. It is important to note that interval data do not include any sort of true zero point, thus zero degrees Celsius does not mean ``no temperature,'' and without a zero point it is not reasonable to make a statement like $ 20 $\textdegree is twice as hot as $ 10 $\textdegree.\footnote{To be fair, temperature does have a zero point, called ``absolute zero.'' However, the value of zero degrees Celsius or Fahrenheit is not ``no temperature.''}
 		
-		\item \textbf{\Gls{ratiodata}} use numbers to describe a specific measurable distance between two quantities; however, unlike interval data, ratio data have a true zero point. A good example of ratio data is the sales report for an automobile dealership. Because the data are a simple count of the number of automobiles sold it is possible to compare on month with another. Also, since the scale has a true zero point (it is possible to have zero sales) it is possible to state that one month had twice the sales of another.
+		\item \textbf{\Gls{ratiodata}} use numbers to describe a specific measurable distance between two quantities; however, unlike interval data, ratio data have a true zero point. A good example of ratio data is the sales report for an automobile dealership. Because the data are a simple count of the number of automobiles sold it is possible to compare one month with another. Also, since the scale has a true zero point (no sales for the month) it is possible to state that one month had twice the sales of another.
 	\end{itemize}
 \end{itemize}
 
@@ -59,7 +77,7 @@ When working with qualitative data, it is important for researchers to determine
 		\label{tab06.02}
 	\end{table}
 	
-	\item[\Gls{likertscale}] Designed by Rensis Likert, this is a very popular rating scale for measuring ordinal data in business research. This scale includes Likert items that are simply-worded statements to which respondents can indicate their extent of agreement or disagreement on a five or seven-point scale ranging from ``strongly disagree'' to ``strongly agree.'' A typical example of a six-item Likert scale for the ``employment self-esteem'' construct is shown in table \ref{tab06.03}. Likert scales are summated scales, that is, the overall scale score may be a summation of the attribute values of each item as selected by a respondent.
+	\item[\Gls{likertscale}] Designed by Rensis Likert, this is a very popular rating scale for measuring ordinal data in business research. This scale includes Likert items that are simply-worded statements to which respondents can indicate their extent of agreement or disagreement on a five or seven-point scale ranging from ``strongly disagree'' to ``strongly agree.'' A typical example of a six-item Likert scale for the ``employment self-esteem'' construct is shown in table \ref{tab06.03}. Likert scales are summed scales, that is, the overall scale score may be a summation of the attribute values of each item as selected by a respondent.
 	
 	\begin{table}[H]
 		\centering
@@ -78,7 +96,7 @@ When working with qualitative data, it is important for researchers to determine
 		\label{tab06.03}
 	\end{table}
 	
-	Likert items allow for more granularity (more finely tuned response) than binary items, including whether respondents are neutral to the statement. Three or nine values (often called ``anchors'') may also be used, but it is important to use an odd number of values to allow for a ``neutral'' (or ``neither agree nor disagree'') anchor. Some studies have used a ``forced choice approach'' to force respondents to agree or disagree with the Likert statement by dropping the neutral mid-point and using even number of values, but this is not a good strategy because some people may indeed be neutral to a given statement and the forced choice approach does not provide them the opportunity to record their neutral stance. A key characteristic of a Likert scale is that even though the statements vary in different items or indicators, the anchors (``strongly disagree'' to ``strongly agree'') remain the same. Likert scales are ordinal scales because the anchors are not necessarily equidistant, even though sometimes we treat them like interval scales.
+	Likert items allow for more granularity (more finely tuned response) than binary items, including whether respondents are neutral to the statement. Three or nine values (often called ``anchors'') may also be used, but it is important to use an odd number of values to allow for a ``neutral'' (or ``neither agree nor disagree'') anchor. Some studies have used a ``forced choice approach'' to force respondents to agree or disagree with the Likert statement by dropping the neutral mid-point and using even number of values, but this is not a good strategy because some people may indeed be neutral to a given statement and the forced choice approach does not provide them the opportunity to record their neutral stance. A key characteristic of a Likert scale is that even though the statements vary in different items or indicators, the anchors (``strongly disagree'' to ``strongly agree'') remain the same. Likert scales are ordinal scales because the anchors are not necessarily equidistant, even though sometimes they are treated like interval scales.
 	
 	\item[\Gls{semanticdiffscale}] This is a multi-item scale where respondents are asked to indicate their opinions or feelings toward a single statement using different pairs of adjectives framed as polar opposites. For instance, the construct ``attitude toward health insurance'' can be measured using three items shown in Table \ref{tab06.04}. As in the Likert scale, the overall scale score may be a summation of individual item scores. Notice that in Likert scales, the statement changes but the anchors remain the same across items. However, in semantic differential scales, the statement remains constant, while the anchors (adjective pairs) change across items. Semantic differential is believed to be an excellent technique for measuring people's attitude or feelings toward objects, events, or behaviors. 
 	
@@ -100,7 +118,7 @@ When working with qualitative data, it is important for researchers to determine
 		\label{tab06.04}
 	\end{table}
 	
-	\item[\Gls{guttmanscale}] Designed by Louis Guttman, this composite scale uses a series of items arranged in increasing order of intensity of the construct of interest, from least intense to most intense. As an example, the construct ``attitude toward immigrants'' can be measured using five items shown in Table \ref{tab06.05}. Each item in the Guttman scale has a weight (not indicated above) which varies with the intensity of that item, and the weighted combination of each response is used as aggregate measure of an observation.
+	\item[\Gls{guttmanscale}] Designed by Louis Guttman, this composite scale uses a series of items arranged in increasing order of intensity of the construct of interest, from least intense to most intense. As an example, the construct ``attitude toward immigrants'' can be measured using five items shown in Table \ref{tab06.05}. Each item in the Guttman scale has a weight (not indicated on the scale) which varies with the intensity of that item, and the weighted combination of each response is used as aggregate measure of an observation.
 	
 	\begin{table}[H]
 		\centering
@@ -143,7 +161,7 @@ The normal distribution is important because it permits researchers to use speci
 \subsection{Excess Kurtosis}
 One way to mathematically describe a normal distribution is to calculate the length of the tails of a bell curve, and that is called its \gls{excesskurtosis}. For a normal distribution the excess kurtosis is $ 0.00 $, a positive excess kurtosis would indicate longer tails while a negative excess kurtosis would indicate shorter tails. Intuitively, many people believe the excess kurtosis represents the ``peaked-ness'' of the curve since longer tails would tend to lead to a more peaked graph; however, excess kurtosis is a measure of the data outliers, which would be only present in the tails of the graph; so excess kurtosis is not directly indicative of the the ``sharpness'' of the peak. It is difficult to categorically state that some level of excess kurtosis is good or bad. In some cases, data that form a graph with longer tails are desired but in other cases they would be a problem.
 
-Following are three examples of excess kurtosis. Notice that as the excess kurtosis increases the tails become longer. 
+Following are four examples of excess kurtosis. Notice that as the excess kurtosis increases the tails become longer. 
 
 \begin{figure}[H]
 	\centering
@@ -153,7 +171,7 @@ Following are three examples of excess kurtosis. Notice that as the excess kurto
 \end{figure}
 
 \subsection{Skew}
-The second numerical measure of a normal distribution that is frequently reported is its \gls{skew}, which is a measure of the symmetry of the curve about the mean of the data. The normal distribution in Figure \ref{fig06.03} has a skew of $ 0.00 $. A positive skew indicates that the tail on the right side is longer, which means that there are several data points on the far right side of the graph ``pulling'' the tail out that direction. A negative skew indicates that the tail on the left side of the graph is longer. Following are three examples of skew:
+The second numerical measure of a normal distribution that is frequently reported is its \gls{skew}, which is a measure of the symmetry of the curve about the mean of the data. The normal distribution in Figure \ref{fig06.03} has a skew of $ 0.00 $. A positive skew indicates that the tail on the right side is longer, which means that there are several data points on the far right side of the graph ``pulling'' the tail out that direction. A negative skew indicates that the tail on the left side of the graph is longer. Following are four examples of skew:
 
 \begin{figure}[H]
 	\centering
@@ -164,25 +182,25 @@ The second numerical measure of a normal distribution that is frequently reporte
 
 \section{Databases}
 
-When a lot of data are gathered into a single location they are referred to as a \gls{database}. This is not a new concept. Fifty years ago a library would have a series of 3X5 cards that contained information about all of the books in the library (title, author, subject, etc.). Those cards were stored in a wooden cabinet called the ``card catalog'' and customers could find information about and the location of whatever book they wanted. Today, databases are often contained in electronic form on the internet where they can be accessed from customers' home computers, tablets, or even phones.
+When a lot of data are gathered into a single location they are referred to as a \gls{database}. This is not a new concept. Fifty years ago a library would have a series of 3X5 cards that contained information about all of the books in the library (title, author, subject, etc.). Those cards were stored in a wooden cabinet called the ``card catalog'' and customers could find information about and the location of whatever book they wanted. Today, databases are often contained in electronic form on the Internet where they can be accessed from customers' home computers, tablets, or even phones.
 
-Data in a database is typically stored in tables that resemble spreadsheets, that is, rows and columns where each row is one record (or observation) about some phenomenon and each column is one descriptor of that record. For example, a database that contains information about the people who work at a company would be organized such that each row contained data about just one person and each column would contain a single aspect of that person's employment, like name, employee number, date of birth, etc.\footnote{Of course, databases are much more complex than described in this paragraph but this is not a database text so the simple explanation offered is adequate for this context.} A database is designed to deliver answers to questions through a lookup process so, for example, if the CEO of a company wanted to know the birth date for someone in the accounting department that data could be easily found. 
+Data in a database is typically stored in tables that resemble spreadsheets, that is, rows and columns where each row is one record (or observation) about some phenomenon and each column is one descriptor of that record. For example, a database that contains information about the people who work at a particular company would be organized such that each row contained data about just one person and each column would contain a single aspect of that person's employment, like name, employee number, date of birth, etc.\footnote{Of course, databases are much more complex than described in this paragraph but this is not a database text so the simple explanation offered is adequate for this context.} A database is designed to deliver answers to questions through a lookup process so, for example, if the CEO of a company wanted to know the birth date for someone in the accounting department those data could be easily found. 
 
-One common problem with any database is ``dirty data.'' These are data that contain errors or are missing. For example, it is easy for a data entry clerk to enter something like ``1000000'' instead of ``100000'' (count the zeros) for a person's salary and create an ``outlier'' in the data. Another common problem are missing data. For example, if employees are asked to update their personal information but someone could not remember their ZIP code then they would simply leave that field blank.
+One common problem with any database is ``dirty data.'' These are data that contain errors or are missing. For example, it is easy for a data entry clerk to enter something like ``1000000'' instead of ``100000'' (count the zeros) for a person's salary and create an ``outlier'' in the data. Another common problem are missing data. For example, if employees are asked to update their personal information but a few people could not remember their ZIP code then they would simply leave that field blank.
 
 Dirty data makes it difficult to analyze the database. For example, if a researcher wanted to report the median salary for the workers in a factory but ten percent of the salaries were missing from the database then the median would not be accurate. There are several methods statisticians use to mitigate the problems caused by dirty data but those are beyond the scope of this text. 
 
 \subsection{Public Databases}
 
-There are hundreds of publicly available databases that can be used for research. As one example, the United States Census Bureau maintains a huge database that contains information about the people of the United States.\footnote{The US Census Bureau's website is at \url{https://www.census.gov/}.} The data at that site is freely available to anyone who wants to use it, and the site is organized so information is fairly quick and easy to find. As an example, it is not difficult to discover that among adults in the United States, 29\% have a high school diploma, 20\% have a Bachelor's degree, 8\% have a Master's degree, 1.7\% have a Doctoral degree, and the rest fall elsewhere on the education spectrum. The US Census Bureau has more advanced tools available that permit researchers to focus on a single county or even smaller region.
+There are hundreds of publicly available databases that can be used for research. As one example, the United States Census Bureau maintains a huge database that contains information about the people of the United States.\footnote{The US Census Bureau's website is at \url{https://www.census.gov/}.} The data at that site is freely available to anyone who wants to use it, and the site is organized so information is fairly quick and easy to find. As an example, it is not difficult to discover that among adults in the United States, 29\% have a high school diploma, 20\% have a Bachelor's degree, 8\% have a Master's degree, 1.7\% have a Doctoral degree, and the rest fall elsewhere on the education spectrum. The US Census Bureau has advanced tools available that permit researchers to focus their search significantly.
 
-When using a public database, a researcher must be concerned with bias. Since the researcher did not gather the data first-hand it is possible that the data are biased. For example, if the database includes people's attitude towards work how is the researcher going to know if the data gathered was from a well-designed, neutral survey or if it was just gathered using some sort of convenience sample? In general, databases found at governmental websites (with urls that end with .gov) or education websites (with urls that end with .edu) would more likely be bias-free while databases from .com sites would need to have extra attention paid to bias.
+When using a public database, researchers must be concerned with bias. For example, if the database includes people's attitude towards work, how is a researcher going to know if the data gathered was from a well-designed, neutral survey or if it was just gathered using some sort of convenience sample? In general, databases found at governmental websites (with urls that end with .gov) or education websites (with urls that end with .edu) would more likely be bias-free while databases from .com sites would need to be carefully scrutinized.
 
 Sometimes, students will find a website with a list of links to journal articles or chapters from books. While these are valuable resources for a researcher, they are not the same as a database that contains raw data from a survey, experiment, or other activity. Journal articles provide good information for a literature review but would not be appropriate for an online database source.
 
 \subsection{Using Public Databases}
 
-As an example of using a public database, imagine that the CEO of ``BASVFOODS'' is interested in opening a neighborhood market in a small town they have never serviced before. In order to gather information about that location it is possible to use US Census Bureau data to find out things like the median household size, income, and education level. The CEO could then compare that data with similar data from a town that has a successful store to help inform a decision to open a new store.
+As an example of using a public database, imagine that the CEO of ``BASVFOODS'' is interested in opening a neighborhood market in a small town they have never serviced before. In order to gather information about that location it is possible to use US Census Bureau data to find out things like the median household size, income, and education level. The CEO could then compare that data with similar data from a town that has a successful store to help inform a decision about opening a new store.
 
 \section{Statistical Test Selection}
 
@@ -190,6 +208,7 @@ Once the data are gathered it is important to run appropriate statistical proces
 
 \begin{itemize}
 	\item \Gls{quantitativedata} are numeric and are generated through measurement or counting. \gls{continuousdata} can be any value, including fractions or decimals, like a person's height or the length of time it takes to complete some task. \Gls{discretedata} are integers normally found by counting, like the number of people at an event or the age of a respondent.
+
 	\item \Gls{qualitativedata} are non-numeric and are often generated by people checking boxes on a survey. \Gls{ordinaldata} have some implied order, like a student's class (senior, junior, etc.) and \gls{nominaldata} have no order, like a respondent's gender.
 \end{itemize}
 
@@ -218,6 +237,8 @@ Once the data are gathered it is important to run appropriate statistical proces
 	\caption{Classifying Variables}
 	\label{fig06.08}
 \end{figure}
+
+Once researchers know the types of variables they are working with, the statistical tests they can use become evident.
 
 \subsection{Summary Statistics}
 
@@ -261,16 +282,17 @@ One of the easiest type of analysis to complete is determining the center and sp
 Normally, a researcher posits a hypothesis and then conducts research to either support or refute that hypothesis. The type of hypothesis test needed depends on the type of the variables being tested. There are two broad categories of variables in a hypothesis test: independent and dependent.
 
 \begin{itemize}
-	\item \Glspl{independentvariable} (explanatory variables) are those that cause something to happen; they explain why some outcome was observed. For example, if the hypothesis is that women spend more on groceries than men then the independent variable is the sex of the shopper. If the hypothesis is that old people are more dangerous drivers than young people then the independent variable is the age of the driver.
-	\item \Glspl{dependentvariable} (outcome variables) are those that are the outcome for whatever is happening. For example, if the hypothesis is that women spend more on groceries than men then the dependent variable is amount of money spent. If the hypothesis is that elderly drivers are more dangerous than younger drivers then the dependent variable is the number of reported accidents.
+	\item \Glspl{independentvariable} (explanatory variables) are those that cause something to happen; they explain why some outcome was observed. For example, if the hypothesis is that women spend more on groceries than men then the independent variable is the sex of the shopper. If the hypothesis is that elderly drivers are more dangerous drivers than younger drivers then the independent variable is the age of the driver.
+
+	\item \Glspl{dependentvariable} (outcome variables) are those that are the outcome for whatever is being observed. For example, if the hypothesis is that women spend more on groceries than men then the dependent variable is amount of money spent. If the hypothesis is that elderly drivers are more dangerous than younger drivers then the dependent variable is the number of reported accidents.
 \end{itemize}
 
 The chart in Figure \ref{fig06.10} is used to determine if the hypothesis test should be parametric or nonparametric.
 
 \begin{itemize}
-	\item \Gls{parametric} tests assume that the data follow a particular distribution, usually normally distributed. Parametric tests are more powerful than nonparametric tests and are more likely to detect true differences or relationships that exist.
-	\item \Gls{nonparametric} tests are used when the dependent variable is not normally distributed; that is, the data are skewed or are qualitative. Nonparametric techniques are usually based on ranks or signs rather than the actual data and are usually less powerful than parametric tests.
-	\item \Gls{chisquare} is a test that is only used when the dependent variable is nominal in nature. A chi-square test determines if there is a significant difference in the actual observed frequencies and those hypothetically expected. For example, if a coin were tossed $ 100 $ times it would be expected to land ``heads'' half of the time but if the actual observation was that ``heads'' came up $ 75\% $ of the time then the chi-square statistic would indicate that this was a significant difference.
+	\item \Gls{parametric} tests assume that the data follow a particular distribution, usually normally distributed. Parametric tests are more powerful than nonparametric tests and are more likely to detect relationships or differences that exist.
+	\item \Gls{nonparametric} tests are used when the dependent variable is not normally distributed; that is, the data are skewed or are qualitative. Nonparametric techniques are usually based on ranks rather than the actual data and are usually less powerful than parametric tests.
+	\item \Gls{chisquare} is a test that is only used when the dependent variable is nominal in nature. A chi-square test determines if there is a significant difference in the actual observed frequencies and those hypothetically expected. For example, if a coin were tossed $ 100 $ times it would be expected to land ``heads'' half of the time but if the actual observation was that ``heads'' came up $ 75\% $ of the time then the chi-square statistic would indicate that this was a significant difference between what was expected and what was observed.
 \end{itemize}
 
 \begin{figure}[H]
@@ -301,7 +323,7 @@ The chart in Figure \ref{fig06.10} is used to determine if the hypothesis test s
 
 \subsection{Hypothesis Test Selection}
 
-Researchers often hypothesize\footcite{Chapter \ref{ch14:mixed} contains more information about hypothesis testing.} that some treatment will lead to an outcome. In order to test that, they will apply the treatment to one group but not another and then compare the two groups to see if there is any difference. Table \ref{tab06.07} lists the statistical tests that are commonly used to compare the averages of two or more groups. In the table, ``independent'' groups are those that have no overlapping members while ``matched'' groups test the same members two times. As an example, if researchers wanted to know how if a movie affected people in some way they could survey people leaving two different theaters (independent groups) or survey the same people before and after seeing the movie (matched groups).
+Researchers often hypothesize\footcite{Chapter \ref{ch14:mixed} contains more information about hypothesis testing.} that some treatment will lead to an outcome. In order to test that, they will apply the treatment to one group but not another and then compare the two groups to see if there is any difference. Table \ref{tab06.07} lists the statistical tests that are commonly used to compare the means of two or more groups. In the table, ``independent'' groups are those that have no overlapping members while ``matched'' groups test the same members two times. As an example, if researchers wanted to know how if a movie affected people in some way they could survey people leaving two different theaters (independent groups) or survey the same people before and after seeing the movie (matched groups).
 
 \begin{table}[H]
 	\centering
@@ -368,11 +390,13 @@ While there are hundreds of statistical procedures available, this section cover
 
 \subsection{Central Measures}
 
-Three different central measures are commonly used, depending on the type of data being summarized.
+Three different central measures are commonly used, depending on the type of data being summarized. Calculating these values is normally done with software since some of the calculations are quite complex.
 
 \begin{itemize}
-	\item \textbf{Mean}. An arithmetic mean is calculated by adding together all of the terms and then dividing by the number of terms. This process is taught in elementary school as calculating the ``average.'' However, if the terms have wildly different values then a \textit{geometric mean} is a better choice. In a geometric mean the values are multiplied together and then the n-root is taken, where ``n'' is the number of terms in the data. Finally, if the mean of a series of rates is needed, then a \textit{harmonic mean} is used. For a harmonic mean all of the terms are reciprocated, a mean is found of those reciprocated terms, and then the mean is reciprocated.
+	\item \textbf{Mean}. An arithmetic mean is calculated by adding together all of the terms and then dividing by the number of terms. This process is taught in elementary school as calculating the ``average.'' However, if the terms have wildly different values then a \textit{geometric mean} is a better choice. In a geometric mean the values are multiplied together and then the n-root is taken, where ``n'' is the number of terms in the data. Finally, if the mean of a series of rates is needed, then a \textit{harmonic mean} is used. For a harmonic mean all of the terms are reciprocated, a mean is found of those reciprocated terms, and then the mean is reciprocated. 
+
 	\item \textbf{Median}. A median is found by putting all of the terms in numeric order and then selecting the middle term. This is useful if the data set includes outliers, that is, a few values far outside the other terms. Medians are frequently used to report house values since a few houses may be worth far more than the other houses in an area. If the data set has an even number of terms, so there is no middle term, then the median is found by taking the mean of the middle two terms.
+
 	\item \textbf{Mode}. The mode is used for nominal data and is the count of the most common term. For example, if a count of the number of undergraduate students in each class (senior, junior, etc.) is made and it turns out that there are more seniors than any other group then the mode would be ``senior.''
 \end{itemize}
 
@@ -381,8 +405,9 @@ Three different central measures are commonly used, depending on the type of dat
 Two measures of spread are commonly used. 
 
 \begin{itemize}
-	\item \textbf{Range}. The range, or ``dispersion,'' is the difference between the highest value and lowest value.
-	\item \textbf{Standard deviation}. This often misunderstood value is nothing more than an indicator of how much variation exists in the data, or how ``scattered out'' the data are. In general, the greater the standard deviation the more variation there are in the data. As an example, imagine that a professor administered an examination to a group of students and found the mean to be $ 70\% $ with a standard deviation of $ 15 $. Then the professor changed something about the class the next semester and administered the same examination to that group of students and found the mean was $ 85\% $ with a standard deviation of $ 5 $. This result would indicate that the scores the second semester had much less variation, they were much ``tighter,'' and that would likely be good news for the professor.
+	\item \textbf{Range}. The range, or ``dispersion,'' is the difference between the highest value and lowest value. For example, if a survey recorded the ages of respondents and the greatest age was 70 while the least age was 30 then the range would be 40. 
+
+	\item \textbf{Standard deviation}. This often misunderstood value is nothing more than an indicator of how much variation exists in the data, or how ``scattered out'' the data are. In general, the greater the standard deviation the more variation there are in the data. As an example, imagine that a professor administered an examination to a group of students and found the mean to be $ 70\% $ with a standard deviation of $ 15 $. Then the professor changed something about the class the next semester and administered the same examination to that group of students and found the mean was $ 85\% $ with a standard deviation of $ 5 $. This result would indicate that the scores the second semester had much less variation, or they were grouped much ``tighter,'' and that would likely be good news for the professor.
 \end{itemize}
 
 \subsection{Frequency Tables}
@@ -412,7 +437,7 @@ Discrete or qualitative data items are normally reported in frequency tables whe
 
 \subsection{Correlation}
 
-\Gls{correlation} is a method used to describe a relationship between the independent (or x-axis) and dependent (or y-axis) variables in a research project. A correlation is expressed as a number between $ -1.0 $ and $ +1.0 $ where the closer the correlation gets to the extremes the more meaningful it becomes. Thus, two variables with a correlation of $ +0.65 $ have a closer association than two variables with a correlation of $ +0.23 $. Correlations are often displayed in a matrix. Table \ref{tab06.06} shows the Miles per Gallon, Displacement, and Horsepower for a group of automobiles. In this table, notice that there is a negative correlation between horsepower and miles per gallon, which means that cars with greater horsepower get fewer miles per gallon. On the other hand, there is a positive correlation between displacement and horsepower so cars with greater engine displacement have more horsepower.
+\Gls{correlation} is a method used to describe a relationship between the independent (or x-axis) and dependent (or y-axis) variables in a research project. A correlation is expressed as a number between $ -1.0 $ and $ +1.0 $ where the closer the correlation gets to the extremes the more meaningful it becomes. Thus, two variables with a correlation of $ +0.65 $ have a closer association than two variables with a correlation of $ +0.23 $. Correlations are often displayed in a matrix. Table \ref{tab06.06} shows the Miles per Gallon, Displacement, and Horsepower for a group of automobiles. In this table, notice that there is a negative correlation between horsepower and miles per gallon, which means that cars with greater horsepower get fewer miles per gallon. On the other hand, there is a positive correlation between displacement and horsepower so cars with greater engine displacement (larger engines) have more horsepower.
 
 \begin{table}[H]
 	\centering
@@ -495,7 +520,7 @@ As an example of using a decision tree, Ona, Ona and Lopez completed a study of 
 
 \subsubsection{Market Basket}
 
-A market basket analysis evaluates the products that customers purchase at the same time (they are in the same ``market basket'') and then uses that data to drive decisions on things like store organization and sales. For example, it is well known that customers who purchase beer also tend to purchase potato chips. What may be surprising is that customers who purchase beer also tend to purchase baby diapers. A market basket analysis does not attempt to determine why these relationships exist, just that they do exist. A grocery store owner may chose to put beer and chips on sale at the same time or create a display near the front of the store with both beer and chips. 
+A market basket analysis evaluates the products that customers purchase at the same time (they are in the same ``market basket'') and then uses that data to drive decisions on things like store organization and sales. For example, it is well known that customers who purchase beer also tend to purchase potato chips. What may be surprising is that customers who purchase beer also tend to purchase baby diapers.\footnote{It is fun to speculate why these two items are related. Maybe parents run out of diapers in the middle of the night and while they are at the store they also by some beer. Maybe they make a beer run to the store and then remember that they may also need diapers. At any rate, if a store puts diapers on sale they may also want to consider a beer sale!} A market basket analysis does not attempt to determine why these relationships exist, just that they do exist. A grocery store owner may chose to put beer and chips on sale at the same time or create a display near the front of the store with both beer and chips. 
 
 Figure \ref{fig06.06} is a graphic representation of the rule set found in Figure \ref{fig06.10}, created from a market basket analysis of a bakery. The goal was to determine what sorts of products customers purchased with cherry tarts. Rule $ 53 $ indicates that apricot danish and cherry tarts tend to be purchased at the same time, and that would be valuable information for a bakery owner. The explanation of the numbers displayed (``Support,'' ``Confidence,'' etc.) is beyond the scope of this class, but business owners would want to work with a researcher who could complete this sort of analysis.
 
@@ -526,3 +551,7 @@ Figure \ref{fig06.04} illustrates the relationship between the various types of 
 	\caption{Data types}
 	\label{fig06.04}
 \end{figure}
+
+There are many public databases available from various government and educational sources. Researchers may want to consider using those resources for their projects.
+
+Finally, there are, literally, hundreds of statistical tests available for research projects, but only a few are commonly used. This chapter discussed several statistical and data mining tests that are frequently encountered in research reports.
