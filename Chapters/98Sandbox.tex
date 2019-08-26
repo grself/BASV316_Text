@@ -1,0 +1,15 @@
+%*****************************************
+\chapter{Sandbox}\label{ch99:Sandbox}
+%*****************************************
+
+This is just a place to try out stuff.
+
+This is a conditional sentence. It is only printed if the jobname matches the detokenize word. While this works, it doesn't seem to get me closer to the solution I need. The jobname is readonly as ``ResearchMethods''
+
+\ifthenelse{\equal{\detokenize{ResearchMethods}}{\jobname}}{
+	\fcolorbox{black}{yellow}{Question: What did Hochschild study?}
+}{
+	Wrong job: \jobname
+}
+
+If researchers wanted to know who conducts more of the housework in households, how could they find the answer? One way might be to interview people and simply ask them. That is exactly what Arlie Hochschild did in her study of the second shift, her term for the work that goes on in the home after the day's work for pay is completed. Hochschild interviewed $ 50 $ heterosexual, married couples with children to learn about how they did, or did not, share the work of the second shift. Many of these couples reported to her that they shared the load of the second shift equally, sometimes dividing the house into areas that were ``her responsibility'' and those that were ``his.'' But Hochschild was not satisfied with just people's personal accounts of second-shift work. She chose to observe $ 12 $ of these couples in their homes as well, to see for herself just how the second shift was shared.
