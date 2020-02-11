@@ -2,7 +2,7 @@
 
 This is my text book for BASV 316, Introductory Methods of Analysis, taught online at the University of Arizona College of Applied Science and Technology. The book was adapted from several open source documents along with my own original work and was first used for my spring 2020 class.
 
-The book is published under the Creative Commons 4.0 "Attribution-NonCommercial-ShareAlike" license, so it can be changed and reused for other classes. All source files are posted here so other instructors can create a personalized version for their own classes. Also posted is a PDF (_ResearchMethods.pdf_) and HTML version (_index.html_) which can be downloaded and used immediately if desired.
+The book is published under the Creative Commons 4.0 "Attribution-NonCommercial-ShareAlike" license, so it can be changed and reused for other classes. It was written with _MikTex_ using _TexStudio_ and all source files are posted here so other instructors can create a personalized version for their own classes. Also posted is a PDF (_ResearchMethods.pdf_) and HTML version (_index.html_) which can be downloaded and used immediately if desired.
 
 ## Table of Contents
 
