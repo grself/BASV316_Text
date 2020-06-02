@@ -1,7 +1,6 @@
 %*****************************************
 \chapter{Experimental Research}\label{ch09:experimental_research}
 %*****************************************
-%TODO Status: Pre-draft
 
 \section{Introduction}
 
@@ -55,7 +54,7 @@ All experimentation designs include the following characteristics.
 
 \paragraph{Treatment manipulation.} Treatments are the unique feature of experimental research that sets this design apart from all other research methods. Treatment manipulation helps control for the ``cause'' in cause-effect relationships. Treatments must be checked using various pilot tests prior to the start of the experiment. Any measurements conducted before the treatment is administered to the subjects are called pretest measures and those conducted after the treatment are post-test measures. 
 
-\paragraph{Random selection and assignment.} For the experiment to be valid it is important that the treatment and control groups be as nearly equivalent as possible. When working with humans it is impossible to have two or more identical groups---even identical twins have some differences. However, as much as possible, researchers must make an effort to make the groups equivalent. One primary way to accomplish this is through both random selection and random assignment of test subjects. The random \textit{selection} is the process of randomly drawing a sample from a population or a sampling frame. This approach is typically employed in survey research and assures that each unit in the population has an equal chance of being selected into the sample. Random \textit{assignment} is the process of randomly assigning subjects to experimental or control groups. This is a standard practice in true experimental research to ensure that treatment groups are similar to each other and to the control group prior to treatment administration. Random selection is related to sampling, and is therefore, more closely related to the \gls{externalvalidity} of findings while random assignment is related to design and is related to \gls{internalvalidity}. By including both random selection and randome assignment in the experiment's design researchers attempt to mitigate potential differences in two groups of subjects.
+\paragraph{Random selection and assignment.} For the experiment to be valid it is important that the treatment and control groups be as nearly equivalent as possible. When working with humans it is impossible to have two or more identical groups---even identical twins have some differences. However, as much as possible, researchers must make an effort to make the groups equivalent. One primary way to accomplish this is through both random selection and random assignment of test subjects. The random \textit{selection} is the process of randomly drawing a sample from a population or a sampling frame. This approach is typically employed in survey research and assures that each unit in the population has an equal chance of being selected into the sample. Random \textit{assignment} is the process of randomly assigning subjects to experimental or control groups. This is a standard practice in true experimental research to ensure that treatment groups are similar to each other and to the control group prior to treatment administration. Random selection is related to sampling, and is therefore, more closely related to the \gls{externalvalidity} of findings while random assignment is related to design and is related to \gls{internalvalidity}. By including both random selection and random assignment in the experiment's design researchers attempt to mitigate potential differences in two groups of subjects.
 
 \paragraph{Threats to internal validity.} Although experimental designs are considered more rigorous than other research methods in terms of the internal validity of their inferences (by virtue of their ability to control causes through treatment manipulation), they are not immune to internal validity threats. As an example, imagine that researchers wanted to study the effect of a special mathematics tutoring program. They would want to plan for the following internal validity threats.
 
@@ -77,18 +76,29 @@ All experimentation designs include the following characteristics.
 
 The simplest true experimental designs are two group designs involving one treatment group and one control group, and are ideally suited for testing the effects of a single independent variable that can be manipulated as a treatment. The two basic two-group designs are the pretest/post-test control group design and the post-test-only control group design, while variations may include covariance designs. These designs are often depicted using a standardized design notation, where \textit{R} represents random assignment of subjects to groups, \textit{X} represents the treatment administered to the treatment group, and \textit{O} represents pretest or post-test observations of the dependent variable (with different subscripts to distinguish between pretest and post-test observations of treatment and control groups).
 
-\paragraph{Pretest/post-test control group design.} In this design, subjects are randomly assigned to treatment and control groups, subjected to an initial (pretest) measurement of the dependent variables of interest, the treatment group is administered a treatment (representing the independent variable of interest), and the dependent variables measured again (post-test). The notation of this design is shown in Table \ref{09:tab01}, where each group's process should be read from left-to-right. Thus, the Treatment Group (top line) is first assigned using a random process, then a pretest is administered (Observation 1), then a treatment of some sort is applied, finally, a post-test is administered. The Control Group (bottom line) follows the same process, except there is no treatment applied.
+\paragraph{Pretest/post-test control group design.} In this design, subjects are randomly assigned to treatment and control groups, subjected to an initial (pretest) measurement of the dependent variables of interest, the treatment group is administered a treatment (representing the independent variable of interest), and the dependent variables measured again (post-test). The notation of this design is shown in Table \ref{tab09.01}, where each group's process should be read from left-to-right. Thus, the Treatment Group (top line) is first assigned using a random process, then a pretest is administered (Observation 1), then a treatment of some sort is applied, finally, a post-test is administered. The Control Group (bottom line) follows the same process, except there is no treatment applied.
 
 \begin{table}[H]
-	\centering
-	\begin{tabularx}{0.85\linewidth}{p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.40\linewidth}}
-		\toprule
-		\textit{R} & $ O_1 $ & \textit{X} & $ O_2 $ & \textsc{Treatment Group} \\
-		\textit{R} & $ O_3 $ &            & $ O_4 $ & \textsc{Control Group} \\
-		\bottomrule
-	\end{tabularx}
-	\caption{Pretest/Post-test Design}
-	\label{09:tab01}
+	\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				L{0.27\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			%\textbf{ColA} & \textbf{ColB} \endhead
+			\hline
+			\textsc{R} & $ O_1 $ & \textsc{X} & $ O_2 $ & \textsc{Treatment Group}\\
+			\textsc{R} & $ O_3 $ &            & $ O_4 $ & \textsc{Control Group} \\
+			\hline
+			\rowcolor{captionwhite}
+			\caption{Pretest/Post-test Design}
+			\label{tab09.01}
+		\end{longtable}
+	} % End small
 \end{table}
 
 The effect, \textit{E}, of the experimental treatment in the pretest post-test design is measured as the difference in the post-test and pretest scores between the treatment and control groups, as shown in Equation \ref{09:eq01}
@@ -100,18 +110,28 @@ The effect, \textit{E}, of the experimental treatment in the pretest post-test d
 
 Statistical analysis of this design involves a simple \gls{anova} between the treatment and control groups. The pretest post-test design mitigates several threats to internal validity, such as maturation, testing, and regression, since these threats can be expected to influence both treatment and control groups in a similar random manner. The selection threat is controlled via random assignment of members. However, additional threats to internal validity may exist. For instance, mortality can be a problem if there are differential dropout rates between the two groups, and the pretest measurement may bias the post-test measurement (especially if the pretest introduces unusual topics or content).
 
-\paragraph{post-test-only control group design.} This design is a simpler version of the pretest/post-test design where pretest measurements are omitted. The design notation is shown in Table \ref{09:tab02}.
+\paragraph{post-test-only control group design.} This design is a simpler version of the pretest/post-test design where pretest measurements are omitted. The design notation is shown in Table \ref{tab09.02}.
 
 \begin{table}[H]
-	\centering
-	\begin{tabularx}{0.90\linewidth}{p{0.15\linewidth}p{0.15\linewidth}p{0.15\linewidth}p{0.40\linewidth}}
-		\toprule
-		\textit{R} & \textit{X} & $ O_1 $ & \textsc{Treatment Group} \\
-		\textit{R} &            & $ O_2 $ & \textsc{Control Group} \\
-		\bottomrule
-	\end{tabularx}
-	\caption{Post-test Only Design}
-	\label{09:tab02}
+	\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				L{0.27\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			%\textbf{ColA} & \textbf{ColB} \endhead
+			\hline
+			\textsc{R} & \textsc{X} & $ O_1 $ & \textsc{Treatment Group}\\
+			\textsc{R} &           & $ O_2 $ & \textsc{Control Group} \\
+			\hline
+			\rowcolor{captionwhite}
+			\caption{Post-test Only Design}
+			\label{tab09.02}
+		\end{longtable}
+	} % End small
 \end{table}
 
 The treatment effect is measured simply as the difference in the post-test scores between the two groups, as shown in Equation \ref{09:eq02}
@@ -126,15 +146,26 @@ The appropriate statistical analysis of this design is also a two-group \gls{ano
 \paragraph{Covariance designs.} Sometimes, the measure of a dependent variable may be influenced by an extraneous variable called a \gls{covariate}. Covariates are those variables that are not of central interest to an experimental study, but should nevertheless be controlled in order to eliminate their potential effect on the dependent variable and therefore allow for a more accurate detection of the effects of the independent variables of interest. A covariance design is a special type of pretest post-test control group design where the pretest measure is essentially a measurement of the covariates of interest rather than that of the dependent variables. The design notation is shown in Table \ref{09:tab03}, where \textit{C} represents the covariates:
 
 \begin{table}[H]
-	\centering
-	\begin{tabularx}{0.85\linewidth}{p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.40\linewidth}}
-		\toprule
-		\textit{R} & \textit{C} & \textit{X} & $ O_1 $ & \textsc{Treatment Group} \\
-		\textit{R} & \textit{C} &            & $ O_2 $ & \textsc{Control Group} \\
-		\bottomrule
-	\end{tabularx}
-	\caption{Covariate Design}
-	\label{09:tab03}
+	\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				L{0.27\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			%\textbf{ColA} & \textbf{ColB} \endhead
+			\hline
+			\textsc{R} & \textsc{C} & \textsc{X} & $ O_1 $ & \textsc{Treatment Group}\\
+			\textsc{R} & \textsc{C} &           & $ O_2 $ & \textsc{Control Group} \\
+			\hline
+			\rowcolor{captionwhite}
+			\caption{Covariate Design}
+			\label{09:tab03}
+		\end{longtable}
+	} % End small
 \end{table}
 
 Because the pretest measure is not a measurement of the dependent variable, but rather a covariate, the treatment effect is measured as the difference in the post-test scores between the treatment and control groups as in Equation \ref{09:eq03}.
@@ -199,17 +230,27 @@ The most basic factorial design is a $ 2 x 2 $ factorial design, which consists 
 Factorial designs can also be depicted using a design notation, such as that shown in Table \ref{09:tab04}. 
 
 \begin{table}[H]
-	\centering
-	\begin{tabularx}{0.75\linewidth}{p{0.15\linewidth}p{0.15\linewidth}p{0.15\linewidth}p{0.25\linewidth}}
-		\toprule
-		\textit{R} & $ X_{11} $ & $ O_1 $ & \textsc{Group 1} \\
-		\textit{R} & $ X_{12} $ & $ O_2 $ & \textsc{Group 2} \\
-		\textit{R} & $ X_{21} $ & $ O_3 $ & \textsc{Group 3} \\
-		\textit{R} & $ X_{22} $ & $ O_4 $ & \textsc{Group 4} \\
-		\bottomrule
-	\end{tabularx}
-	\caption{2X2 Factorial Design}
-	\label{09:tab04}
+	\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				L{0.27\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			%\textbf{ColA} & \textbf{ColB} \endhead
+			\hline
+			\textsc{R} & $ X_{11} $ & $ O_1 $ & \textsc{Group 1}\\
+			\textsc{R} & $ X_{12} $ & $ O_2 $ & \textsc{Group 2} \\
+			\textsc{R} & $ X_{21} $ & $ O_3 $ & \textsc{Group 3} \\
+			\textsc{R} & $ X_{22} $ & $ O_4 $ & \textsc{Group 4} \\
+			\hline
+			\rowcolor{captionwhite}
+			\caption{2X2 Factorial Design}
+			\label{09:tab04}
+		\end{longtable}
+	} % End small
 \end{table}
 
 \textit{R} represents random assignment of subjects to treatment groups, \textit{X} represents the treatment groups themselves (the subscripts of \textit{X} represents the level of each factor), and \textit{O} represent observations of the dependent variable. Notice that the $ 2 x 2 $ factorial design will have four treatment groups, corresponding to the four combinations of the two levels of each factor. Correspondingly, a $ 2 x 3 $ design will have six treatment groups, and a $ 2 x 2 x 2 $ design will have eight treatment groups. As a rule of thumb, each cell in a factorial design should have a minimum sample size of $ 20 $ (this estimate is derived from Cohen's power calculations based on medium effect sizes). So a $ 2 x 2 x 2 $ factorial design requires a minimum total sample size of $ 160 $ subjects, with at least $ 20 $ subjects in each cell. It is obvious that the cost of data collection can increase substantially with more levels or factors in a factorial design. Sometimes, due to resource constraints, some cells in such factorial designs may not receive any treatment at all, which are called \textit{incomplete factorial designs}, but incomplete designs decrease the ability to draw inferences about the those factors.
@@ -223,47 +264,79 @@ Hybrid designs are those that are formed by combining features of more establish
 \paragraph{Randomized block design.} This is a variation of the post-test-only or pretest/post-test control group design where the subject population can be grouped into relatively homogeneous subgroups (called blocks) within which the experiment is replicated. For instance, to replicate the same post-test-only design among university students and full-time working professionals (two homogeneous blocks), subjects in both blocks are randomly split between a treatment group (receiving the same treatment) or control group (see Table \ref{09:tab05}). The purpose of this design is to reduce the ``noise'' or variance in data that may be attributable to differences between the blocks so that the actual effect of interest can be detected more accurately.
 
 \begin{table}[H]
-	\centering
-	\begin{tabularx}{0.90\linewidth}{p{0.40\linewidth}p{0.15\linewidth}p{0.15\linewidth}p{0.15\linewidth}}
-		\toprule
-		\textsc{University Students} & \textit{R} & $ X $ & $ O_1 $ \\
-		\textsc{University Students} & \textit{R} &       & $ O_2 $ \\
-		\textsc{Professionals} & \textit{R} & $ X $ & $ O_3 $ \\
-		\textsc{Professionals} & \textit{R} &       & $ O_4 $ \\
-		\bottomrule
-	\end{tabularx}
-	\caption{Randomized Block Design}
-	\label{09:tab05}
+	\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				R{0.30\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			%\textbf{ColA} & \textbf{ColB} \endhead
+			\hline
+			\textsc{University Students} & \textit{R} & $ X $ & $ O_1 $ \\
+			\textsc{University Students} & \textit{R} &       & $ O_2 $ \\
+			\textsc{Professionals} & \textit{R} & $ X $ & $ O_3 $ \\
+			\textsc{Professionals} & \textit{R} &       & $ O_4 $ \\
+			\hline
+			\rowcolor{captionwhite}
+			\caption{Randomized Block Design}
+			\label{09:tab05}
+		\end{longtable}
+	} % End small
 \end{table}
 
 \paragraph{Solomon four-group design.} In this design, the sample is divided into two treatment groups and two control groups. One treatment group and one control group receive the pretest, and the other two groups do not. This design represents a combination of post-test-only and pretest/post-test control group design, and is intended to test for the potential biasing effect of pretest measurement on post-test measures that tends to occur in pretest/post-test designs but not in post-test only designs. The design notation is shown in Table \ref{09:tab06}.
 
 \begin{table}[H]
-	\centering
-	\begin{tabularx}{0.65\linewidth}{p{0.15\linewidth}p{0.15\linewidth}p{0.15\linewidth}p{0.15\linewidth}}
-		\toprule
-		\textit{R} & $ O_1 $ & $ X $ & $ O_2 $ \\
-		\textit{R} & $ O_3 $ &       & $ O_4 $ \\
-		\textit{R} &         & $ X $ & $ O_5 $ \\
-		\textit{R} &         &       & $ O_6 $ \\
-		\bottomrule
-	\end{tabularx}
-	\caption{Solomon Four-group Design}
-	\label{09:tab06}
+	\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			%\textbf{ColA} & \textbf{ColB} \endhead
+			\hline
+			\textit{R} & $ O_1 $ & $ X $ & $ O_2 $ \\
+			\textit{R} & $ O_3 $ &       & $ O_4 $ \\
+			\textit{R} &         & $ X $ & $ O_5 $ \\
+			\textit{R} &         &       & $ O_6 $ \\
+			\hline
+			\rowcolor{captionwhite}
+			\caption{Solomon Four-group Design}
+			\label{09:tab06}
+		\end{longtable}
+	} % End small
 \end{table}
 
 \paragraph{Switched replication design.} This is a two-group design implemented in two phases with three waves of measurement. The treatment group in the first phase serves as the control group in the second phase, and the control group in the first phase becomes the treatment group in the second phase, as illustrated in Table \ref{09:tab07}. In other words, the original design is repeated or replicated temporally with treatment/control roles switched between the two groups. By the end of the study, all participants will have received the treatment either during the first or the second phase. This design is most feasible in organizational contexts where organizational programs (e.g., employee training) are implemented in a phased manner or are repeated at regular intervals.
 
 \begin{table}[H]
-	\centering
-	\begin{tabularx}{0.75\linewidth}{p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}}
-		\toprule
-		\textit{R} & $ O_1 $ & $ X $ & $ O_2 $ &       & $ O_3 $ \\
-		\textit{R} & $ O_4 $ &       & $ O_5 $ & $ X $ & $ O_6 $ \\
-		\bottomrule
-	\end{tabularx}
-	\caption{Switched Replication Design}
-	\label{09:tab07}
+	\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			%\textbf{ColA} & \textbf{ColB} \endhead
+			\hline
+			\textit{R} & $ O_1 $ & $ X $ & $ O_2 $ &       & $ O_3 $ \\
+			\textit{R} & $ O_4 $ &       & $ O_5 $ & $ X $ & $ O_6 $ \\
+			\hline
+			\rowcolor{captionwhite}
+			\caption{Switched Replication Design}
+			\label{09:tab07}
+		\end{longtable}
+	} % End small
 \end{table}
 
 \section{Quasi-Experimental Designs}
@@ -273,28 +346,50 @@ Quasi-experimental designs are almost identical to true experimental designs, bu
 Many true experimental designs can be converted to quasi-experimental designs by omitting random assignment. For instance, the quasi-equivalent version of pretest/post-test control group design is called \gls{negd}, as shown in Table \ref{09:tab08}, with random assignment \textit{R} replaced by non-equivalent (non-random) assignment \textit{N}. Likewise, the quasi-experimental version of switched replication design is called \textit{Nonequivalent Switched Replication Design} (see Table \ref{09:tab09}).
 
 \begin{table}[H]
-	\centering
-	\begin{tabularx}{0.85\linewidth}{p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.40\linewidth}}
-		\toprule
-		\textit{N} & $ O_1 $ & \textit{X} & $ O_2 $ & \textsc{Treatment Group} \\
-		\textit{N} & $ O_3 $ &            & $ O_4 $ & \textsc{Control Group} \\
-		\bottomrule
-	\end{tabularx}
-	\caption{Nonequivalent Groups Design}
-	\label{09:tab08}
+	\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				L{0.27\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			%\textbf{ColA} & \textbf{ColB} \endhead
+			\hline
+			\textit{N} & $ O_1 $ & \textit{X} & $ O_2 $ & \textsc{Treatment Group} \\
+			\textit{N} & $ O_3 $ &            & $ O_4 $ & \textsc{Control Group} \\
+			\hline
+			\rowcolor{captionwhite}
+			\caption{Nonequivalent Groups Design}
+			\label{09:tab08}
+		\end{longtable}
+	} % End small
 \end{table}
 
-
 \begin{table}[H]
-	\centering
-	\begin{tabularx}{0.75\linewidth}{p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}}
-		\toprule
-		\textit{N} & $ O_1 $ & $ X $ & $ O_2 $ &       & $ O_3 $ \\
-		\textit{N} & $ O_4 $ &       & $ O_5 $ & $ X $ & $ O_6 $ \\
-		\bottomrule
-	\end{tabularx}
-	\caption{Nonequivalent Switched Replication Design}
-	\label{09:tab09}
+	\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			%\textbf{ColA} & \textbf{ColB} \endhead
+			\hline
+			\textit{N} & $ O_1 $ & $ X $ & $ O_2 $ &       & $ O_3 $ \\
+			\textit{N} & $ O_4 $ &       & $ O_5 $ & $ X $ & $ O_6 $ \\
+			\hline
+			\rowcolor{captionwhite}
+			\caption{Nonequivalent Switched Replication Design}
+			\label{09:tab09}
+		\end{longtable}
+	} % End small
 \end{table}
 
 In addition, there are quite a few unique non-equivalent designs without corresponding true experimental design cousins, including those listed below.
@@ -302,15 +397,26 @@ In addition, there are quite a few unique non-equivalent designs without corresp
 \paragraph{Regression-discontinuity design.} This is a non-equivalent pretest/post-test design where subjects are assigned to treatment or control group based on a cutoff score on a pre-program measure. For instance, patients who are severely ill may be assigned to a treatment group to test the efficacy of a new drug or treatment protocol and those who are mildly ill are assigned to the control group. In another example, students who are lagging behind on standardized test scores may be selected for a remedial curriculum program intended to improve their performance, while those who score high on such tests are not selected from the remedial program. The design notation can be represented as in Table \ref{09:tab10}, where \textit{C} represents the cutoff score:
 
 \begin{table}[H]
-	\centering
-	\begin{tabularx}{0.85\linewidth}{p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.40\linewidth}}
-		\toprule
-		\textit{C} & $ O_1 $ & \textit{X} & $ O_2 $ & \textsc{Treatment Group} \\
-		\textit{C} & $ O_3 $ &            & $ O_4 $ & \textsc{Control Group} \\
-		\bottomrule
-	\end{tabularx}
-	\caption{Regression-discontinuity Design}
-	\label{09:tab10}
+	\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				L{0.27\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			%\textbf{ColA} & \textbf{ColB} \endhead
+			\hline
+			\textit{C} & $ O_1 $ & \textit{X} & $ O_2 $ & \textsc{Treatment Group} \\
+			\textit{C} & $ O_3 $ &            & $ O_4 $ & \textsc{Control Group} \\
+			\hline
+			\rowcolor{captionwhite}
+			\caption{Regression-discontinuity Design}
+			\label{09:tab10}
+		\end{longtable}
+	} % End small
 \end{table}
 
 Because of the use of a cutoff score, it is possible that the observed results may be a function of the cutoff score rather than the treatment, which introduces a new threat to internal validity. However, using the cutoff score also ensures that limited or costly resources are distributed to people who need them the most rather than randomly across a population, while simultaneously allowing a quasi-experimental treatment. The control group scores in the \gls{rd} design do not serve as a benchmark for comparing treatment group scores, given the systematic non-equivalence between the two groups. Rather, if there is no discontinuity between pretest and post-test scores in the control group, but such a discontinuity persists in the treatment group, then this discontinuity is viewed as evidence of the treatment effect.
@@ -322,31 +428,52 @@ Finally, since researchers can determine which participants get the treatment th
 \paragraph{Proxy pretest design.} This design, shown in Table \ref{09:tab11}, looks very similar to the standard \gls{negd} (pretest-post-test) design, with one critical difference: the pretest score is collected after the treatment is administered. A typical application of this design is when a researcher is brought in to test the efficacy of a program (\eg, an educational program) after the program has already started and pretest data is not available. Under such circumstances, the best option for the researcher is often to use a different prerecorded measure, such as students' grade point averages before the start of the program, as a proxy for pretest data. A variation of the proxy pretest design is to use subjects' post-test recollection of pretest data, which may be subject to recall bias, but nevertheless may provide a measure of perceived gain or change in the dependent variable.
 
 \begin{table}[H]
-	\centering
-	\begin{tabularx}{0.85\linewidth}{p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.10\linewidth}p{0.40\linewidth}}
-		\toprule
-		\textit{N} & $ O_1 $ & \textit{X} & $ O_2 $ & \textsc{Treatment Group} \\
-		\textit{N} & $ O_3 $ &            & $ O_4 $ & \textsc{Control Group} \\
-		\bottomrule
-	\end{tabularx}
-	\caption{Proxy Pretest Design}
-	\label{09:tab11}
+	\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				L{0.27\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			%\textbf{ColA} & \textbf{ColB} \endhead
+			\hline
+			\textit{N} & $ O_1 $ & \textit{X} & $ O_2 $ & \textsc{Treatment Group} \\
+			\textit{N} & $ O_3 $ &            & $ O_4 $ & \textsc{Control Group} \\
+			\hline
+			\rowcolor{captionwhite}
+			\caption{Proxy Pretest Design}
+			\label{09:tab11}
+		\end{longtable}
+	} % End small
 \end{table}
 
 \paragraph{Separate pretest/post-test samples design.} This design is useful if it is not possible to collect pretest and post-test data from the same subjects for some reason. As shown in Table \ref{09:tab12}, there are four groups in this design, but two groups come from a single non-equivalent group, while the other two groups come from a different non-equivalent group. For instance, to test customer satisfaction with a new online service that is implemented in one city but not in another, customers in the first city serve as the treatment group and those in the second city constitute the control group. If it is not possible to obtain pretest and post-test measures from the same customers, you can measure customer satisfaction at one point in time, implement the new service program, and measure customer satisfaction (with a different set of customers) after the program is implemented. Customer satisfaction is also measured in the control group at the same times as in the treatment group, but without the new program implementation. The design is not particularly strong, because changes in any specific customer's satisfaction score before and after the implementation cannot be examined, only the average customer satisfaction scores. Despite the lower internal validity, this design may still be a useful way of collecting quasi-experimental data when pretest and post-test data are not available from the same subjects.
 
 \begin{table}[H]
-	\centering
-	\begin{tabularx}{0.65\linewidth}{p{0.15\linewidth}p{0.15\linewidth}p{0.15\linewidth}p{0.15\linewidth}}
-		\toprule
-		$ N_1 $ & $ O_1 $  &       &         \\
-		$ N_1 $ &          & $ X $ & $ O_2 $ \\
-		$ N_2 $ & $ O_3 $  &       &         \\
-		$ N_2 $ &          &       & $ O_4 $ \\
-		\bottomrule
-	\end{tabularx}
-	\caption{Separate Pretest/Posttest Samples Design}
-	\label{09:tab12}
+	\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			%\textbf{ColA} & \textbf{ColB} \endhead
+			\hline
+			$ N_1 $ & $ O_1 $  &       &         \\
+			$ N_1 $ &          & $ X $ & $ O_2 $ \\
+			$ N_2 $ & $ O_3 $  &       &         \\
+			$ N_2 $ &          &       & $ O_4 $ \\
+			\hline
+			\rowcolor{captionwhite}
+			\caption{Separate Pretest/Posttest Samples Design}
+			\label{09:tab12}
+		\end{longtable}
+	} % End small
 \end{table}
 
 \paragraph{Nonequivalent dependent variable design.} This is a single-group pre/post quasi-experimental design with two outcome measures, where one measure is theoretically expected to be influenced by the treatment and the other measure is not. For instance, if a new calculus curriculum is being designed for high school students, the curriculum is anticipated to influence students' post-test calculus scores but not algebra scores. However, the post-test algebra scores may still vary due to extraneous factors such as history or maturation. Hence, the pre/post algebra scores can be used as a control measure, while the pre/post calculus scores can be treated as the treatment measure. The design notation, shown in Table \ref{09:tab13}, indicates the single group, \textit{N}, followed by pretest $ O_1 $ and post-test $ O_2 $ for both calculus and algebra for the same group of students. This design is weak in internal validity, but its advantage lies in not having to use a separate control group.
@@ -354,15 +481,25 @@ Finally, since researchers can determine which participants get the treatment th
 An interesting variation of the \gls{nedv} design is a pattern matching \gls{nedv} design, which employs multiple outcome variables and a theory that explains how much each variable will be affected by the treatment. The researcher can then examine if the theoretical prediction is matched in actual observations. This pattern-matching technique, based on the degree of correspondence between theoretical and observed patterns is a powerful way of alleviating internal validity concerns in the original \gls{nedv} design.
 
 \begin{table}[H]
-	\centering
-	\begin{tabularx}{0.65\linewidth}{p{0.15\linewidth}p{0.15\linewidth}p{0.15\linewidth}p{0.15\linewidth}}
-		\toprule
-		\multirow{2}{*}{$ N $} & $ O_1 $ & $ X $ & $ O_2 $ \\
-		                       & $ O_3 $ &       & $ O_4 $ \\
-		\bottomrule
-	\end{tabularx}
-	\caption{Nonequivalent Dependent Variable Design}
-	\label{09:tab13}
+	\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+				C{0.05\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			%\textbf{ColA} & \textbf{ColB} \endhead
+			\hline
+			$ N $ & $ O_1 $ & $ X $ & $ O_2 $ \\
+			$ N $ & $ O_3 $ &       & $ O_4 $ \\
+			\hline
+			\rowcolor{captionwhite}
+			\caption{Nonequivalent Dependent Variable Design}
+			\label{09:tab13}
+		\end{longtable}
+	} % End small
 \end{table}
 
 \section{Strengths and Weaknesses of Experimental Research}
@@ -387,10 +524,10 @@ Time, other resources such as funding, and even the topic may limit a researcher
 
 One last concern for researchers opting for an experimental design is ethics. While research ethics was more thoroughly covered in Chapter \ref{03:ethics}, page \pageref{03:ethics}, there is an ethical concern for experimentation that is not found in other research designs. As an extreme example of this ethical concern, imagine a drug manufacturer has found a drug that seems to cure Alzheimer's. To test the efficacy of that drug they would run an experiment where a sample of people suffering from Alzheimer's would be divided at random into two experimental groups. One group would be given the treatment while the other would not. While this type of drug testing is common, there would seem to be an ethical issue in providing one group of people with a potential cure but withholding that drug from another group. To be sure, business research does not rise to the level of denying a group of customers a life-saving drug, but there could, arguably, be harm to a group of customers who were denied some benefit that was being given to another group.
 
-\section{Summary}\label{ch09:summary}
+\section{Key Takeaways}\label{ch09:summary}
 
 \begin{center}
-	\begin{tkawybox}{Summary}
+	\begin{tkawybox}{Experimental Research}
 		\begin{itemize}
 			\setlength{\itemsep}{0pt}
 			\setlength{\parskip}{0pt}

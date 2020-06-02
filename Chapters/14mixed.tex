@@ -1,7 +1,6 @@
 %*****************************************
 \chapter{Mixed Methods}\label{ch14:mixed}
 %*****************************************
-%TODO Status: First draft
 
 \begin{wrapfigure}{r}{0.4\textwidth}
 	\centering
@@ -79,18 +78,24 @@ Univariate analysis, or analysis of a single variable, refers to a set of statis
 \paragraph{Frequency Distribution} The frequency distribution of a variable is a summary of the frequency that individual values are found in a variable. For instance, it is easy to measure how often customers in a grocery store purchase types of products, like ``produce,'' ``dairy,'' and ``meat.'' If the number (or percentage) of observations within each category are counted and displayed in a table it would be called a \textit{frequency distribution}, as seen in Table \ref{14:tab01}. A frequency distribution can also be depicted in the form of a bar chart, as shown in Figure \ref{14:fig01}, with the horizontal axis representing number of purchases in each category and the vertical axis representing the categories.
 
 \begin{table}[H]
-	\centering
-	\begin{tabulary}{\linewidth}{LR}
-		\hline
-		Item & Number \\ 
-		\hline
-		Produce & 374 \\ 
-		Dairy & 291 \\ 
-		Meat & 187 \\ 
-		\hline
-	\end{tabulary} 
-	\caption{Frequency Table}
-	\label{14:tab01}
+	\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				R{0.15\linewidth}
+				C{0.15\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			% \multicolumn{2}{c}{\textbf{Header 1}}\\
+			\textbf{Item} & \textbf{Number} \endhead
+			\hline
+			Produce & $ 374 $ \\
+			Dairy   & $ 291 $ \\
+			Meat    & $ 187 $ \\
+			\rowcolor{captionwhite}
+			\caption{Frequency Table}
+			\label{14:tab01}
+		\end{longtable}
+	} % End small
 \end{table}
 
 \vspace{.15in}
@@ -128,19 +133,30 @@ Univariate analysis, or analysis of a single variable, refers to a set of statis
 Bivariate analysis examines how two variables are related to each other. The most common bivariate statistic is a correlation, which is a number between $ -1.00 $ and $ +1.00 $ denoting the strength and direction of the relationship between two variables. As an example, consider a data set that contains selected specifications found in the $ 1974 $ \textit{Motor Trend} magazine for $ 32 $ automobiles ($ 1973 $–$ 74 $ models)\footnote{The Motor Trend data was originally published in a report by Henderson and Vellerman in \textit{Biometrics}\cite{henderson1981building}.}. The first few items in that data set are shown in Table \ref{14:tab02}.
 
 \begin{table}[H]
-	\centering
-	\begin{tabulary}{\linewidth}{LCCCCCC}
-		\hline
-		Name           & mpg    & cyl & disp  & hp    & wt      & qsec  \\ 
-		\hline
-		Mazda RX4      & $21.0$ & $6$ & $160$ & $110$ & $2.620$ & $16.46$ \\ 
-		Datsun 710     & $22.8$ & $4$ & $108$ & $93$  & $2.320$ & $18.61$ \\ 
-		Hornet 4 Drive & $21.4$ & $6$ & $258$ & $110$ & $3.215$ & $19.44$ \\ 
-		Valiant        & $18.1$ & $6$ & $225$ & $105$ & $2.460$ & $20.22$ \\ 
-		\hline
-	\end{tabulary} 
-	\caption{Sample of Motor Trend Car Data}
-	\label{14:tab02}
+	\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				L{0.20\linewidth}
+				C{0.10\linewidth}
+				C{0.05\linewidth}
+				C{0.10\linewidth}
+				C{0.05\linewidth}
+				C{0.10\linewidth}
+				C{0.10\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			% \multicolumn{2}{c}{\textbf{Header 1}}\\
+			\textbf{Name} & \textbf{mpg} & \textbf{cyl} & \textbf{disp} & \textbf{hp} & \textbf{wt} & \textbf{qsec}  \endhead
+			\hline
+			Mazda RX4      & $21.0$ & $6$ & $160$ & $110$ & $2.620$ & $16.46$ \\ 
+			Datsun 710     & $22.8$ & $4$ & $108$ & $93$  & $2.320$ & $18.61$ \\ 
+			Hornet 4 Drive & $21.4$ & $6$ & $258$ & $110$ & $3.215$ & $19.44$ \\ 
+			Valiant        & $18.1$ & $6$ & $225$ & $105$ & $2.460$ & $20.22$ \\ 
+			\rowcolor{captionwhite}
+			\caption{Sample of Motor Trend Car Data}
+			\label{14:tab02}
+		\end{longtable}
+	} % End small
 \end{table}
 
 Two of the variables in this data set are \textit{disp} (engine displacement) and \textit{qsec} (quarter-mile time, in seconds). It would be normal to expect that the greater the engine displacement (that is, the larger the engine) then the faster the automobile would finish a quarter-mile track. It turns out that the correlation between displacement and quarter-mile time is $ -0.43 $. The negative sign indicates that the relationship is negative, that is, as the displacement increases the time decreases. The magnitude of the correlation, though, indicates that this is not a particularly strong relationship, so a lot of small engines can finish the quarter-mile track as quickly as larger engines. A researcher would want to know why and one of the first confounding factors to consider would be the weight of the automobile. Are automobiles with larger engines also heavier, and, thus, slower through the quarter-mile?
@@ -434,10 +450,10 @@ Like any research paradigm, mixed methods has both strengths and weaknesses.\foo
 	\item they are not without conflict because methodological purists maintain that researchers should work within either a quantitative or a qualitative research design never mixing the two designs in a single study
 \end{itemize}
 
-\section{Summary}
+\section{Key Takeaways}
 
 \begin{center}
-	\begin{tkawybox}{Summary}
+	\begin{tkawybox}{Mixed Methods}
 		\begin{itemize}
 			\setlength{\itemsep}{0pt}
 			\setlength{\parskip}{0pt}

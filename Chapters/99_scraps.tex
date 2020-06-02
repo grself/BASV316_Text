@@ -89,11 +89,11 @@
 \end{center}
 
 %***************************************************************************
-\section{Summary Box}
+\section{Takeaway Box}
 % Relies on ``tkawybox'' in config file
 %***************************************************************************
 \begin{center}
-	\begin{tkawybox}{Summary}
+	\begin{tkawybox}{Ch Title}
 		\begin{itemize}
 			\setlength{\itemsep}{0pt}
 			\setlength{\parskip}{0pt}
@@ -106,9 +106,9 @@
 	\end{tkawybox}
 \end{center}
 
-%***************************************************************************
+%**********************************************************************
 \section{Text Table}
-%***************************************************************************
+%**********************************************************************
 \begin{table}[H]
 	\centering
 	\begin{tabulary}{\linewidth}{LCCCC}
@@ -127,29 +127,27 @@
 \end{table}
 
 
-%***************************************************************************
-\section{Text Table v2}
-% The 'p{}' values determine the width of each cell
-%***************************************************************************
+%**********************************************************************
+\section{Text Table: Default for this document}
+%**********************************************************************
 \begin{table}[H]
-	\centering
-	\definecolor{ltgray}{gray}{0.95} % this is a light gray
-	\rowcolors{1}{}{ltgray} % zebra striping background
-	\begin{tabularx}{0.95\linewidth}{
-			p{0.22\linewidth}
-			p{0.22\linewidth}
-			p{0.22\linewidth}
-			p{0.22\linewidth}}
-		\toprule
-		\textbf{Party} & \textbf{Clinton} & \textbf{Trump} & \textbf{Other} \\
-		\midrule
-		Democrats & $ 89\% $ & $ 8\% $ & $ 3\% $ \\
-		Republicans & $ 8\% $ & $ 88\% $ & $ 4\% $ \\
-		Independents & $ 42\% $ & $ 46\% $ & $ 12\% $ \\
-		\bottomrule
-	\end{tabularx}
-	\caption{2016 Exit Poll.}
-	\label{tab06.02}
+	\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				L{0.15\linewidth}
+				L{0.15\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			% \multicolumn{2}{c}{\textbf{Header 1}}\\
+			\textbf{ColA} & \textbf{ColB} \endhead
+			\hline
+			A & B\\
+			W & X\\
+			\rowcolor{captionwhite}
+			\caption{Caption}
+			\label{01:tab01}
+		\end{longtable}
+	} % End small
 \end{table}
 
 %***************************************************************************
@@ -199,13 +197,17 @@ First paragraph.\blfootnote{Photo by lindsay Cotter on Unsplash}
 %***************************************************************************
 \section{Sampling of Research}
 %**************************************************************************
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\maxwidth{.95\linewidth}]{gfx/Sampling_Of_Research}
-	\caption*{}
-	\label{05:sampling_of_research}
-\end{figure}
-\section{A Sampling of Research}
+\noindent\begin{minipage}{\textwidth}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.85\linewidth]{gfx/Sampling_Of_Research}
+		\caption*{}
+		\label{01:sampling_of_research}
+	\end{figure}
+	\vspace{-10.0ex} %Note: neg 10 heights of letter x
+	\section{A Sampling of Research}
+\end{minipage}
+\subsection{Report Title}
 
 
 

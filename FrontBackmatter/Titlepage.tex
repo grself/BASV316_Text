@@ -20,12 +20,8 @@
 
         \vfill
 
-%        \includegraphics[width=6cm]{gfx/TFZsuperellipse_bw} \\ \medskip
-
-        %\myDegree \\
-        %\myDepartment \\                            
-        %\myFaculty \\
-        %\myUni \\ \bigskip
+				% Adds a background image that covers entire page
+				\tikz[remember picture,overlay] \node[opacity=0.3,inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{gfx/coverart}};
 
         \myTime\ -- \myVersion
 

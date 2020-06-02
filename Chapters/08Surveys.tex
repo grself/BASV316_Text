@@ -114,23 +114,25 @@ Retrospective surveys are similar to other longitudinal studies in that they con
 Table \ref{tab08.01} summarizes each of the four types of longitudinal survey.
 
 \begin{table}[H]
-	\centering
-	\definecolor{ltgray}{gray}{0.95} % this is a light gray
-	\rowcolors{1}{}{ltgray} % zebra striping background
-	\begin{tabularx}{0.95\linewidth}{p{0.15\linewidth}p{0.75\linewidth}}
-		\toprule
-		\textbf{Type} & \textbf{Description} \\
-		\midrule
-		Trend & Researcher examines changes in trends over time; the same people do not necessarily participate in the survey more than once. \\
-		Panel & Researcher surveys the exact same sample several times over a period of time. \\
-		Cohort & Researcher identifies some category of people that are of interest and then regularly surveys people who fall into that category.\\
-		Retrospective & Surveys are conducted only one time but the respondents are asked to report of things that happened in the past.\\		
-		\bottomrule
-	\end{tabularx}
-	\caption{Compare the Four Types of Longitudinal Survey}
-	\label{tab08.01}
+	\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				L{0.20\linewidth}
+				L{0.70\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			\textbf{Type} & \textbf{Description} \endhead
+			\hline
+			Trend & Researcher examines changes in trends over time; the same people do not necessarily participate in the survey more than once. \\
+			Panel & Researcher surveys the exact same sample several times over a period of time. \\
+			Cohort & Researcher identifies some category of people that are of interest and then regularly surveys people who fall into that category.\\
+			Retrospective & Surveys are conducted only one time but the respondents are asked to report of things that happened in the past.\\		
+			\rowcolor{captionwhite}
+			\caption{Compare the Four Types of Longitudinal Survey}
+			\label{tab08.01}
+		\end{longtable}
+	} % End small
 \end{table}
-
 
 \subsection{Administration}
 
@@ -142,7 +144,7 @@ Printed self-administered questionnaires may be delivered to participants in per
 
 If a researcher is not able to visit each member of the sample to personally deliver a survey, sending it through physical mail may be another consideration. While this mode of delivery may not be ideal (imagine how much less likely someone would be to return a survey where the researcher was not standing on the doorstep waiting), sometimes it is the only available or the most practical option.
 
-Often survey researchers who deliver their surveys via physical mail may provide some advance notice to respondents about the survey to get people thinking about and preparing to complete it. They may also follow up a few weeks after their survey has been sent out. This can be done not only to remind those who have not yet completed the survey to please do so but also to thank those who have already returned the survey. Most survey researchers agree that this sort of follow-up is essential for improving mailed surveys' return rates\cite{babbie2010unobtrusive}.
+Often survey researchers who deliver their surveys via physical mail often provide some advance notice to respondents about the survey to get people thinking about and preparing to complete it. They may also follow up with a mailed reminder a few weeks after their survey has been distributed to remind those who have not yet completed the survey to do so and to thank those who have already returned the survey. Most survey researchers agree that this sort of follow-up is essential for improving mailed surveys' return rates\cite{babbie2010unobtrusive}.
 
 \paragraph{Group Survey}
 
@@ -225,21 +227,28 @@ The first set of responses permit a respondent to ``fence-sit'' and select a neu
 
 A matrix, which lists a set of questions that use the same response categories, creates a compact presentation that is easy to understand and encourages participation. Following is an example matrix for an imaginary set of election propositions.
 
-\vspace{.15in}
-
-\begin{tabulary}{\linewidth}{LCCCC}
-	\hline
-	\multicolumn{5}{l}{\textbf{Do you support these propositions?}} \\
-	\hline
-	Prop & Strongly Support & Support & Do Not Support & Strongly Do Not Support  \\ 
-	\hline
-	100 & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ \\ 
-	115 & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ \\ 
-	220 & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ \\ 
-	\hline
-\end{tabulary} 
-
-\vspace{.15in}
+\begin{table}[H]
+	%\rowcolors{1}{}{tablerow} % zebra striping background
+	{\small
+		%\fontsize{8}{10} \selectfont %Replace small for special font size
+		\begin{longtable}{
+				C{0.10\linewidth}
+				C{0.15\linewidth}
+				C{0.15\linewidth}
+				C{0.15\linewidth}
+				C{0.15\linewidth}
+			} %Left-aligned, Max width: 4.25in
+			\multicolumn{5}{c}{\textbf{Do you support these propositions?}}\\ Prop & Strongly Support & Support & Do Not Support & Strongly Do Not Support\endhead
+			\hline
+			100 & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ \\ 
+			115 & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ \\ 
+			220 & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ & $\bigcirc$ \\ 
+			\rowcolor{captionwhite}
+			\caption{Example Response Matrix}
+			\label{tab08.02}
+		\end{longtable}
+	} % End small
+\end{table}
 
 Responses to closed-ended questions are captured using one of the following response formats.
 
@@ -375,10 +384,10 @@ Despite all of its strengths and advantages, survey research is often tainted wi
 
 \end{description}
 
-\section{Summary}
+\section{Key Takeaways}
 
 \begin{center}
-	\begin{tkawybox}{Summary}
+	\begin{tkawybox}{Survey Research}
 		\begin{itemize}
 			\setlength{\itemsep}{0pt}
 			\setlength{\parskip}{0pt}
